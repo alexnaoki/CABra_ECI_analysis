@@ -1,0 +1,744 @@
+CABra dataset - General attributes
+ 
+gauge_hreg, gauge_biome, and gauge_state are the hydrographic region, biome and Brazilian state which is located the streamflow gauge.
+missing_data is the percentage of missing data in the daily time series records of the catchment.
+series_length is the number of complete years of records in the catchment.
+quality_index is the integrity of data records in the streamflow, considering the two previous attributes (missing_data and series_length).
+ 
+  CABra ID	     ANA ID	  longitude	   latitude	                     gauge_hreg	          gauge_biome	 gauge_state	 missing_data	 series_length	   quality_index
+          	           	         dd	         dd	                               	                     	          	            %	        years	                
+         1	   13880000	    -64.384	     -6.541	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         2	   14110000	    -66.851	      1.215	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         3	   14230000	    -67.595	      1.074	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         4	   14250000	    -67.313	      0.372	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         5	   14260000	    -69.126	      0.477	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         6	   14280001	    -68.538	      0.130	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         7	   14300000	    -69.786	      0.248	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         8	   14330000	    -66.797	     -0.192	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+         9	   14420000	    -64.829	     -0.491	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+        10	   14495000	    -61.037	      3.446	                         Amazon	               Amazon	        RR	         1.11	           28	           98.96
+        11	   14515000	    -60.569	      3.209	                         Amazon	               Amazon	        RR	         0.84	           29	           99.19
+        12	   14550000	    -60.529	      4.168	                         Amazon	               Amazon	        RR	         1.58	           27	           98.58
+        13	   14680001	    -61.441	      2.876	                         Amazon	               Amazon	        RR	         1.38	           29	           98.67
+        14	   14710000	    -61.122	      1.820	                         Amazon	               Amazon	        RR	         1.12	           29	           98.91
+        15	   15030000	    -59.329	     -3.147	                         Amazon	               Amazon	        AM	         0.01	           29	           99.99
+        16	   15050000	    -59.354	    -15.215	                         Amazon	               Amazon	        MT	         6.57	           26	           94.31
+        17	   15120001	    -59.960	    -15.007	                         Amazon	               Amazon	        MT	         0.00	           30	          100.00
+        18	   15250000	    -65.349	    -10.793	                         Amazon	               Amazon	        RO	         0.00	           30	          100.00
+        19	   15320002	    -65.367	     -9.705	                         Amazon	               Amazon	        RO	         9.25	           27	           91.67
+        20	   15430000	    -63.068	     -9.926	                         Amazon	               Amazon	        RO	         1.71	           27	           98.46
+        21	   15431000	    -62.985	     -9.887	                         Amazon	               Amazon	        RO	         0.00	           30	          100.00
+        22	   15432000	    -63.288	     -9.759	                         Amazon	               Amazon	        RO	         0.00	           30	          100.00
+        23	   15550000	    -63.711	     -8.801	                         Amazon	               Amazon	        RO	         2.08	           26	           98.20
+        24	   15558000	    -61.193	    -11.686	                         Amazon	               Amazon	        RO	         5.13	           27	           95.38
+        25	   15560000	    -61.936	    -10.873	                         Amazon	               Amazon	        RO	         5.28	           27	           95.24
+        26	   15580000	    -62.055	     -8.932	                         Amazon	               Amazon	        RO	         5.75	           26	           95.02
+        27	   15630000	    -63.016	     -7.478	                         Amazon	               Amazon	        AM	         1.20	           28	           98.88
+        28	   15700000	    -61.303	     -5.794	                         Amazon	               Amazon	        AM	         0.99	           28	           99.07
+        29	   15750000	    -59.465	    -10.170	                         Amazon	               Amazon	        MT	         2.51	           28	           97.66
+        30	   15800000	    -60.592	     -7.706	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+        31	   15830000	    -60.647	     -7.208	                         Amazon	               Amazon	        AM	         0.00	           30	          100.00
+        32	   15910000	    -59.056	     -6.787	                         Amazon	               Amazon	        AM	         0.19	           29	           99.81
+        33	   16700000	    -55.958	      2.226	                         Amazon	               Amazon	        PA	         8.31	           25	           93.08
+        34	   17050001	    -55.513	     -1.921	                         Amazon	               Amazon	        PA	         0.00	           30	          100.00
+        35	   17090000	    -54.873	     -1.502	                         Amazon	               Amazon	        PA	         0.00	           30	          100.00
+        36	   17093000	    -58.338	    -11.358	                         Amazon	               Amazon	        MT	         3.89	           28	           96.37
+        37	   17120000	    -57.425	    -11.536	                         Amazon	               Amazon	        MT	         0.75	           28	           99.30
+        38	   17200000	    -55.335	    -13.557	                         Amazon	              Cerrado	        MT	         1.21	           27	           98.91
+        39	   17280000	    -55.703	    -11.652	                         Amazon	               Amazon	        MT	         8.37	           24	           93.30
+        40	   17340000	    -55.569	    -10.113	                         Amazon	               Amazon	        MT	         6.30	           26	           94.54
+        41	   17345000	    -54.905	     -9.359	                         Amazon	               Amazon	        PA	         4.13	           25	           96.56
+        42	   17350000	    -54.887	     -9.817	                         Amazon	               Amazon	        MT	         0.00	           30	          100.00
+        43	   17730000	    -55.953	     -4.276	                         Amazon	               Amazon	        PA	         3.09	           25	           97.42
+        44	   18200000	    -54.397	     -1.782	                         Amazon	               Amazon	        PA	         0.00	           30	          100.00
+        45	   18250000	    -53.559	     -3.677	                         Amazon	               Amazon	        PA	         7.23	           27	           93.49
+        46	   18280000	    -54.659	      1.218	                         Amazon	               Amazon	        PA	         0.00	           30	          100.00
+        47	   18420000	    -54.447	    -13.141	                         Amazon	               Amazon	        MT	         5.93	           23	           95.45
+        48	   18460000	    -51.985	     -6.740	                         Amazon	               Amazon	        PA	         4.19	           27	           96.23
+        49	   18650000	    -54.523	     -5.650	                         Amazon	               Amazon	        PA	         4.41	           23	           96.62
+        50	   18850000	    -52.163	     -3.227	                         Amazon	               Amazon	        PA	         1.39	           29	           98.66
+        51	   19100000	    -52.579	     -0.554	                         Amazon	               Amazon	        AP	         0.00	           30	          100.00
+        52	   19150000	    -52.568	     -0.571	                         Amazon	               Amazon	        AP	         0.00	           30	          100.00
+        53	   20050000	    -48.675	    -14.979	             Tocantins-Araguaia	              Cerrado	        GO	         4.52	           28	           95.78
+        54	   20250000	    -49.553	    -15.275	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        55	   21500000	    -46.837	    -13.763	             Tocantins-Araguaia	              Cerrado	        GO	         3.23	           29	           96.88
+        56	   21850000	    -47.198	    -12.417	             Tocantins-Araguaia	              Cerrado	        TO	         9.27	           26	           91.96
+        57	   22680000	    -47.472	     -9.994	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        58	   22700000	    -47.674	     -9.962	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        59	   22900000	    -47.932	     -9.309	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        60	   23100000	    -48.110	     -8.390	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        61	   23250000	    -47.312	     -7.708	             Tocantins-Araguaia	              Cerrado	        TO	         2.09	           28	           98.05
+        62	   23300000	    -47.481	     -7.337	             Tocantins-Araguaia	              Cerrado	        TO	         1.11	           29	           98.92
+        63	   23600000	    -47.390	     -6.289	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        64	   23700000	    -47.463	     -5.789	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+        65	   24050000	    -53.217	    -17.301	             Tocantins-Araguaia	              Cerrado	        GO	         0.84	           29	           99.19
+        66	   24200000	    -52.548	    -16.201	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        67	   24500000	    -53.549	    -16.078	             Tocantins-Araguaia	              Cerrado	        MT	         0.00	           30	          100.00
+        68	   24700000	    -52.228	    -15.891	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        69	   24750000	    -51.470	    -16.303	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        70	   24780000	    -51.817	    -16.430	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        71	   24800000	    -51.852	    -15.890	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        72	   24850000	    -51.829	    -15.737	             Tocantins-Araguaia	              Cerrado	        MT	         0.00	           30	          100.00
+        73	   24900000	    -50.997	    -16.513	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        74	   24950000	    -51.357	    -15.935	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        75	   25130000	    -50.706	    -15.537	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        76	   25200000	    -51.084	    -14.915	             Tocantins-Araguaia	              Cerrado	        MT	         0.00	           30	          100.00
+        77	   25700000	    -50.803	    -13.690	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+        78	   25950000	    -50.588	    -13.211	             Tocantins-Araguaia	              Cerrado	        MT	         0.00	           30	          100.00
+        79	   26050000	    -53.053	    -15.249	             Tocantins-Araguaia	              Cerrado	        MT	         0.57	           29	           99.45
+        80	   26100000	    -52.355	    -14.672	             Tocantins-Araguaia	              Cerrado	        MT	         0.56	           29	           99.46
+        81	   26300000	    -50.963	    -12.293	             Tocantins-Araguaia	              Cerrado	        MT	         0.00	           30	          100.00
+        82	   26350000	    -50.660	    -11.618	             Tocantins-Araguaia	              Cerrado	        MT	         0.39	           28	           99.63
+        83	   27500000	    -49.249	     -8.273	             Tocantins-Araguaia	               Amazon	        TO	         0.00	           30	          100.00
+        84	   28150000	    -48.612	     -7.146	             Tocantins-Araguaia	               Amazon	        TO	         0.67	           28	           99.38
+        85	   28300000	    -48.550	     -6.401	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+        86	   28850000	    -48.143	     -5.648	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+        87	   29050000	    -49.136	     -5.327	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+        88	   29100000	    -49.220	     -5.488	             Tocantins-Araguaia	               Amazon	        PA	         2.68	           27	           97.59
+        89	   29700000	    -49.663	     -3.757	             Tocantins-Araguaia	               Amazon	        PA	         2.28	           27	           97.95
+        90	   30300000	    -52.016	      0.901	                         Amazon	               Amazon	        AP	         0.00	           30	          100.00
+        91	   30400000	    -51.439	      0.711	                         Amazon	               Amazon	        AP	         0.00	           30	          100.00
+        92	   31700000	    -47.764	     -2.509	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+        93	   32450002	    -46.593	     -1.735	     Eastern Northeast Atlantic	               Amazon	        PA	         6.23	           26	           94.60
+        94	   32620000	    -46.316	     -1.800	     Eastern Northeast Atlantic	               Amazon	        PA	         0.00	           30	          100.00
+        95	   32740000	    -45.948	     -2.056	     Eastern Northeast Atlantic	               Amazon	        MA	         1.55	           27	           98.60
+        96	   32830000	    -45.667	     -2.945	     Eastern Northeast Atlantic	               Amazon	        MA	         0.49	           29	           99.52
+        97	   33025000	    -46.934	     -4.692	     Eastern Northeast Atlantic	               Amazon	        MA	         6.00	           23	           95.40
+        98	   33170000	    -45.778	     -4.033	     Eastern Northeast Atlantic	               Amazon	        MA	         1.97	           24	           98.42
+        99	   33190000	    -45.465	     -3.660	     Eastern Northeast Atlantic	               Amazon	        MA	         0.00	           30	          100.00
+       100	   33205000	    -45.982	     -5.767	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       101	   33250000	    -45.245	     -5.501	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       102	   33260000	    -44.963	     -5.102	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       103	   33270000	    -44.929	     -5.419	     Eastern Northeast Atlantic	              Cerrado	        MA	         3.23	           25	           97.31
+       104	   33281000	    -44.611	     -4.571	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       105	   33290000	    -44.765	     -4.221	     Eastern Northeast Atlantic	               Amazon	        MA	         0.00	           30	          100.00
+       106	   33321000	    -46.145	     -5.818	     Eastern Northeast Atlantic	              Cerrado	        MA	         1.74	           27	           98.43
+       107	   33330000	    -46.239	     -5.613	     Eastern Northeast Atlantic	              Cerrado	        MA	         5.45	           26	           95.28
+       108	   33380000	    -45.218	     -3.775	     Eastern Northeast Atlantic	               Amazon	        MA	         3.81	           24	           96.96
+       109	   33420000	    -44.361	     -6.371	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.28	           29	           99.73
+       110	   33450000	    -44.709	     -6.066	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       111	   33460000	    -44.343	     -6.013	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       112	   33480000	    -44.248	     -6.021	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       113	   33520000	    -43.586	     -5.706	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       114	   33530000	    -43.884	     -5.337	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       115	   33550000	    -43.367	     -4.865	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       116	   33590000	    -43.875	     -4.459	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       117	   33620000	    -43.934	     -4.466	     Eastern Northeast Atlantic	              Cerrado	        MA	         3.40	           25	           97.17
+       118	   33630000	    -44.130	     -4.125	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.00	           30	          100.00
+       119	   33680000	    -44.374	     -3.623	     Eastern Northeast Atlantic	              Cerrado	        MA	         1.93	           27	           98.27
+       120	   33730000	    -43.703	     -3.577	     Eastern Northeast Atlantic	              Cerrado	        MA	         5.04	           25	           95.80
+       121	   33760000	    -43.527	     -3.335	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.81	           29	           99.21
+       122	   33780000	    -43.902	     -3.462	     Eastern Northeast Atlantic	              Cerrado	        MA	         0.48	           29	           99.53
+       123	   34020000	    -45.926	     -9.113	                       Parnaíba	              Cerrado	        MA	         0.00	           30	          100.00
+       124	   34060000	    -45.256	     -7.565	                       Parnaíba	              Cerrado	        PI	         0.00	           30	          100.00
+       125	   34090000	    -44.614	     -7.391	                       Parnaíba	              Cerrado	        PI	         0.00	           30	          100.00
+       126	   34130000	    -46.036	     -7.536	                       Parnaíba	              Cerrado	        MA	         0.00	           30	          100.00
+       127	   34170000	    -44.814	     -7.081	                       Parnaíba	              Cerrado	        MA	         0.00	           30	          100.00
+       128	   34251000	    -44.211	     -8.792	                       Parnaíba	              Cerrado	        PI	         2.83	           21	           98.02
+       129	   34270000	    -43.649	     -7.247	                       Parnaíba	              Cerrado	        PI	         0.68	           27	           99.39
+       130	   34770000	    -42.214	     -5.666	                       Parnaíba	             Caatinga	        PI	         0.00	           30	          100.00
+       131	   34940000	    -42.228	     -3.904	                       Parnaíba	             Caatinga	        PI	         0.65	           28	           99.40
+       132	   34980000	    -41.976	     -3.724	                       Parnaíba	             Caatinga	        PI	         0.26	           29	           99.75
+       133	   35260000	    -40.382	     -3.911	     Western Northeast Atlantic	             Caatinga	        CE	         0.28	           29	           99.73
+       134	   36045000	    -39.962	     -6.646	     Western Northeast Atlantic	             Caatinga	        CE	         0.07	           29	           99.93
+       135	   36160000	    -39.292	     -6.373	     Western Northeast Atlantic	             Caatinga	        CE	         0.15	           29	           99.86
+       136	   36250000	    -38.985	     -7.301	     Western Northeast Atlantic	             Caatinga	        CE	         0.00	           30	          100.00
+       137	   36290000	    -38.868	     -6.407	     Western Northeast Atlantic	             Caatinga	        CE	         0.57	           29	           99.45
+       138	   36390000	    -38.191	     -5.223	     Western Northeast Atlantic	             Caatinga	        CE	         0.85	           27	           99.24
+       139	   36580000	    -38.447	     -5.122	     Western Northeast Atlantic	             Caatinga	        CE	         0.94	           27	           99.15
+       140	   37380000	    -37.924	     -6.963	     Western Northeast Atlantic	             Caatinga	        PB	         0.45	           29	           99.57
+       141	   37410000	    -37.797	     -6.726	     Western Northeast Atlantic	             Caatinga	        PB	         0.00	           30	          100.00
+       142	   37470000	    -37.355	     -6.377	     Western Northeast Atlantic	             Caatinga	        RN	         1.04	           28	           99.03
+       143	   37515000	    -36.783	     -6.594	     Western Northeast Atlantic	             Caatinga	        RN	         5.07	           22	           96.28
+       144	   38170000	    -35.418	     -5.621	     Western Northeast Atlantic	             Caatinga	        RN	         0.82	           29	           99.21
+       145	   38485000	    -35.315	     -6.063	     Western Northeast Atlantic	      Atlantic forest	        RN	         4.98	           24	           96.01
+       146	   38650000	    -35.529	     -6.605	     Western Northeast Atlantic	             Caatinga	        PB	         2.43	           23	           98.14
+       147	   38830000	    -36.505	     -7.721	     Western Northeast Atlantic	             Caatinga	        PB	         1.62	           25	           98.65
+       148	   38850000	    -36.434	     -7.397	     Western Northeast Atlantic	             Caatinga	        PB	         3.90	           21	           97.27
+       149	   38860000	    -35.999	     -7.527	     Western Northeast Atlantic	             Caatinga	        PB	         0.29	           27	           99.74
+       150	   38895000	    -35.048	     -7.129	     Western Northeast Atlantic	      Atlantic forest	        PB	         3.39	           25	           97.18
+       151	   39084010	    -35.233	     -7.754	     Western Northeast Atlantic	      Atlantic forest	        PE	         3.29	           27	           97.03
+       152	   39185000	    -35.079	     -7.980	     Western Northeast Atlantic	      Atlantic forest	        PE	         5.99	           24	           95.21
+       153	   39360000	    -35.366	     -8.280	     Western Northeast Atlantic	      Atlantic forest	        PE	         0.48	           28	           99.55
+       154	   39540000	    -35.916	     -8.497	     Western Northeast Atlantic	      Atlantic forest	        PE	         1.62	           27	           98.54
+       155	   39560000	    -35.577	     -8.682	     Western Northeast Atlantic	      Atlantic forest	        PE	         0.00	           30	          100.00
+       156	   39770000	    -35.860	     -9.467	     Western Northeast Atlantic	      Atlantic forest	        AL	         0.26	           28	           99.76
+       157	   39980000	    -36.304	    -10.031	     Western Northeast Atlantic	             Caatinga	        AL	         4.77	           23	           96.34
+       158	   40070000	    -45.485	    -19.773	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       159	   40100000	    -45.279	    -19.280	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       160	   41650002	    -44.194	    -18.672	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       161	   41818000	    -44.226	    -18.310	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       162	   41990000	    -44.712	    -17.595	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       163	   42210000	    -45.078	    -16.657	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       164	   42395000	    -46.431	    -17.255	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       165	   42690001	    -46.018	    -17.030	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       166	   42980000	    -45.383	    -16.908	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       167	   43200000	    -45.067	    -16.376	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       168	   43429998	    -46.119	    -15.918	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       169	   43670000	    -45.742	    -16.153	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       170	   43880000	    -45.416	    -16.283	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       171	   44200000	    -44.899	    -15.967	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       172	   44250000	    -44.768	    -15.483	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       173	   44290002	    -44.407	    -15.602	                  São Francisco	             Caatinga	        MG	         0.00	           30	          100.00
+       174	   44500000	    -43.931	    -14.757	                  São Francisco	             Caatinga	        MG	         0.00	           30	          100.00
+       175	   44540000	    -44.092	    -14.652	                  São Francisco	             Caatinga	        MG	         0.00	           30	          100.00
+       176	   44670000	    -43.675	    -15.343	                  São Francisco	             Caatinga	        MG	         0.00	           30	          100.00
+       177	   45210000	    -44.411	    -14.280	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       178	   45260000	    -44.153	    -14.261	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       179	   45298000	    -43.762	    -14.306	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       180	   45480000	    -43.434	    -13.259	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       181	   45910001	    -44.199	    -13.401	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       182	   45960001	    -43.910	    -13.294	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       183	   46035000	    -43.380	    -12.870	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       184	   46105000	    -43.226	    -12.693	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       185	   46150000	    -43.226	    -12.182	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       186	   46360000	    -43.284	    -11.558	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       187	   46550000	    -45.010	    -12.152	                  São Francisco	              Cerrado	        BA	         0.10	           29	           99.90
+       188	   46610000	    -44.886	    -11.975	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       189	   46650000	    -44.502	    -11.723	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       190	   46675000	    -44.155	    -11.613	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       191	   46790000	    -45.197	    -11.053	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       192	   46830000	    -44.536	    -11.018	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       193	   46870000	    -43.948	    -11.238	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       194	   46902000	    -43.830	    -11.351	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       195	   48020000	    -40.504	     -9.404	                  São Francisco	             Caatinga	        PE	         0.00	           30	          100.00
+       196	   48290000	    -39.824	     -8.811	                  São Francisco	             Caatinga	        PE	         0.00	           30	          100.00
+       197	   48590000	    -39.245	     -8.627	                  São Francisco	             Caatinga	        PE	         0.00	           30	          100.00
+       198	   49330000	    -37.756	     -9.628	                  São Francisco	             Caatinga	        AL	         0.00	           30	          100.00
+       199	   49370000	    -37.446	     -9.752	                  São Francisco	             Caatinga	        AL	         0.00	           30	          100.00
+       200	   49660000	    -36.983	     -9.980	                  São Francisco	             Caatinga	        AL	         0.00	           30	          100.00
+       201	   49705000	    -36.824	    -10.210	                  São Francisco	      Atlantic forest	        AL	         0.00	           30	          100.00
+       202	   50191000	    -37.347	    -10.947	                  East Atlantic	      Atlantic forest	        SE	         0.49	           28	           99.54
+       203	   50250000	    -37.976	    -11.194	                  East Atlantic	             Caatinga	        BA	         0.73	           27	           99.34
+       204	   50290000	    -37.568	    -11.540	                  East Atlantic	      Atlantic forest	        SE	         2.44	           27	           97.81
+       205	   50420000	    -40.470	    -11.208	                  East Atlantic	             Caatinga	        BA	         2.22	           28	           97.93
+       206	   50465000	    -39.633	    -10.973	                  East Atlantic	             Caatinga	        BA	         0.00	           30	          100.00
+       207	   50520000	    -38.836	    -11.064	                  East Atlantic	             Caatinga	        BA	         5.28	           25	           95.60
+       208	   50540000	    -38.513	    -11.098	                  East Atlantic	             Caatinga	        BA	         2.00	           28	           98.13
+       209	   50595000	    -37.804	    -11.733	                  East Atlantic	      Atlantic forest	        BA	         1.10	           27	           99.01
+       210	   50620000	    -38.348	    -11.782	                  East Atlantic	             Caatinga	        BA	         0.57	           29	           99.44
+       211	   50660000	    -37.754	    -12.053	                  East Atlantic	      Atlantic forest	        BA	         2.56	           28	           97.61
+       212	   50720000	    -38.793	    -12.331	                  East Atlantic	             Caatinga	        BA	         0.28	           29	           99.73
+       213	   50730000	    -38.764	    -12.236	                  East Atlantic	      Atlantic forest	        BA	         2.42	           25	           97.98
+       214	   50740000	    -38.642	    -12.307	                  East Atlantic	      Atlantic forest	        BA	         0.28	           29	           99.73
+       215	   51120000	    -41.322	    -12.841	                  East Atlantic	             Caatinga	        BA	         0.01	           29	           99.99
+       216	   51140000	    -41.329	    -12.491	                  East Atlantic	             Caatinga	        BA	         1.93	           28	           98.19
+       217	   51170000	    -41.206	    -12.500	                  East Atlantic	             Caatinga	        BA	         0.07	           29	           99.93
+       218	   51190000	    -41.328	    -12.756	                  East Atlantic	             Caatinga	        BA	         4.89	           27	           95.60
+       219	   51230000	    -41.064	    -12.936	                  East Atlantic	             Caatinga	        BA	         0.52	           29	           99.50
+       220	   51240000	    -40.959	    -12.986	                  East Atlantic	             Caatinga	        BA	         0.00	           30	          100.00
+       221	   51280000	    -40.214	    -12.762	                  East Atlantic	             Caatinga	        BA	         0.00	           30	          100.00
+       222	   51330000	    -39.848	    -12.516	                  East Atlantic	             Caatinga	        BA	         0.00	           30	          100.00
+       223	   51430000	    -39.788	    -11.470	                  East Atlantic	             Caatinga	        BA	         2.56	           25	           97.86
+       224	   51440000	    -39.387	    -11.806	                  East Atlantic	             Caatinga	        BA	         0.47	           28	           99.57
+       225	   51560000	    -39.031	    -13.034	                  East Atlantic	      Atlantic forest	        BA	         0.28	           29	           99.73
+       226	   51795000	    -39.080	    -13.365	                  East Atlantic	      Atlantic forest	        BA	         1.72	           24	           98.62
+       227	   54010005	    -43.207	    -17.314	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       228	   54110002	    -42.918	    -16.593	                  East Atlantic	              Cerrado	        MG	         0.35	           29	           99.66
+       229	   54150000	    -42.486	    -16.679	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       230	   54165000	    -42.583	    -16.193	                  East Atlantic	              Cerrado	        MG	         0.10	           29	           99.90
+       231	   54195000	    -42.310	    -16.618	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       232	   54230000	    -42.995	    -17.579	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       233	   54260000	    -42.818	    -17.278	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       234	   54300000	    -42.597	    -17.220	                  East Atlantic	              Cerrado	        MG	         3.29	           28	           96.93
+       235	   54390000	    -42.347	    -16.861	                  East Atlantic	              Cerrado	        MG	         0.00	           30	          100.00
+       236	   54500000	    -42.079	    -16.851	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       237	   54580000	    -41.503	    -16.570	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       238	   54590000	    -41.499	    -16.689	                  East Atlantic	      Atlantic forest	        MG	         3.51	           25	           97.07
+       239	   54710000	    -41.014	    -16.427	                  East Atlantic	      Atlantic forest	        MG	         0.02	           29	           99.98
+       240	   54770000	    -40.739	    -16.120	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       241	   54780000	    -40.305	    -16.135	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       242	   54950000	    -39.425	    -16.014	                  East Atlantic	      Atlantic forest	        BA	         6.65	           21	           95.34
+       243	   55340000	    -39.545	    -17.046	                  East Atlantic	      Atlantic forest	        BA	         0.16	           29	           99.85
+       244	   55360000	    -39.981	    -17.186	                  East Atlantic	      Atlantic forest	        BA	         0.00	           30	          100.00
+       245	   55370000	    -39.774	    -17.252	                  East Atlantic	      Atlantic forest	        BA	         0.93	           28	           99.13
+       246	   55380000	    -39.623	    -17.250	                  East Atlantic	      Atlantic forest	        BA	         2.50	           26	           97.83
+       247	   55460000	    -40.221	    -17.375	                  East Atlantic	      Atlantic forest	        BA	         0.99	           28	           99.08
+       248	   55490000	    -39.644	    -17.512	                  East Atlantic	      Atlantic forest	        BA	         7.49	           21	           94.75
+       249	   55510000	    -39.664	    -17.798	                  East Atlantic	      Atlantic forest	        BA	         0.24	           29	           99.77
+       250	   55520001	    -41.492	    -17.596	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       251	   55560000	    -41.249	    -17.488	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       252	   55610000	    -41.122	    -17.739	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       253	   55630000	    -40.762	    -17.704	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       254	   55660000	    -40.676	    -17.320	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       255	   55699998	    -40.382	    -17.842	                  East Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       256	   55790000	    -41.112	    -18.045	                  East Atlantic	      Atlantic forest	        MG	         0.16	           29	           99.85
+       257	   55850000	    -40.336	    -18.564	                  East Atlantic	      Atlantic forest	        ES	         8.08	           24	           93.54
+       258	   55900000	    -40.915	    -18.755	                  East Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       259	   55920000	    -40.415	    -18.700	                  East Atlantic	      Atlantic forest	        ES	         0.94	           27	           99.15
+       260	   55960000	    -40.092	    -18.643	                  East Atlantic	      Atlantic forest	        ES	         0.76	           26	           99.34
+       261	   56028000	    -43.301	    -20.688	             Southeast Atlantic	      Atlantic forest	        MG	         0.47	           28	           99.56
+       262	   56055000	    -43.242	    -20.848	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       263	   56065000	    -43.098	    -20.912	             Southeast Atlantic	      Atlantic forest	        MG	         2.65	           27	           97.62
+       264	   56075000	    -43.088	    -20.671	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       265	   56085000	    -42.923	    -20.723	             Southeast Atlantic	      Atlantic forest	        MG	         0.54	           28	           99.50
+       266	   56090000	    -43.001	    -20.715	             Southeast Atlantic	      Atlantic forest	        MG	         2.13	           28	           98.02
+       267	   56240000	    -43.182	    -20.390	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       268	   56335001	    -43.139	    -20.362	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       269	   56385000	    -42.673	    -20.700	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       270	   56415000	    -42.649	    -20.226	             Southeast Atlantic	      Atlantic forest	        MG	         0.34	           28	           99.68
+       271	   56484998	    -42.440	    -20.103	             Southeast Atlantic	      Atlantic forest	        MG	         2.16	           28	           97.98
+       272	   56539000	    -42.477	    -19.777	             Southeast Atlantic	      Atlantic forest	        MG	         0.93	           28	           99.13
+       273	   56570000	    -42.446	    -19.710	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       274	   56610000	    -43.173	    -19.932	             Southeast Atlantic	      Atlantic forest	        MG	         0.50	           28	           99.53
+       275	   56640000	    -43.457	    -19.970	             Southeast Atlantic	      Atlantic forest	        MG	         1.22	           28	           98.86
+       276	   56775000	    -43.019	    -19.232	             Southeast Atlantic	      Atlantic forest	        MG	         0.54	           28	           99.50
+       277	   56800000	    -43.083	    -18.895	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       278	   56825000	    -42.423	    -19.190	             Southeast Atlantic	      Atlantic forest	        MG	         0.29	           28	           99.73
+       279	   56845000	    -42.713	    -18.895	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       280	   56846000	    -42.360	    -18.952	             Southeast Atlantic	      Atlantic forest	        MG	         3.61	           28	           96.63
+       281	   56850000	    -41.951	    -18.883	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       282	   56860000	    -42.603	    -18.363	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       283	   56870000	    -42.455	    -18.202	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       284	   56891900	    -41.918	    -18.575	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       285	   56920000	    -41.642	    -18.973	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       286	   56940002	    -41.532	    -19.064	             Southeast Atlantic	      Atlantic forest	        MG	         1.10	           28	           98.98
+       287	   56976000	    -41.786	    -19.743	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       288	   56983000	    -41.728	    -20.107	             Southeast Atlantic	      Atlantic forest	        MG	         0.28	           29	           99.73
+       289	   56990000	    -41.162	    -19.492	             Southeast Atlantic	      Atlantic forest	        MG	         0.82	           29	           99.21
+       290	   56990990	    -41.125	    -20.078	             Southeast Atlantic	      Atlantic forest	        ES	         2.52	           28	           97.65
+       291	   56991500	    -41.058	    -19.902	             Southeast Atlantic	      Atlantic forest	        ES	         0.28	           29	           99.73
+       292	   56992000	    -41.012	    -19.526	             Southeast Atlantic	      Atlantic forest	        ES	         0.28	           29	           99.73
+       293	   56993551	    -40.733	    -19.559	             Southeast Atlantic	      Atlantic forest	        ES	         2.66	           27	           97.61
+       294	   56995500	    -40.687	    -19.423	             Southeast Atlantic	      Atlantic forest	        ES	         2.52	           28	           97.65
+       295	   57130000	    -40.528	    -20.100	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       296	   57170000	    -40.653	    -20.316	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       297	   57250000	    -40.813	    -20.557	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       298	   57300000	    -40.946	    -20.885	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       299	   57320000	    -40.828	    -20.777	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       300	   57350000	    -41.409	    -20.372	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       301	   57360000	    -41.534	    -20.352	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       302	   57370000	    -41.503	    -20.430	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       303	   57400000	    -41.511	    -20.528	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       304	   57420000	    -41.664	    -20.539	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       305	   57450000	    -41.466	    -20.748	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       306	   57490000	    -41.200	    -20.606	             Southeast Atlantic	      Atlantic forest	        ES	         0.01	           29	           99.99
+       307	   57550000	    -41.174	    -20.703	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       308	   57580000	    -40.961	    -20.957	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       309	   57700000	    -41.921	    -20.695	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       310	   57720000	    -41.847	    -20.687	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       311	   57740000	    -41.679	    -20.774	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       312	   57770000	    -41.648	    -21.029	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       313	   57830000	    -41.464	    -21.204	             Southeast Atlantic	      Atlantic forest	        ES	         0.00	           30	          100.00
+       314	   57930000	    -41.310	    -21.224	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       315	   58030000	    -45.044	    -22.994	             Southeast Atlantic	      Atlantic forest	        SP	         0.01	           29	           99.99
+       316	   58060000	    -45.144	    -23.330	             Southeast Atlantic	      Atlantic forest	        SP	         0.40	           29	           99.61
+       317	   58099000	    -45.900	    -23.369	             Southeast Atlantic	      Atlantic forest	        SP	         8.14	           25	           93.22
+       318	   58142200	    -45.907	    -23.125	             Southeast Atlantic	      Atlantic forest	        SP	         0.00	           30	          100.00
+       319	   58183000	    -45.473	    -22.913	             Southeast Atlantic	      Atlantic forest	        SP	         0.00	           30	          100.00
+       320	   58204000	    -45.183	    -22.812	             Southeast Atlantic	      Atlantic forest	        SP	         0.02	           29	           99.98
+       321	   58220000	    -44.975	    -22.692	             Southeast Atlantic	      Atlantic forest	        SP	         0.00	           30	          100.00
+       322	   58258000	    -44.417	    -22.387	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       323	   58270000	    -44.229	    -22.478	             Southeast Atlantic	      Atlantic forest	        RJ	         0.26	           29	           99.75
+       324	   58380001	    -43.286	    -22.163	             Southeast Atlantic	      Atlantic forest	        RJ	         0.01	           29	           99.99
+       325	   58405000	    -43.132	    -22.332	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       326	   58420000	    -42.897	    -22.199	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       327	   58425000	    -43.008	    -22.192	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       328	   58434000	    -43.178	    -22.300	             Southeast Atlantic	      Atlantic forest	        RJ	         4.67	           26	           95.95
+       329	   58440000	    -43.154	    -22.140	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       330	   58470000	    -43.505	    -21.594	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       331	   58480500	    -43.325	    -21.778	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       332	   58500000	    -43.885	    -21.854	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       333	   58516500	    -43.444	    -21.860	             Southeast Atlantic	      Atlantic forest	        MG	         0.27	           29	           99.74
+       334	   58520000	    -43.374	    -21.967	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       335	   58525000	    -44.538	    -22.331	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       336	   58530000	    -44.389	    -22.270	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       337	   58535000	    -44.264	    -22.245	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       338	   58542000	    -44.091	    -22.152	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       339	   58550001	    -43.819	    -22.087	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       340	   58560000	    -43.710	    -22.224	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       341	   58573000	    -43.752	    -22.158	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       342	   58585000	    -43.559	    -22.084	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       343	   58610000	    -43.041	    -21.897	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       344	   58630002	    -42.991	    -22.035	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       345	   58645000	    -42.677	    -22.050	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       346	   58658000	    -42.538	    -21.770	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       347	   58670002	    -42.343	    -21.658	             Southeast Atlantic	      Atlantic forest	        RJ	         0.86	           27	           99.23
+       348	   58710000	    -43.199	    -21.303	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       349	   58720000	    -43.248	    -21.355	             Southeast Atlantic	      Atlantic forest	        MG	         0.34	           29	           99.67
+       350	   58730001	    -43.053	    -21.356	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       351	   58735000	    -42.862	    -21.309	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       352	   58755000	    -43.127	    -21.476	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       353	   58765001	    -42.830	    -21.471	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       354	   58770000	    -42.696	    -21.391	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       355	   58795000	    -41.984	    -21.628	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       356	   58825000	    -42.571	    -22.218	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       357	   58827000	    -42.416	    -22.158	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       358	   58850000	    -41.938	    -21.770	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       359	   58870000	    -41.954	    -21.729	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       360	   58874000	    -41.859	    -21.644	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       361	   58910000	    -42.514	    -21.051	             Southeast Atlantic	      Atlantic forest	        MG	         3.29	           28	           96.93
+       362	   58916000	    -42.302	    -20.773	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       363	   58917000	    -42.349	    -20.911	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       364	   58920000	    -42.214	    -21.152	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       365	   58930000	    -42.023	    -20.739	             Southeast Atlantic	      Atlantic forest	        MG	         0.00	           30	          100.00
+       366	   58940000	    -41.892	    -21.207	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       367	   58960000	    -41.618	    -21.490	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       368	   58974000	    -41.300	    -21.753	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       369	   59120000	    -42.463	    -22.372	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       370	   59125000	    -42.379	    -22.369	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       371	   59135000	    -42.322	    -22.402	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       372	   59240000	    -42.736	    -22.587	             Southeast Atlantic	      Atlantic forest	        RJ	         0.91	           28	           99.15
+       373	   59355000	    -44.617	    -22.736	             Southeast Atlantic	      Atlantic forest	        SP	         0.01	           29	           99.99
+       374	   59370000	    -44.560	    -22.960	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       375	   59380000	    -44.762	    -23.223	             Southeast Atlantic	      Atlantic forest	        RJ	         1.91	           29	           98.16
+       376	   60010000	    -46.556	    -18.836	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       377	   60011000	    -46.539	    -18.602	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       378	   60040000	    -47.692	    -18.112	                         Paraná	              Cerrado	        GO	         9.39	           27	           91.55
+       379	   60100000	    -46.973	    -18.892	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       380	   60110000	    -47.406	    -18.492	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       381	   60130000	    -47.409	    -18.781	                         Paraná	              Cerrado	        MG	         1.83	           27	           98.36
+       382	   60145000	    -47.458	    -18.977	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       383	   60150000	    -47.690	    -18.739	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       384	   60220000	    -47.017	    -20.013	                         Paraná	              Cerrado	        MG	         0.03	           29	           99.97
+       385	   60250000	    -46.571	    -19.518	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       386	   60265000	    -46.542	    -19.475	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       387	   60381000	    -48.191	    -18.989	                         Paraná	              Cerrado	        MG	         0.02	           29	           99.98
+       388	   60432000	    -48.805	    -16.297	                         Paraná	              Cerrado	        GO	         6.11	           27	           94.50
+       389	   60615000	    -48.781	    -18.698	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       390	   60635000	    -49.495	    -16.346	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       391	   60640000	    -49.280	    -16.613	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       392	   60642000	    -49.243	    -16.632	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       393	   60650000	    -49.198	    -16.681	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       394	   60653000	    -48.898	    -16.458	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       395	   60654000	    -49.105	    -16.914	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       396	   60665000	    -49.277	    -17.254	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       397	   60680000	    -49.601	    -18.349	                         Paraná	      Atlantic forest	        GO	         0.00	           30	          100.00
+       398	   60715000	    -49.689	    -17.108	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       399	   60750000	    -50.290	    -17.080	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       400	   60765000	    -50.188	    -17.732	                         Paraná	              Cerrado	        GO	         0.01	           29	           99.99
+       401	   60772000	    -50.247	    -17.980	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       402	   60774000	    -51.075	    -17.359	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       403	   60778000	    -50.771	    -17.333	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       404	   60781000	    -50.683	    -17.327	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       405	   60785005	    -50.776	    -17.464	                         Paraná	              Cerrado	        GO	         7.13	           27	           93.58
+       406	   60790000	    -50.557	    -17.541	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       407	   60798000	    -50.333	    -17.968	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       408	   60810000	    -50.033	    -18.104	                         Paraná	              Cerrado	        GO	         1.59	           29	           98.46
+       409	   60845000	    -49.451	    -18.942	                         Paraná	              Cerrado	        MG	         5.00	           27	           95.50
+       410	   60850000	    -49.179	    -19.361	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       411	   60855000	    -49.698	    -19.036	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       412	   60870000	    -50.528	    -18.498	                         Paraná	      Atlantic forest	        GO	         7.49	           27	           93.26
+       413	   60895000	    -51.390	    -17.861	                         Paraná	              Cerrado	        GO	         6.99	           26	           93.94
+       414	   60910000	    -52.603	    -17.579	                         Paraná	              Cerrado	        GO	         1.54	           29	           98.51
+       415	   60925001	    -50.667	    -19.219	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       416	   60930000	    -52.532	    -18.406	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       417	   60940000	    -52.097	    -18.516	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       418	   60950000	    -51.149	    -19.101	                         Paraná	              Cerrado	        GO	         0.51	           29	           99.51
+       419	   60970000	    -51.534	    -19.140	                         Paraná	              Cerrado	        GO	         0.00	           30	          100.00
+       420	   61009000	    -44.195	    -21.947	                         Paraná	      Atlantic forest	        MG	         0.27	           29	           99.74
+       421	   61012000	    -44.327	    -21.492	                         Paraná	      Atlantic forest	        MG	         0.27	           29	           99.74
+       422	   61014000	    -44.637	    -22.170	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       423	   61024000	    -44.602	    -21.980	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       424	   61031000	    -44.466	    -21.998	                         Paraná	      Atlantic forest	        MG	         0.28	           29	           99.73
+       425	   61045000	    -44.355	    -21.745	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       426	   61052000	    -44.306	    -21.738	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       427	   61060000	    -44.351	    -21.689	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       428	   61075000	    -44.915	    -21.506	                         Paraná	      Atlantic forest	        MG	         0.27	           29	           99.74
+       429	   61078000	    -44.871	    -21.322	                         Paraná	      Atlantic forest	        MG	         0.27	           29	           99.74
+       430	   61085000	    -43.814	    -21.278	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       431	   61090000	    -43.979	    -21.186	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       432	   61100000	    -43.964	    -21.428	                         Paraná	      Atlantic forest	        MG	         0.83	           29	           99.20
+       433	   61105000	    -44.137	    -21.165	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       434	   61107000	    -44.234	    -21.124	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       435	   61115000	    -44.213	    -21.054	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       436	   61122000	    -44.330	    -21.196	                         Paraná	      Atlantic forest	        MG	         0.27	           29	           99.74
+       437	   61135000	    -44.737	    -21.139	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       438	   61173000	    -45.172	    -21.342	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       439	   61267000	    -45.287	    -22.508	                         Paraná	      Atlantic forest	        MG	         0.84	           28	           99.22
+       440	   61271000	    -45.425	    -22.446	                         Paraná	      Atlantic forest	        MG	         0.28	           29	           99.73
+       441	   61295000	    -45.621	    -22.470	                         Paraná	      Atlantic forest	        MG	         0.28	           29	           99.73
+       442	   61460000	    -45.078	    -21.889	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       443	   61473000	    -44.880	    -21.952	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       444	   61500000	    -45.262	    -21.871	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       445	   61510000	    -45.248	    -21.704	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       446	   61520000	    -45.259	    -21.678	                         Paraná	      Atlantic forest	        MG	         3.36	           28	           96.87
+       447	   61537000	    -45.489	    -21.612	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       448	   61610000	    -46.361	    -21.278	                         Paraná	      Atlantic forest	        MG	         0.84	           28	           99.22
+       449	   61700000	    -46.807	    -20.809	                         Paraná	      Atlantic forest	        MG	         0.00	           30	          100.00
+       450	   61770000	    -47.013	    -21.136	                         Paraná	              Cerrado	        MG	         2.98	           29	           97.12
+       451	   61800500	    -46.309	    -22.004	                         Paraná	      Atlantic forest	        MG	         6.03	           26	           94.77
+       452	   61815000	    -46.704	    -21.294	                         Paraná	      Atlantic forest	        MG	         4.14	           28	           96.13
+       453	   61826000	    -46.962	    -21.420	                         Paraná	              Cerrado	        MG	         0.00	           30	          100.00
+       454	   61830000	    -47.477	    -21.319	                         Paraná	              Cerrado	        SP	         0.00	           30	          100.00
+       455	   61861000	    -46.323	    -22.318	                         Paraná	      Atlantic forest	        MG	         3.71	           23	           97.16
+       456	   61865000	    -46.608	    -22.273	                         Paraná	      Atlantic forest	        MG	         3.63	           26	           96.85
+       457	   61879000	    -46.648	    -22.522	                         Paraná	      Atlantic forest	        SP	         8.08	           24	           93.54
+       458	   61886000	    -47.134	    -22.299	                         Paraná	              Cerrado	        SP	         0.01	           29	           99.99
+       459	   61902000	    -47.474	    -21.846	                         Paraná	      Atlantic forest	        SP	         0.00	           30	          100.00
+       460	   61912000	    -48.041	    -21.517	                         Paraná	              Cerrado	        SP	         0.00	           30	          100.00
+       461	   61915000	    -48.176	    -21.018	                         Paraná	              Cerrado	        SP	         0.00	           30	          100.00
+       462	   62395000	    -47.058	    -23.150	                         Paraná	      Atlantic forest	        SP	         5.16	           25	           95.70
+       463	   62600000	    -46.633	    -22.882	                         Paraná	      Atlantic forest	        SP	         0.00	           30	          100.00
+       464	   62615000	    -46.987	    -22.709	                         Paraná	      Atlantic forest	        SP	         0.00	           30	          100.00
+       465	   62625000	    -46.781	    -22.708	                         Paraná	      Atlantic forest	        SP	         1.71	           27	           98.46
+       466	   62665000	    -46.365	    -23.052	                         Paraná	      Atlantic forest	        SP	         5.57	           24	           95.55
+       467	   62670000	    -46.557	    -23.104	                         Paraná	      Atlantic forest	        SP	         1.48	           28	           98.62
+       468	   62760130	    -47.902	    -22.166	                         Paraná	              Cerrado	        SP	         2.50	           29	           97.58
+       469	   63350100	    -52.901	    -20.445	                         Paraná	              Cerrado	        MS	         0.00	           30	          100.00
+       470	   63900001	    -53.718	    -20.441	                         Paraná	              Cerrado	        MS	         3.75	           27	           96.62
+       471	   63955000	    -53.053	    -21.608	                         Paraná	              Cerrado	        MS	         0.85	           28	           99.21
+       472	   64065000	    -48.109	    -23.625	                         Paraná	              Cerrado	        SP	         3.33	           24	           97.34
+       473	   64360000	    -49.958	    -23.767	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       474	   64362000	    -50.163	    -23.342	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       475	   64380000	    -50.391	    -23.850	                         Paraná	      Atlantic forest	        PR	         0.01	           29	           99.99
+       476	   64382000	    -50.448	    -23.399	                         Paraná	      Atlantic forest	        PR	         1.40	           29	           98.65
+       477	   64442800	    -50.525	    -25.200	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       478	   64447000	    -50.390	    -24.947	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       479	   64465000	    -50.409	    -24.508	                         Paraná	              Cerrado	        PR	         0.00	           30	          100.00
+       480	   64501000	    -50.923	    -23.637	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       481	   64507000	    -50.984	    -23.251	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       482	   64508500	    -50.788	    -23.173	                         Paraná	      Atlantic forest	        PR	         3.11	           27	           97.20
+       483	   64550000	    -52.079	    -22.857	                         Paraná	      Atlantic forest	        PR	         5.17	           25	           95.70
+       484	   64613000	    -54.422	    -21.641	                         Paraná	      Atlantic forest	        MS	         0.56	           29	           99.46
+       485	   64617000	    -53.531	    -22.383	                         Paraná	      Atlantic forest	        MS	         0.00	           30	          100.00
+       486	   64620000	    -50.943	    -25.205	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       487	   64625000	    -51.143	    -24.828	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       488	   64645000	    -51.425	    -24.341	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       489	   64652000	    -51.482	    -24.106	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       490	   64655000	    -51.622	    -24.042	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       491	   64659000	    -51.947	    -24.016	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       492	   64673000	    -52.194	    -23.825	                         Paraná	      Atlantic forest	        PR	         0.51	           29	           99.51
+       493	   64675002	    -52.117	    -23.674	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       494	   64682000	    -52.606	    -23.443	                         Paraná	      Atlantic forest	        PR	         0.73	           28	           99.32
+       495	   64685000	    -52.665	    -23.324	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       496	   64693000	    -53.316	    -23.199	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       497	   64715001	    -54.563	    -22.971	                         Paraná	      Atlantic forest	        MS	         5.57	           26	           95.18
+       498	   64771500	    -52.763	    -24.867	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       499	   64773000	    -52.309	    -24.728	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       500	   64775000	    -52.703	    -24.749	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       501	   64785000	    -52.902	    -24.554	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       502	   64795000	    -53.128	    -24.558	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       503	   64799500	    -53.161	    -24.378	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       504	   64810000	    -53.134	    -23.919	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       505	   64815000	    -53.324	    -24.133	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       506	   64820000	    -53.327	    -24.204	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       507	   64830000	    -53.746	    -24.188	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       508	   64843000	    -54.283	    -24.076	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       509	   65010000	    -49.145	    -25.519	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       510	   65015400	    -49.229	    -25.590	                         Paraná	      Atlantic forest	        PR	         6.39	           27	           94.25
+       511	   65025000	    -49.513	    -25.606	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       512	   65027000	    -49.584	    -25.580	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       513	   65094500	    -49.626	    -26.200	                         Paraná	      Atlantic forest	        PR	         3.90	           26	           96.62
+       514	   65095000	    -49.603	    -26.216	                         Paraná	      Atlantic forest	        PR	         0.84	           29	           99.19
+       515	   65135000	    -49.393	    -25.934	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       516	   65136550	    -49.526	    -25.856	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       517	   65220000	    -50.590	    -26.022	                         Paraná	      Atlantic forest	        SC	         0.00	           30	          100.00
+       518	   65310000	    -51.078	    -26.228	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       519	   65365000	    -51.219	    -26.177	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       520	   65925000	    -52.295	    -26.278	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       521	   65945000	    -52.801	    -26.051	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       522	   65948000	    -53.020	    -26.153	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       523	   65960000	    -52.927	    -25.769	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       524	   65979000	    -53.519	    -25.435	                         Paraná	      Atlantic forest	        PR	         0.00	           30	          100.00
+       525	   66260001	    -56.108	    -15.617	                       Paraguai	              Cerrado	        MT	         0.00	           30	          100.00
+       526	   67100000	    -57.892	    -21.699	                       Paraguai	             Pantanal	        MS	         0.26	           28	           99.76
+       527	   70100000	    -49.802	    -28.369	                        Uruguai	      Atlantic forest	        SC	         0.96	           27	           99.14
+       528	   70200000	    -50.302	    -28.439	                        Uruguai	      Atlantic forest	        RS	         0.84	           27	           99.24
+       529	   70300000	    -50.060	    -28.091	                        Uruguai	      Atlantic forest	        SC	         1.41	           27	           98.74
+       530	   70500000	    -50.443	    -28.161	                        Uruguai	      Atlantic forest	        SC	         2.81	           25	           97.66
+       531	   71200000	    -49.778	    -27.803	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       532	   71250000	    -49.629	    -27.828	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       533	   71300000	    -49.839	    -27.702	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       534	   71383000	    -50.391	    -27.485	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       535	   71498000	    -50.754	    -27.334	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       536	   71550000	    -50.861	    -27.539	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       537	   72430000	    -51.753	    -27.878	                        Uruguai	      Atlantic forest	        RS	         1.41	           27	           98.74
+       538	   72630000	    -51.886	    -27.707	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       539	   72680000	    -51.858	    -27.562	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       540	   72715000	    -51.076	    -26.896	                        Uruguai	      Atlantic forest	        SC	         0.27	           29	           99.74
+       541	   72810000	    -51.258	    -27.088	                        Uruguai	      Atlantic forest	        SC	         0.28	           29	           99.73
+       542	   72870000	    -51.527	    -27.316	                        Uruguai	      Atlantic forest	        SC	         2.53	           27	           97.72
+       543	   73300000	    -52.183	    -26.949	                        Uruguai	      Atlantic forest	        SC	         0.17	           28	           99.84
+       544	   73330000	    -52.367	    -26.970	                        Uruguai	      Atlantic forest	        SC	         0.17	           28	           99.84
+       545	   73350000	    -52.523	    -27.165	                        Uruguai	      Atlantic forest	        SC	         0.18	           28	           99.83
+       546	   73600000	    -52.326	    -26.561	                        Uruguai	      Atlantic forest	        SC	         1.12	           28	           98.95
+       547	   73690001	    -52.026	    -26.772	                        Uruguai	      Atlantic forest	        SC	         1.11	           29	           98.92
+       548	   73765000	    -52.750	    -26.761	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       549	   73770000	    -52.734	    -26.817	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       550	   73780000	    -52.902	    -26.737	                        Uruguai	      Atlantic forest	        SC	         1.41	           27	           98.74
+       551	   73820000	    -52.904	    -26.860	                        Uruguai	      Atlantic forest	        SC	         1.53	           27	           98.62
+       552	   73900000	    -53.009	    -26.924	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       553	   73960000	    -52.954	    -27.041	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       554	   74100000	    -53.229	    -27.175	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       555	   74205000	    -53.028	    -27.815	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       556	   74270000	    -53.320	    -27.278	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       557	   74295000	    -53.295	    -27.013	                        Uruguai	      Atlantic forest	        SC	         0.16	           29	           99.85
+       558	   74320000	    -53.286	    -26.682	                        Uruguai	      Atlantic forest	        SC	         0.00	           30	          100.00
+       559	   74370000	    -53.644	    -27.333	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       560	   74460000	    -53.728	    -27.825	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       561	   74470000	    -53.880	    -27.392	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       562	   74700000	    -54.464	    -27.674	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       563	   74750000	    -54.556	    -27.845	                        Uruguai	      Atlantic forest	        RS	         0.45	           29	           99.57
+       564	   74800000	    -55.027	    -27.851	                        Uruguai	      Atlantic forest	        RS	         0.56	           29	           99.46
+       565	   74880000	    -54.755	    -28.062	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       566	   74900000	    -54.940	    -27.931	                        Uruguai	      Atlantic forest	        RS	         0.00	           30	          100.00
+       567	   75550000	    -55.643	    -28.179	                        Uruguai	                Pampa	        RS	         7.50	           27	           93.25
+       568	   76310000	    -54.915	    -30.242	                        Uruguai	                Pampa	        RS	         2.00	           27	           98.20
+       569	   77150000	    -57.097	    -29.741	                        Uruguai	                Pampa	        RS	         0.00	           30	          100.00
+       570	   81125000	    -49.340	    -24.756	             Southeast Atlantic	      Atlantic forest	        PR	         0.00	           30	          100.00
+       571	   81140000	    -49.263	    -24.827	             Southeast Atlantic	      Atlantic forest	        PR	         0.25	           29	           99.76
+       572	   81200000	    -49.000	    -24.656	             Southeast Atlantic	      Atlantic forest	        PR	         0.39	           28	           99.63
+       573	   82009080	    -48.483	    -25.213	                 South Atlantic	      Atlantic forest	        PR	         0.00	           30	          100.00
+       574	   82170000	    -48.834	    -25.472	                 South Atlantic	      Atlantic forest	        PR	         0.00	           30	          100.00
+       575	   82320000	    -49.292	    -26.424	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       576	   82350000	    -49.081	    -26.480	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       577	   82770000	    -48.829	    -26.446	                 South Atlantic	      Atlantic forest	        SC	         0.33	           29	           99.68
+       578	   83050000	    -49.995	    -27.114	                 South Atlantic	      Atlantic forest	        SC	         0.06	           29	           99.94
+       579	   83105000	    -49.363	    -27.683	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       580	   83250000	    -49.606	    -27.399	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       581	   83300200	    -49.629	    -27.208	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       582	   83345000	    -49.833	    -26.698	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       583	   83440000	    -49.517	    -27.055	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       584	   83660000	    -49.365	    -26.788	                 South Atlantic	      Atlantic forest	        SC	         8.50	           25	           92.92
+       585	   83675000	    -49.271	    -26.742	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       586	   83690000	    -49.237	    -26.891	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       587	   83800002	    -49.066	    -26.918	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       588	   83880000	    -48.933	    -26.725	                 South Atlantic	      Atlantic forest	        SC	         9.19	           26	           92.03
+       589	   84071000	    -48.952	    -27.415	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       590	   84095000	    -48.934	    -27.286	                 South Atlantic	      Atlantic forest	        SC	         3.17	           28	           97.04
+       591	   84100000	    -48.803	    -27.704	                 South Atlantic	      Atlantic forest	        SC	         8.51	           25	           92.91
+       592	   84520000	    -49.116	    -27.996	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       593	   84551000	    -49.194	    -28.209	                 South Atlantic	      Atlantic forest	        SC	         0.00	           30	          100.00
+       594	   84580000	    -49.106	    -28.421	                 South Atlantic	      Atlantic forest	        SC	         0.24	           29	           99.77
+       595	   84600000	    -49.013	    -28.261	                 South Atlantic	      Atlantic forest	        SC	         3.34	           28	           96.88
+       596	   84853000	    -49.593	    -28.870	                 South Atlantic	      Atlantic forest	        SC	         3.34	           25	           97.22
+       597	   85400000	    -53.347	    -29.627	                 South Atlantic	      Atlantic forest	        RS	         0.28	           29	           99.73
+       598	   85438000	    -53.375	    -29.803	                 South Atlantic	                Pampa	        RS	         2.03	           21	           98.58
+       599	   85480000	    -53.986	    -30.232	                 South Atlantic	                Pampa	        RS	         0.00	           30	          100.00
+       600	   85900000	    -52.377	    -29.996	                 South Atlantic	                Pampa	        RS	         1.12	           27	           98.99
+       601	   86100000	    -50.495	    -28.806	                 South Atlantic	      Atlantic forest	        RS	         1.29	           27	           98.84
+       602	   86160000	    -50.456	    -28.868	                 South Atlantic	      Atlantic forest	        RS	         1.12	           27	           98.99
+       603	   86410000	    -51.425	    -28.740	                 South Atlantic	      Atlantic forest	        RS	         0.85	           27	           99.24
+       604	   86420000	    -51.608	    -28.678	                 South Atlantic	      Atlantic forest	        RS	         1.12	           27	           98.99
+       605	   86480000	    -51.856	    -28.619	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       606	   86500000	    -51.833	    -28.849	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       607	   86510000	    -51.867	    -29.169	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       608	   86560000	    -51.953	    -28.912	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       609	   86580000	    -51.911	    -29.120	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       610	   86700000	    -51.923	    -29.188	                 South Atlantic	      Atlantic forest	        RS	         0.00	           30	          100.00
+       611	   86745000	    -52.162	    -29.216	                 South Atlantic	      Atlantic forest	        RS	         0.38	           28	           99.64
+       612	   87170000	    -51.387	    -29.590	                 South Atlantic	      Atlantic forest	        RS	         1.22	           26	           98.94
+       613	   87380000	    -51.038	    -29.703	                 South Atlantic	      Atlantic forest	        RS	         1.41	           27	           98.74
+       614	   87382000	    -51.148	    -29.758	                 South Atlantic	                Pampa	        RS	         1.13	           27	           98.98
+       615	   87450100	    -51.197	    -30.048	                 South Atlantic	                Pampa	        RS	         9.39	           19	           94.05
+       616	   88575000	    -53.268	    -31.865	                 South Atlantic	                Pampa	        RS	         8.77	           16	           95.32
+       617	   88750000	    -52.474	    -31.712	                 South Atlantic	                Pampa	        RS	         0.28	           29	           99.73
+       618	   88850000	    -52.463	    -31.573	                 South Atlantic	                Pampa	        RS	         0.14	           29	           99.87
+       619	   12400000	    -73.664	     -7.448	                         Amazon	               Amazon	        AC	         4.43	           21	           96.90
+       620	   20200000	    -49.692	    -15.496	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+       621	   21300000	    -46.492	    -14.477	             Tocantins-Araguaia	              Cerrado	        GO	         6.11	           23	           95.31
+       622	   21560000	    -46.778	    -13.501	             Tocantins-Araguaia	              Cerrado	        GO	         8.72	           24	           93.03
+       623	   22050001	    -48.528	    -12.023	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+       624	   22500000	    -48.383	     -9.568	             Tocantins-Araguaia	              Cerrado	        TO	         0.00	           30	          100.00
+       625	   25100000	    -50.172	    -15.923	             Tocantins-Araguaia	              Cerrado	        GO	         0.00	           30	          100.00
+       626	   26040000	    -54.177	    -15.315	             Tocantins-Araguaia	              Cerrado	        MT	         2.51	           28	           97.66
+       627	   31490000	    -47.055	     -1.867	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+       628	   31520000	    -47.066	     -1.543	             Tocantins-Araguaia	               Amazon	        PA	         0.00	           30	          100.00
+       629	   31600000	    -47.116	     -1.653	             Tocantins-Araguaia	               Amazon	        PA	         2.21	           26	           98.09
+       630	   32400000	    -46.708	     -1.858	     Eastern Northeast Atlantic	               Amazon	        PA	         0.63	           27	           99.43
+       631	   33075000	    -46.493	     -4.299	     Eastern Northeast Atlantic	               Amazon	        MA	         1.07	           29	           98.97
+       632	   34660000	    -43.025	     -5.572	                       Parnaíba	             Caatinga	        PI	         0.01	           29	           99.99
+       633	   40040000	    -46.061	    -20.096	                  São Francisco	              Cerrado	        MG	         3.62	           22	           97.34
+       634	   40053000	    -45.663	    -20.238	                  São Francisco	              Cerrado	        MG	         2.13	           27	           98.09
+       635	   40060001	    -46.018	    -19.888	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       636	   40150000	    -44.793	    -20.181	                  São Francisco	              Cerrado	        MG	         2.53	           23	           98.06
+       637	   40170000	    -44.918	    -20.218	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       638	   40185000	    -44.893	    -20.185	                  São Francisco	              Cerrado	        MG	         0.51	           27	           99.54
+       639	   40269900	    -44.582	    -20.068	                  São Francisco	      Atlantic forest	        MG	         2.47	           27	           97.77
+       640	   40300001	    -44.818	    -19.743	                  São Francisco	      Atlantic forest	        MG	         5.30	           26	           95.40
+       641	   40330000	    -44.931	    -19.694	                  São Francisco	              Cerrado	        MG	         3.14	           26	           97.28
+       642	   40500000	    -45.221	    -19.332	                  São Francisco	              Cerrado	        MG	         1.17	           27	           98.95
+       643	   40530000	    -45.442	    -19.165	                  São Francisco	              Cerrado	        MG	         4.86	           21	           96.59
+       644	   40680000	    -44.073	    -20.661	                  São Francisco	      Atlantic forest	        MG	         0.00	           30	          100.00
+       645	   40740000	    -44.165	    -20.156	                  São Francisco	      Atlantic forest	        MG	         0.00	           30	          100.00
+       646	   40800001	    -44.348	    -19.916	                  São Francisco	      Atlantic forest	        MG	         0.00	           30	          100.00
+       647	   40810350	    -44.485	    -20.103	                  São Francisco	      Atlantic forest	        MG	         0.28	           28	           99.74
+       648	   40810800	    -44.436	    -20.088	                  São Francisco	      Atlantic forest	        MG	         0.00	           30	          100.00
+       649	   40811100	    -44.409	    -20.048	                  São Francisco	      Atlantic forest	        MG	         0.00	           30	          100.00
+       650	   40823500	    -44.365	    -19.962	                  São Francisco	      Atlantic forest	        MG	         0.01	           29	           99.99
+       651	   40850000	    -44.551	    -19.427	                  São Francisco	              Cerrado	        MG	         0.00	           30	          100.00
+       652	   40930000	    -45.887	    -19.396	                  São Francisco	              Cerrado	        MG	         4.99	           24	           96.01
+       653	   40975000	    -45.646	    -18.467	                  São Francisco	              Cerrado	        MG	         7.33	           18	           95.60
+       654	   41050000	    -46.039	    -18.707	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       655	   41135000	    -44.944	    -17.370	                  São Francisco	              Cerrado	        MG	         0.05	           28	           99.95
+       656	   41199998	    -43.826	    -20.020	                  São Francisco	      Atlantic forest	        MG	         3.01	           26	           97.39
+       657	   41260000	    -43.816	    -19.705	                  São Francisco	              Cerrado	        MG	         0.56	           29	           99.46
+       658	   41380000	    -43.905	    -19.463	                  São Francisco	              Cerrado	        MG	         0.81	           27	           99.27
+       659	   41410000	    -44.025	    -19.226	                  São Francisco	              Cerrado	        MG	         0.81	           26	           99.30
+       660	   41440005	    -44.153	    -19.372	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       661	   41685000	    -44.285	    -18.603	                  São Francisco	              Cerrado	        MG	         0.29	           28	           99.73
+       662	   41780002	    -44.050	    -18.645	                  São Francisco	              Cerrado	        MG	         0.99	           27	           99.11
+       663	   41890000	    -44.180	    -17.997	                  São Francisco	              Cerrado	        MG	         1.75	           26	           98.48
+       664	   42187000	    -44.376	    -16.468	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       665	   42250000	    -47.010	    -17.914	                  São Francisco	              Cerrado	        MG	         0.27	           29	           99.74
+       666	   42257000	    -46.648	    -17.514	                  São Francisco	              Cerrado	        MG	         3.75	           23	           97.12
+       667	   42365000	    -46.357	    -17.663	                  São Francisco	              Cerrado	        MG	         7.11	           16	           96.21
+       668	   42435000	    -46.587	    -16.870	                  São Francisco	              Cerrado	        MG	         7.25	           24	           94.20
+       669	   42460000	    -47.233	    -16.209	                  São Francisco	              Cerrado	        MG	         8.98	           16	           95.21
+       670	   42490000	    -46.880	    -16.348	                  São Francisco	              Cerrado	        MG	         2.48	           21	           98.26
+       671	   42546000	    -46.747	    -16.136	                  São Francisco	              Cerrado	        MG	         2.21	           27	           98.01
+       672	   42840000	    -45.759	    -18.139	                  São Francisco	              Cerrado	        MG	         0.39	           28	           99.63
+       673	   42860000	    -45.436	    -17.121	                  São Francisco	              Cerrado	        MG	         9.61	           20	           93.59
+       674	   45170001	    -44.523	    -14.265	                  São Francisco	              Cerrado	        BA	         0.27	           29	           99.74
+       675	   45590000	    -44.638	    -13.340	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       676	   45740001	    -44.562	    -13.285	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       677	   45770000	    -44.569	    -13.453	                  São Francisco	              Cerrado	        BA	         0.57	           28	           99.46
+       678	   45880000	    -44.303	    -13.559	                  São Francisco	              Cerrado	        BA	         0.32	           27	           99.71
+       679	   46415000	    -45.086	    -12.431	                  São Francisco	              Cerrado	        BA	         3.79	           25	           96.84
+       680	   46455000	    -45.123	    -12.411	                  São Francisco	              Cerrado	        BA	         0.17	           27	           99.84
+       681	   46490000	    -44.954	    -12.406	                  São Francisco	              Cerrado	        BA	         6.68	           25	           94.43
+       682	   46543000	    -45.103	    -12.137	                  São Francisco	              Cerrado	        BA	         4.38	           28	           95.91
+       683	   46570000	    -45.608	    -11.894	                  São Francisco	              Cerrado	        BA	         1.09	           28	           98.99
+       684	   46590000	    -45.120	    -11.854	                  São Francisco	              Cerrado	        BA	         5.27	           27	           95.26
+       685	   46770000	    -45.532	    -11.008	                  São Francisco	              Cerrado	        BA	         0.00	           30	          100.00
+       686	   46998000	    -43.135	    -11.094	                  São Francisco	              Cerrado	        BA	         9.71	           20	           93.53
+       687	   47249000	    -42.343	    -10.984	                  São Francisco	             Caatinga	        BA	         5.82	           23	           95.54
+       688	   48850000	    -38.528	     -8.174	                  São Francisco	             Caatinga	        PE	         6.54	           19	           95.86
+       689	   53790000	    -40.067	    -15.392	                  East Atlantic	      Atlantic forest	        BA	         1.74	           28	           98.37
+       690	   58442000	    -43.158	    -22.142	             Southeast Atlantic	      Atlantic forest	        RJ	         7.18	           11	           97.37
+       691	   58826000	    -42.521	    -22.228	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       692	   58846000	    -42.135	    -22.024	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       693	   58857000	    -42.356	    -21.952	             Southeast Atlantic	      Atlantic forest	        RJ	         0.00	           30	          100.00
+       694	   58880001	    -41.753	    -21.642	             Southeast Atlantic	      Atlantic forest	        RJ	         0.01	           29	           99.99
+       695	   60030000	    -47.557	    -17.504	                         Paraná	              Cerrado	        GO	         9.37	           27	           91.56
+       696	   60435100	    -48.210	    -15.700	                         Paraná	              Cerrado	        DF	         0.00	           30	          100.00
+       697	   60477400	    -47.879	    -15.713	                         Paraná	              Cerrado	        DF	         0.82	           29	           99.21
+       698	   60477600	    -47.911	    -15.728	                         Paraná	              Cerrado	        DF	         0.00	           30	          100.00
+       699	   60478500	    -47.898	    -15.873	                         Paraná	              Cerrado	        DF	         0.45	           29	           99.57
+       700	   60478600	    -47.858	    -15.856	                         Paraná	              Cerrado	        DF	         0.00	           30	          100.00
+       701	   60500000	    -47.801	    -16.538	                         Paraná	              Cerrado	        GO	         1.85	           25	           98.46
+       702	   60540000	    -48.138	    -17.132	                         Paraná	              Cerrado	        GO	         7.47	           25	           93.78
+       703	   61175000	    -45.168	    -21.258	                         Paraná	      Atlantic forest	        MG	         5.83	           27	           94.75
+       704	   61565000	    -46.123	    -21.788	                         Paraná	      Atlantic forest	        MG	         0.28	           29	           99.73
+       705	   61795000	    -48.391	    -19.909	                         Paraná	              Cerrado	        MG	         2.24	           27	           97.99
+       706	   61910000	    -47.808	    -21.698	                         Paraná	              Cerrado	        SP	         2.88	           26	           97.50
+       707	   61956001	    -48.800	    -21.078	                         Paraná	      Atlantic forest	        SP	         1.65	           27	           98.51
+       708	   62095100	    -45.844	    -23.529	                         Paraná	      Atlantic forest	        SP	        16.80	           24	           86.56
+       709	   62110000	    -46.160	    -23.522	                         Paraná	      Atlantic forest	        SP	         2.00	           28	           98.13
+       710	   62496001	    -47.756	    -23.399	                         Paraná	      Atlantic forest	        SP	         9.65	           24	           92.28
+       711	   62676000	    -46.830	    -22.984	                         Paraná	      Atlantic forest	        SP	        11.96	           25	           90.04
+       712	   62772500	    -48.276	    -21.871	                         Paraná	              Cerrado	        SP	         3.41	           27	           96.93
+       713	   63160000	    -50.292	    -21.714	                         Paraná	      Atlantic forest	        SP	         3.61	           26	           96.87
+       714	   64346000	    -50.909	    -22.532	                         Paraná	              Cerrado	        SP	         5.65	           20	           96.23
+       715	   64370000	    -50.288	    -23.088	                         Paraná	      Atlantic forest	        PR	         0.27	           29	           99.74
+       716	   64491000	    -50.693	    -24.033	                         Paraná	      Atlantic forest	        PR	         2.20	           21	           98.46
+       717	   65019700	    -49.355	    -25.613	                         Paraná	      Atlantic forest	        PR	         1.41	           27	           98.73
+       718	   65415000	    -51.142	    -26.030	                         Paraná	      Atlantic forest	        PR	         6.35	           24	           94.92
+       719	   65855000	    -52.213	    -25.493	                         Paraná	      Atlantic forest	        PR	         0.16	           29	           99.84
+       720	   66006000	    -56.814	    -14.453	                       Paraguai	               Amazon	        MT	         2.59	           23	           98.01
+       721	   66008000	    -57.083	    -15.166	                       Paraguai	               Amazon	        MT	         7.13	           17	           95.96
+       722	   66160000	    -56.131	    -14.655	                       Paraguai	              Cerrado	        MT	         6.92	           27	           93.77
+       723	   75155000	    -53.781	    -28.287	                        Uruguai	      Atlantic forest	        RS	         6.38	           21	           95.53
+       724	   75205000	    -54.031	    -28.385	                        Uruguai	      Atlantic forest	        RS	         1.20	           28	           98.88
+       725	   75450000	    -54.914	    -28.578	                        Uruguai	                Pampa	        RS	         2.37	           25	           98.02
+       726	   76100000	    -54.343	    -29.556	                        Uruguai	                Pampa	        RS	         0.73	           28	           99.32
+       727	   76300000	    -54.903	    -30.279	                        Uruguai	                Pampa	        RS	         4.40	           19	           97.21
+       728	   76440000	    -54.688	    -29.500	                        Uruguai	      Atlantic forest	        RS	         2.50	           23	           98.08
+       729	   76460000	    -54.737	    -29.363	                        Uruguai	      Atlantic forest	        RS	         0.91	           27	           99.18
+       730	   81380000	    -48.105	    -24.520	             Southeast Atlantic	      Atlantic forest	        SP	         9.54	           24	           92.37
+       731	   81683000	    -47.838	    -24.486	             Southeast Atlantic	      Atlantic forest	        SP	         2.56	           25	           97.87
+       732	   84950000	    -49.602	    -28.942	                 South Atlantic	      Atlantic forest	        SC	         0.72	           27	           99.35
+       733	   87160000	    -51.188	    -29.337	                 South Atlantic	      Atlantic forest	        RS	         1.23	           26	           98.93
+       734	   87399000	    -50.978	    -29.966	                 South Atlantic	                Pampa	        RS	         0.89	           28	           99.17
+       735	   87400000	    -51.068	    -29.963	                 South Atlantic	                Pampa	        RS	         0.68	           28	           99.36

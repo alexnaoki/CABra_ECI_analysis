@@ -1,0 +1,744 @@
+CABra dataset - Groundwater attributes
+ 
+aquif_name and aquif_type are the most common aquifer and rock type of the aquifer in the catchment.
+catch_wtd is the water table depth.
+catch_hand is the Height Above Nearest Drainage (HAND).
+hand_class is an estimation of water table depth by HAND classification.
+ 
+  CABra ID	     ANA ID	                          aquif_name	   aquif_type	    catch_wtd	   catch_hand	           hand_class
+          	           	                                    	             	            m	             	                     
+         1	   13880000	                            Solimões	       Porous	      -10.446	       18.104	     Deep water table
+         2	   14110000	                     Fraturado Norte	    Fractured	       -8.306	       38.006	     Deep water table
+         3	   14230000	                     Fraturado Norte	    Fractured	       -2.846	       16.199	     Deep water table
+         4	   14250000	                     Fraturado Norte	    Fractured	       -6.016	       28.372	     Deep water table
+         5	   14260000	                     Fraturado Norte	    Fractured	       -4.131	       18.239	     Deep water table
+         6	   14280001	                                 Içá	       Porous	       -4.044	       18.085	     Deep water table
+         7	   14300000	                     Fraturado Norte	    Fractured	       -2.102	       14.783	  Shallow water table
+         8	   14330000	                     Fraturado Norte	    Fractured	       -5.110	       24.335	     Deep water table
+         9	   14420000	                                 Içá	       Porous	       -5.392	       27.726	     Deep water table
+        10	   14495000	                     Fraturado Norte	    Fractured	      -26.270	       84.459	     Deep water table
+        11	   14515000	                     Fraturado Norte	    Fractured	      -23.164	       74.776	     Deep water table
+        12	   14550000	                             Roraima	       Porous	      -43.127	      155.995	     Deep water table
+        13	   14680001	                     Fraturado Norte	    Fractured	      -22.402	       62.193	     Deep water table
+        14	   14710000	                     Fraturado Norte	    Fractured	      -20.215	       62.219	     Deep water table
+        15	   15030000	                                 Içá	       Porous	      -16.936	       90.588	     Deep water table
+        16	   15050000	                Fraturado Centro-Sul	    Fractured	      -37.912	       64.291	     Deep water table
+        17	   15120001	                Fraturado Centro-Sul	    Fractured	      -20.152	       36.514	     Deep water table
+        18	   15250000	                     Fraturado Norte	    Fractured	      -22.137	       69.952	     Deep water table
+        19	   15320002	                     Fraturado Norte	    Fractured	      -27.356	      109.759	     Deep water table
+        20	   15430000	                     Fraturado Norte	    Fractured	      -19.419	       40.126	     Deep water table
+        21	   15431000	                     Fraturado Norte	    Fractured	      -11.295	       23.347	     Deep water table
+        22	   15432000	                     Fraturado Norte	    Fractured	      -20.198	       38.866	     Deep water table
+        23	   15550000	                     Fraturado Norte	    Fractured	      -13.221	       24.048	     Deep water table
+        24	   15558000	                             Parecis	       Porous	      -19.651	       43.221	     Deep water table
+        25	   15560000	                             Parecis	       Porous	      -16.091	       35.900	     Deep water table
+        26	   15580000	                     Fraturado Norte	    Fractured	      -14.966	       32.806	     Deep water table
+        27	   15630000	                     Fraturado Norte	    Fractured	      -25.191	       96.955	     Deep water table
+        28	   15700000	                     Fraturado Norte	    Fractured	      -24.212	       92.774	     Deep water table
+        29	   15750000	                     Fraturado Norte	    Fractured	      -19.988	       41.571	     Deep water table
+        30	   15800000	                     Fraturado Norte	    Fractured	      -15.517	       31.920	     Deep water table
+        31	   15830000	                     Fraturado Norte	    Fractured	      -16.212	       33.160	     Deep water table
+        32	   15910000	                        Alto Tapajós	       Porous	      -14.623	       37.710	     Deep water table
+        33	   16700000	                     Fraturado Norte	    Fractured	      -29.616	       76.852	     Deep water table
+        34	   17050001	                                 Içá	       Porous	      -18.189	       83.224	     Deep water table
+        35	   17090000	                     Fraturado Norte	    Fractured	      -28.198	       47.908	     Deep water table
+        36	   17093000	                             Parecis	       Porous	      -22.049	       43.955	     Deep water table
+        37	   17120000	                             Parecis	       Porous	      -17.926	       34.597	     Deep water table
+        38	   17200000	                       Alto Paraguai	       Porous	      -18.022	       39.882	     Deep water table
+        39	   17280000	                             Parecis	       Porous	      -16.353	       28.457	     Deep water table
+        40	   17340000	                             Parecis	       Porous	      -14.399	       29.927	     Deep water table
+        41	   17345000	                        Alto Tapajós	       Porous	      -13.533	       42.999	     Deep water table
+        42	   17350000	                     Fraturado Norte	    Fractured	      -14.947	       57.917	     Deep water table
+        43	   17730000	                     Fraturado Norte	       Porous	      -15.117	       36.861	     Deep water table
+        44	   18200000	                     Fraturado Norte	    Fractured	      -28.034	       57.803	     Deep water table
+        45	   18250000	                     Fraturado Norte	    Fractured	      -13.741	       39.997	     Deep water table
+        46	   18280000	                     Fraturado Norte	    Fractured	      -18.882	       33.954	     Deep water table
+        47	   18420000	                             Parecis	       Porous	      -20.524	       41.613	     Deep water table
+        48	   18460000	                              Ronuro	       Porous	      -13.687	       34.132	     Deep water table
+        49	   18650000	                     Fraturado Norte	    Fractured	      -11.882	       32.619	     Deep water table
+        50	   18850000	                     Fraturado Norte	    Fractured	      -13.117	       35.014	     Deep water table
+        51	   19100000	                     Fraturado Norte	    Fractured	      -23.988	       61.780	     Deep water table
+        52	   19150000	                     Fraturado Norte	    Fractured	      -20.155	       44.060	     Deep water table
+        53	   20050000	                Fraturado Centro-Sul	    Fractured	      -27.515	       90.068	     Deep water table
+        54	   20250000	                Fraturado Centro-Sul	    Fractured	      -28.657	       68.213	     Deep water table
+        55	   21500000	                Fraturado Centro-Sul	    Fractured	      -25.695	       77.082	     Deep water table
+        56	   21850000	                Fraturado Centro-Sul	    Fractured	      -18.278	       69.183	     Deep water table
+        57	   22680000	                      Urucuia-Areado	       Porous	      -15.514	       53.323	     Deep water table
+        58	   22700000	                      Urucuia-Areado	       Porous	      -15.657	       52.248	     Deep water table
+        59	   22900000	                      Urucuia-Areado	       Porous	      -20.538	       49.848	     Deep water table
+        60	   23100000	                Fraturado Centro-Sul	    Fractured	      -23.653	       67.145	     Deep water table
+        61	   23250000	                          Poti-Piauí	       Porous	      -21.213	       45.130	     Deep water table
+        62	   23300000	                Fraturado Centro-Sul	    Fractured	      -22.698	       63.518	     Deep water table
+        63	   23600000	                Fraturado Centro-Sul	    Fractured	      -22.460	       62.813	     Deep water table
+        64	   23700000	                Fraturado Centro-Sul	    Fractured	      -22.236	       62.041	     Deep water table
+        65	   24050000	                             Guarani	       Porous	      -24.754	       57.751	     Deep water table
+        66	   24200000	                          Aquidauana	       Porous	      -27.704	       70.110	     Deep water table
+        67	   24500000	                          Aquidauana	       Porous	      -31.446	       71.023	     Deep water table
+        68	   24700000	                          Aquidauana	       Porous	      -28.434	       69.922	     Deep water table
+        69	   24750000	                          Aquidauana	       Porous	      -30.473	       77.145	     Deep water table
+        70	   24780000	                        Ponta Grossa	       Porous	      -29.252	       76.075	     Deep water table
+        71	   24800000	                Fraturado Centro-Sul	       Porous	      -27.929	       74.929	     Deep water table
+        72	   24850000	                          Aquidauana	       Porous	      -28.036	       70.289	     Deep water table
+        73	   24900000	                          Aquidauana	       Porous	      -27.618	       75.978	     Deep water table
+        74	   24950000	                Fraturado Centro-Sul	    Fractured	      -30.826	       74.032	     Deep water table
+        75	   25130000	                Fraturado Centro-Sul	    Fractured	      -26.743	       64.784	     Deep water table
+        76	   25200000	                          Aquidauana	       Porous	      -26.111	       63.276	     Deep water table
+        77	   25700000	                Fraturado Centro-Sul	       Porous	      -23.747	       56.957	     Deep water table
+        78	   25950000	                Fraturado Centro-Sul	       Porous	      -22.042	       52.834	     Deep water table
+        79	   26050000	                          Aquidauana	       Porous	      -22.490	       40.747	     Deep water table
+        80	   26100000	                          Aquidauana	       Porous	      -22.684	       48.059	     Deep water table
+        81	   26300000	                    Araguaia-Bananal	       Porous	      -15.707	       34.209	     Deep water table
+        82	   26350000	                    Araguaia-Bananal	       Porous	      -12.979	       26.889	     Deep water table
+        83	   27500000	                    Araguaia-Bananal	       Porous	      -14.582	       33.584	     Deep water table
+        84	   28150000	                   Rio das Barreiras	       Porous	      -13.308	       45.957	     Deep water table
+        85	   28300000	                    Araguaia-Bananal	       Porous	      -14.049	       33.497	     Deep water table
+        86	   28850000	                    Araguaia-Bananal	       Porous	      -14.060	       33.785	     Deep water table
+        87	   29050000	                Fraturado Centro-Sul	       Porous	      -17.490	       45.663	     Deep water table
+        88	   29100000	                     Fraturado Norte	    Fractured	      -20.765	       53.156	     Deep water table
+        89	   29700000	                Fraturado Centro-Sul	    Fractured	      -17.351	       45.269	     Deep water table
+        90	   30300000	                     Fraturado Norte	    Fractured	      -12.039	       29.060	     Deep water table
+        91	   30400000	                     Fraturado Norte	    Fractured	      -10.041	       26.782	     Deep water table
+        92	   31700000	                           Itapecuru	       Porous	      -18.432	       39.699	     Deep water table
+        93	   32450002	                     Fraturado Norte	    Fractured	       -7.177	       17.634	     Deep water table
+        94	   32620000	                           Itapecuru	       Porous	      -19.864	       36.282	     Deep water table
+        95	   32740000	                           Itapecuru	       Porous	       -5.454	       14.113	  Shallow water table
+        96	   32830000	                           Itapecuru	       Porous	       -9.472	       17.393	     Deep water table
+        97	   33025000	                           Itapecuru	       Porous	      -30.476	       48.219	     Deep water table
+        98	   33170000	                           Itapecuru	       Porous	      -48.186	       65.658	     Deep water table
+        99	   33190000	                           Itapecuru	       Porous	      -36.012	       51.882	     Deep water table
+       100	   33205000	                            Sambaíba	       Porous	      -25.345	       50.575	     Deep water table
+       101	   33250000	                           Itapecuru	       Porous	      -30.266	       44.801	     Deep water table
+       102	   33260000	                           Itapecuru	       Porous	      -30.745	       44.554	     Deep water table
+       103	   33270000	                              Grajaú	       Porous	      -34.320	       42.441	     Deep water table
+       104	   33281000	                           Itapecuru	       Porous	      -28.778	       41.704	     Deep water table
+       105	   33290000	                           Itapecuru	       Porous	      -27.729	       40.422	     Deep water table
+       106	   33321000	                Fraturado Centro-Sul	       Porous	      -19.637	       45.743	     Deep water table
+       107	   33330000	                                Codó	       Porous	      -18.239	       39.224	     Deep water table
+       108	   33380000	                           Itapecuru	       Porous	      -27.843	       44.109	     Deep water table
+       109	   33420000	                               Corda	       Porous	      -40.266	       79.378	     Deep water table
+       110	   33450000	                            Sambaíba	       Porous	      -32.877	       64.537	     Deep water table
+       111	   33460000	                            Sambaíba	       Porous	      -33.179	       62.429	     Deep water table
+       112	   33480000	                               Corda	       Porous	      -37.675	       70.862	     Deep water table
+       113	   33520000	                         Pastos Bons	       Porous	      -43.653	       56.142	     Deep water table
+       114	   33530000	                               Corda	       Porous	      -38.077	       60.466	     Deep water table
+       115	   33550000	                               Corda	       Porous	      -37.883	       55.939	     Deep water table
+       116	   33590000	                               Corda	       Porous	      -35.999	       51.800	     Deep water table
+       117	   33620000	                           Itapecuru	       Porous	      -18.696	       25.783	     Deep water table
+       118	   33630000	                               Corda	       Porous	      -33.257	       47.867	     Deep water table
+       119	   33680000	                               Corda	       Porous	      -30.558	       44.600	     Deep water table
+       120	   33730000	                           Itapecuru	       Porous	      -23.070	       24.198	     Deep water table
+       121	   33760000	               Lit. Nordeste-Sudeste	       Porous	      -18.380	       19.018	     Deep water table
+       122	   33780000	                           Itapecuru	       Porous	      -19.712	       22.303	     Deep water table
+       123	   34020000	                      Urucuia-Areado	       Porous	      -25.370	       71.457	     Deep water table
+       124	   34060000	                          Poti-Piauí	       Porous	      -27.101	       72.086	     Deep water table
+       125	   34090000	                          Poti-Piauí	       Porous	      -36.309	       92.498	     Deep water table
+       126	   34130000	                          Poti-Piauí	       Porous	      -20.635	       59.306	     Deep water table
+       127	   34170000	                       Pedra de Fogo	       Porous	      -22.205	       51.724	     Deep water table
+       128	   34251000	                          Poti-Piauí	       Porous	      -36.135	       64.304	     Deep water table
+       129	   34270000	                          Poti-Piauí	       Porous	      -38.248	       69.089	     Deep water table
+       130	   34770000	                        Serra Grande	       Porous	      -38.890	       64.517	     Deep water table
+       131	   34940000	                          Poti-Piauí	       Porous	      -10.963	       21.292	     Deep water table
+       132	   34980000	                             Cabeças	       Porous	      -16.370	       43.488	     Deep water table
+       133	   35260000	                 Fraturado Semiárido	    Fractured	      -46.445	       65.577	     Deep water table
+       134	   36045000	                 Fraturado Semiárido	    Fractured	      -56.947	       61.437	     Deep water table
+       135	   36160000	                 Fraturado Semiárido	    Fractured	      -47.610	       65.166	     Deep water table
+       136	   36250000	            Sup. da Bacia do Araripe	       Porous	      -30.119	       79.701	     Deep water table
+       137	   36290000	                 Fraturado Semiárido	    Fractured	      -30.925	       68.486	     Deep water table
+       138	   36390000	                 Fraturado Semiárido	    Fractured	      -38.941	       60.565	     Deep water table
+       139	   36580000	                 Fraturado Semiárido	    Fractured	      -45.417	       52.936	     Deep water table
+       140	   37380000	                 Fraturado Semiárido	    Fractured	      -33.796	       72.743	     Deep water table
+       141	   37410000	                 Fraturado Semiárido	    Fractured	      -30.565	       64.272	     Deep water table
+       142	   37470000	                 Fraturado Semiárido	    Fractured	      -30.098	       62.137	     Deep water table
+       143	   37515000	                 Fraturado Semiárido	    Fractured	      -35.510	       73.964	     Deep water table
+       144	   38170000	                 Fraturado Semiárido	    Fractured	      -29.016	       39.751	     Deep water table
+       145	   38485000	                 Fraturado Semiárido	    Fractured	      -30.568	       54.037	     Deep water table
+       146	   38650000	                 Fraturado Semiárido	    Fractured	      -34.495	       70.225	     Deep water table
+       147	   38830000	                 Fraturado Semiárido	    Fractured	      -28.343	       46.834	     Deep water table
+       148	   38850000	                 Fraturado Semiárido	    Fractured	      -27.674	       39.368	     Deep water table
+       149	   38860000	                 Fraturado Semiárido	    Fractured	      -31.004	       41.761	     Deep water table
+       150	   38895000	                 Fraturado Semiárido	    Fractured	      -30.951	       51.429	     Deep water table
+       151	   39084010	                 Fraturado Semiárido	    Fractured	      -26.044	       69.179	     Deep water table
+       152	   39185000	                 Fraturado Semiárido	    Fractured	      -33.208	       71.043	     Deep water table
+       153	   39360000	                 Fraturado Semiárido	    Fractured	      -39.473	       88.731	     Deep water table
+       154	   39540000	                 Fraturado Semiárido	    Fractured	      -27.442	       66.655	     Deep water table
+       155	   39560000	                 Fraturado Semiárido	    Fractured	      -33.272	       90.696	     Deep water table
+       156	   39770000	                 Fraturado Semiárido	    Fractured	      -33.299	       88.486	     Deep water table
+       157	   39980000	                 Fraturado Semiárido	    Fractured	      -36.373	       60.600	     Deep water table
+       158	   40070000	                Fraturado Centro-Sul	    Fractured	      -26.401	       69.865	     Deep water table
+       159	   40100000	                Fraturado Centro-Sul	    Fractured	      -24.277	       61.125	     Deep water table
+       160	   41650002	                Fraturado Centro-Sul	    Fractured	      -26.347	       94.041	     Deep water table
+       161	   41818000	                Fraturado Centro-Sul	    Fractured	      -27.946	      109.290	     Deep water table
+       162	   41990000	                Fraturado Centro-Sul	    Fractured	      -29.302	      111.621	     Deep water table
+       163	   42210000	                Fraturado Centro-Sul	    Fractured	      -28.269	       81.234	     Deep water table
+       164	   42395000	                Fraturado Centro-Sul	    Fractured	      -25.761	       59.377	     Deep water table
+       165	   42690001	                Fraturado Centro-Sul	    Fractured	      -23.224	       57.816	     Deep water table
+       166	   42980000	                Fraturado Centro-Sul	    Fractured	      -25.006	       57.113	     Deep water table
+       167	   43200000	                Fraturado Centro-Sul	    Fractured	      -27.387	       73.385	     Deep water table
+       168	   43429998	                Fraturado Centro-Sul	    Fractured	      -36.698	       88.819	     Deep water table
+       169	   43670000	                Fraturado Centro-Sul	    Fractured	      -33.059	       78.891	     Deep water table
+       170	   43880000	                Fraturado Centro-Sul	    Fractured	      -31.815	       72.875	     Deep water table
+       171	   44200000	                Fraturado Centro-Sul	    Fractured	      -27.784	       72.071	     Deep water table
+       172	   44250000	                      Urucuia-Areado	       Porous	      -29.773	       46.800	     Deep water table
+       173	   44290002	                Fraturado Centro-Sul	    Fractured	      -27.793	       70.840	     Deep water table
+       174	   44500000	                Fraturado Centro-Sul	    Fractured	      -27.800	       69.947	     Deep water table
+       175	   44540000	                 Fraturado Semiárido	    Fractured	      -35.610	       54.670	     Deep water table
+       176	   44670000	                     Bambuí Cárstico	    Fractured	      -32.045	       61.572	     Deep water table
+       177	   45210000	                      Urucuia-Areado	       Porous	      -29.731	       53.733	     Deep water table
+       178	   45260000	                      Urucuia-Areado	       Porous	      -30.301	       52.506	     Deep water table
+       179	   45298000	                Fraturado Centro-Sul	    Fractured	      -28.480	       68.361	     Deep water table
+       180	   45480000	                Fraturado Centro-Sul	    Fractured	      -28.340	       66.805	     Deep water table
+       181	   45910001	                      Urucuia-Areado	       Porous	      -22.880	       41.150	     Deep water table
+       182	   45960001	                      Urucuia-Areado	       Porous	      -23.265	       42.158	     Deep water table
+       183	   46035000	                Fraturado Centro-Sul	    Fractured	      -27.722	       63.742	     Deep water table
+       184	   46105000	                Fraturado Centro-Sul	    Fractured	      -27.673	       63.582	     Deep water table
+       185	   46150000	                Fraturado Centro-Sul	    Fractured	      -28.086	       64.396	     Deep water table
+       186	   46360000	                Fraturado Centro-Sul	    Fractured	      -28.901	       65.825	     Deep water table
+       187	   46550000	                      Urucuia-Areado	       Porous	      -21.999	       36.163	     Deep water table
+       188	   46610000	                      Urucuia-Areado	       Porous	      -20.699	       42.453	     Deep water table
+       189	   46650000	                      Urucuia-Areado	       Porous	      -21.084	       43.034	     Deep water table
+       190	   46675000	                      Urucuia-Areado	       Porous	      -20.855	       42.627	     Deep water table
+       191	   46790000	                      Urucuia-Areado	       Porous	      -19.423	       62.839	     Deep water table
+       192	   46830000	                      Urucuia-Areado	       Porous	      -23.300	       60.322	     Deep water table
+       193	   46870000	                      Urucuia-Areado	       Porous	      -24.168	       56.594	     Deep water table
+       194	   46902000	                      Urucuia-Areado	       Porous	      -21.143	       44.441	     Deep water table
+       195	   48020000	                Fraturado Centro-Sul	    Fractured	      -30.074	       61.330	     Deep water table
+       196	   48290000	                 Fraturado Semiárido	    Fractured	      -30.390	       60.265	     Deep water table
+       197	   48590000	                 Fraturado Semiárido	    Fractured	      -30.742	       59.664	     Deep water table
+       198	   49330000	                 Fraturado Semiárido	    Fractured	      -32.035	       58.947	     Deep water table
+       199	   49370000	                 Fraturado Semiárido	    Fractured	      -32.062	       58.899	     Deep water table
+       200	   49660000	                 Fraturado Semiárido	    Fractured	      -32.232	       59.138	     Deep water table
+       201	   49705000	                 Fraturado Semiárido	    Fractured	      -32.234	       59.143	     Deep water table
+       202	   50191000	                 Fraturado Semiárido	       Porous	      -62.977	       57.000	     Deep water table
+       203	   50250000	                 Fraturado Semiárido	       Porous	      -50.180	       55.426	     Deep water table
+       204	   50290000	                 Fraturado Semiárido	    Fractured	      -44.880	       49.225	     Deep water table
+       205	   50420000	                 Fraturado Semiárido	    Fractured	      -60.249	      131.639	     Deep water table
+       206	   50465000	                 Fraturado Semiárido	    Fractured	      -46.308	       64.937	     Deep water table
+       207	   50520000	                 Fraturado Semiárido	    Fractured	      -49.230	       54.454	     Deep water table
+       208	   50540000	                 Fraturado Semiárido	    Fractured	      -49.619	       56.075	     Deep water table
+       209	   50595000	                 Fraturado Semiárido	    Fractured	      -51.962	       56.136	     Deep water table
+       210	   50620000	                           Barreiras	       Porous	      -50.042	       53.739	     Deep water table
+       211	   50660000	                           Barreiras	       Porous	      -43.468	       47.699	     Deep water table
+       212	   50720000	                 Fraturado Semiárido	    Fractured	      -33.862	       37.086	     Deep water table
+       213	   50730000	                           Barreiras	       Porous	      -46.112	       53.090	     Deep water table
+       214	   50740000	                       Sergi-Aliança	       Porous	      -44.160	       53.069	     Deep water table
+       215	   51120000	                 Fraturado Semiárido	    Fractured	      -60.002	      135.558	     Deep water table
+       216	   51140000	                 Fraturado Semiárido	    Fractured	      -54.659	      110.293	     Deep water table
+       217	   51170000	                 Fraturado Semiárido	    Fractured	      -58.026	       74.305	     Deep water table
+       218	   51190000	                 Fraturado Semiárido	    Fractured	      -56.673	      104.586	     Deep water table
+       219	   51230000	                 Fraturado Semiárido	    Fractured	      -55.792	      145.384	     Deep water table
+       220	   51240000	                 Fraturado Semiárido	    Fractured	      -55.451	      110.917	     Deep water table
+       221	   51280000	                 Fraturado Semiárido	    Fractured	      -53.123	      104.695	     Deep water table
+       222	   51330000	                 Fraturado Semiárido	    Fractured	      -52.152	       92.216	     Deep water table
+       223	   51430000	                 Fraturado Semiárido	    Fractured	      -53.685	       65.524	     Deep water table
+       224	   51440000	                 Fraturado Semiárido	    Fractured	      -48.717	       54.629	     Deep water table
+       225	   51560000	                Fraturado Centro-Sul	    Fractured	      -30.217	       31.383	     Deep water table
+       226	   51795000	                Fraturado Centro-Sul	    Fractured	      -42.556	       48.488	     Deep water table
+       227	   54010005	                Fraturado Centro-Sul	    Fractured	      -49.135	      144.160	     Deep water table
+       228	   54110002	                 Fraturado Semiárido	    Fractured	      -49.883	       91.918	     Deep water table
+       229	   54150000	                Fraturado Centro-Sul	    Fractured	      -54.801	      131.657	     Deep water table
+       230	   54165000	                 Fraturado Semiárido	    Fractured	      -57.979	       83.629	     Deep water table
+       231	   54195000	                Fraturado Centro-Sul	    Fractured	      -55.617	      125.895	     Deep water table
+       232	   54230000	                Fraturado Centro-Sul	    Fractured	      -51.181	      117.510	     Deep water table
+       233	   54260000	                Fraturado Centro-Sul	    Fractured	      -54.035	      116.659	     Deep water table
+       234	   54300000	                Fraturado Centro-Sul	    Fractured	      -52.920	      114.026	     Deep water table
+       235	   54390000	                Fraturado Centro-Sul	    Fractured	      -54.016	      118.732	     Deep water table
+       236	   54500000	                Fraturado Centro-Sul	    Fractured	      -53.759	      122.385	     Deep water table
+       237	   54580000	                 Fraturado Semiárido	    Fractured	      -55.145	      127.540	     Deep water table
+       238	   54590000	                 Fraturado Semiárido	    Fractured	      -66.837	      129.568	     Deep water table
+       239	   54710000	                 Fraturado Semiárido	    Fractured	      -56.106	      129.911	     Deep water table
+       240	   54770000	                 Fraturado Semiárido	    Fractured	      -62.176	      137.697	     Deep water table
+       241	   54780000	                 Fraturado Semiárido	    Fractured	      -57.692	      132.231	     Deep water table
+       242	   54950000	                 Fraturado Semiárido	    Fractured	      -57.092	      129.412	     Deep water table
+       243	   55340000	                Fraturado Centro-Sul	    Fractured	      -62.230	      120.587	     Deep water table
+       244	   55360000	                Fraturado Centro-Sul	    Fractured	      -53.204	      120.248	     Deep water table
+       245	   55370000	                Fraturado Centro-Sul	    Fractured	      -53.038	       90.670	     Deep water table
+       246	   55380000	                Fraturado Centro-Sul	    Fractured	      -52.005	       89.475	     Deep water table
+       247	   55460000	                Fraturado Centro-Sul	    Fractured	      -56.064	       81.086	     Deep water table
+       248	   55490000	                Fraturado Centro-Sul	    Fractured	      -52.881	       77.055	     Deep water table
+       249	   55510000	                           Barreiras	       Porous	      -27.771	       23.269	     Deep water table
+       250	   55520001	                Fraturado Centro-Sul	    Fractured	      -57.746	      102.857	     Deep water table
+       251	   55560000	                Fraturado Centro-Sul	    Fractured	      -61.349	      114.323	     Deep water table
+       252	   55610000	                Fraturado Centro-Sul	    Fractured	      -56.920	      105.180	     Deep water table
+       253	   55630000	                Fraturado Centro-Sul	    Fractured	      -59.431	       99.858	     Deep water table
+       254	   55660000	                Fraturado Centro-Sul	    Fractured	      -59.609	       90.729	     Deep water table
+       255	   55699998	                Fraturado Centro-Sul	    Fractured	      -56.357	       89.890	     Deep water table
+       256	   55790000	                Fraturado Centro-Sul	    Fractured	      -66.093	      100.466	     Deep water table
+       257	   55850000	                Fraturado Centro-Sul	    Fractured	      -47.186	       72.831	     Deep water table
+       258	   55900000	                Fraturado Centro-Sul	    Fractured	      -55.625	      140.837	     Deep water table
+       259	   55920000	                Fraturado Centro-Sul	    Fractured	      -56.991	      110.126	     Deep water table
+       260	   55960000	                Fraturado Centro-Sul	    Fractured	      -49.059	       83.917	     Deep water table
+       261	   56028000	                Fraturado Centro-Sul	    Fractured	      -27.576	       91.442	     Deep water table
+       262	   56055000	                Fraturado Centro-Sul	    Fractured	      -26.936	       66.450	     Deep water table
+       263	   56065000	                Fraturado Centro-Sul	    Fractured	      -26.110	       90.516	     Deep water table
+       264	   56075000	                Fraturado Centro-Sul	    Fractured	      -29.699	       79.926	     Deep water table
+       265	   56085000	                Fraturado Centro-Sul	    Fractured	      -29.235	       71.013	     Deep water table
+       266	   56090000	                Fraturado Centro-Sul	    Fractured	      -30.853	       82.117	     Deep water table
+       267	   56240000	                Fraturado Centro-Sul	    Fractured	      -43.230	      158.741	     Deep water table
+       268	   56335001	                Fraturado Centro-Sul	    Fractured	      -40.719	      136.894	     Deep water table
+       269	   56385000	                Fraturado Centro-Sul	    Fractured	      -44.637	      146.403	     Deep water table
+       270	   56415000	                Fraturado Centro-Sul	    Fractured	      -41.543	      134.692	     Deep water table
+       271	   56484998	                Fraturado Centro-Sul	    Fractured	      -48.217	      117.296	     Deep water table
+       272	   56539000	                Fraturado Centro-Sul	    Fractured	      -36.734	       97.832	     Deep water table
+       273	   56570000	                Fraturado Centro-Sul	    Fractured	      -43.943	      112.054	     Deep water table
+       274	   56610000	                Fraturado Centro-Sul	    Fractured	      -33.735	       93.504	     Deep water table
+       275	   56640000	                Fraturado Centro-Sul	    Fractured	      -54.961	      277.378	     Deep water table
+       276	   56775000	                Fraturado Centro-Sul	    Fractured	      -43.240	      122.209	     Deep water table
+       277	   56800000	                Fraturado Centro-Sul	    Fractured	      -40.520	       83.089	     Deep water table
+       278	   56825000	                Fraturado Centro-Sul	    Fractured	      -48.875	      131.315	     Deep water table
+       279	   56845000	                Fraturado Centro-Sul	    Fractured	      -34.961	       62.390	     Deep water table
+       280	   56846000	                Fraturado Centro-Sul	    Fractured	      -49.281	      105.302	     Deep water table
+       281	   56850000	                Fraturado Centro-Sul	    Fractured	      -42.205	      110.565	     Deep water table
+       282	   56860000	                Fraturado Centro-Sul	    Fractured	      -43.232	       85.912	     Deep water table
+       283	   56870000	                Fraturado Centro-Sul	    Fractured	      -40.052	       86.258	     Deep water table
+       284	   56891900	                Fraturado Centro-Sul	    Fractured	      -45.275	      101.784	     Deep water table
+       285	   56920000	                Fraturado Centro-Sul	    Fractured	      -42.868	      106.315	     Deep water table
+       286	   56940002	                Fraturado Centro-Sul	    Fractured	      -50.777	      137.516	     Deep water table
+       287	   56976000	                Fraturado Centro-Sul	    Fractured	      -56.246	      153.585	     Deep water table
+       288	   56983000	                Fraturado Centro-Sul	    Fractured	      -56.818	      283.589	     Deep water table
+       289	   56990000	                Fraturado Centro-Sul	    Fractured	      -56.587	      153.325	     Deep water table
+       290	   56990990	                Fraturado Centro-Sul	    Fractured	      -67.155	      189.731	     Deep water table
+       291	   56991500	                Fraturado Centro-Sul	    Fractured	      -65.122	      179.350	     Deep water table
+       292	   56992000	                Fraturado Centro-Sul	    Fractured	      -63.348	      176.667	     Deep water table
+       293	   56993551	                Fraturado Centro-Sul	    Fractured	      -60.643	      169.886	     Deep water table
+       294	   56995500	                Fraturado Centro-Sul	    Fractured	      -65.950	      103.096	     Deep water table
+       295	   57130000	                Fraturado Centro-Sul	    Fractured	      -57.806	      155.734	     Deep water table
+       296	   57170000	                Fraturado Centro-Sul	    Fractured	      -55.438	      124.561	     Deep water table
+       297	   57250000	                Fraturado Centro-Sul	    Fractured	      -59.002	      172.036	     Deep water table
+       298	   57300000	                Fraturado Centro-Sul	    Fractured	      -67.919	      230.527	     Deep water table
+       299	   57320000	                Fraturado Centro-Sul	    Fractured	      -84.502	      269.640	     Deep water table
+       300	   57350000	                Fraturado Centro-Sul	    Fractured	      -63.087	      311.553	     Deep water table
+       301	   57360000	                Fraturado Centro-Sul	    Fractured	      -52.654	      145.964	     Deep water table
+       302	   57370000	                Fraturado Centro-Sul	    Fractured	      -53.107	      171.833	     Deep water table
+       303	   57400000	                Fraturado Centro-Sul	    Fractured	      -59.058	      211.534	     Deep water table
+       304	   57420000	                Fraturado Centro-Sul	    Fractured	      -57.756	      247.955	     Deep water table
+       305	   57450000	                Fraturado Centro-Sul	    Fractured	      -58.470	      213.870	     Deep water table
+       306	   57490000	                Fraturado Centro-Sul	    Fractured	      -71.451	      210.951	     Deep water table
+       307	   57550000	                Fraturado Centro-Sul	    Fractured	      -70.128	      221.991	     Deep water table
+       308	   57580000	                Fraturado Centro-Sul	    Fractured	      -60.633	      193.693	     Deep water table
+       309	   57700000	                Fraturado Centro-Sul	    Fractured	      -53.670	      277.378	     Deep water table
+       310	   57720000	                Fraturado Centro-Sul	    Fractured	      -47.814	      309.435	     Deep water table
+       311	   57740000	                Fraturado Centro-Sul	    Fractured	      -45.111	      151.185	     Deep water table
+       312	   57770000	                Fraturado Centro-Sul	    Fractured	      -60.286	      260.711	     Deep water table
+       313	   57830000	                Fraturado Centro-Sul	    Fractured	      -48.316	      171.558	     Deep water table
+       314	   57930000	                Fraturado Centro-Sul	    Fractured	      -48.564	      160.521	     Deep water table
+       315	   58030000	                Fraturado Centro-Sul	    Fractured	      -48.196	      180.593	     Deep water table
+       316	   58060000	                Fraturado Centro-Sul	    Fractured	      -46.837	      236.991	     Deep water table
+       317	   58099000	                Fraturado Centro-Sul	    Fractured	      -42.835	      144.142	     Deep water table
+       318	   58142200	                Fraturado Centro-Sul	    Fractured	      -55.761	      179.420	     Deep water table
+       319	   58183000	                Fraturado Centro-Sul	    Fractured	      -38.709	      120.889	     Deep water table
+       320	   58204000	                Fraturado Centro-Sul	    Fractured	      -38.055	      123.755	     Deep water table
+       321	   58220000	                Fraturado Centro-Sul	    Fractured	      -46.364	      246.691	     Deep water table
+       322	   58258000	                Fraturado Centro-Sul	    Fractured	      -58.029	      248.776	     Deep water table
+       323	   58270000	                Fraturado Centro-Sul	    Fractured	      -44.336	      102.734	     Deep water table
+       324	   58380001	                Fraturado Centro-Sul	    Fractured	      -40.330	      141.690	     Deep water table
+       325	   58405000	                Fraturado Centro-Sul	    Fractured	      -76.614	      384.599	     Deep water table
+       326	   58420000	                Fraturado Centro-Sul	    Fractured	      -65.880	      210.657	     Deep water table
+       327	   58425000	                Fraturado Centro-Sul	    Fractured	      -63.719	      202.711	     Deep water table
+       328	   58434000	                Fraturado Centro-Sul	    Fractured	      -55.924	      225.997	     Deep water table
+       329	   58440000	                Fraturado Centro-Sul	    Fractured	      -62.615	      244.458	     Deep water table
+       330	   58470000	                Fraturado Centro-Sul	    Fractured	      -34.707	       76.595	     Deep water table
+       331	   58480500	                Fraturado Centro-Sul	    Fractured	      -28.806	       80.395	     Deep water table
+       332	   58500000	                Fraturado Centro-Sul	    Fractured	      -38.868	      126.077	     Deep water table
+       333	   58516500	                Fraturado Centro-Sul	    Fractured	      -42.730	      111.281	     Deep water table
+       334	   58520000	                Fraturado Centro-Sul	    Fractured	      -38.994	      101.572	     Deep water table
+       335	   58525000	                Fraturado Centro-Sul	    Fractured	      -53.668	      349.229	     Deep water table
+       336	   58530000	                Fraturado Centro-Sul	    Fractured	      -62.076	      257.456	     Deep water table
+       337	   58535000	                Fraturado Centro-Sul	    Fractured	      -63.789	      255.059	     Deep water table
+       338	   58542000	                Fraturado Centro-Sul	    Fractured	      -51.308	      247.287	     Deep water table
+       339	   58550001	                Fraturado Centro-Sul	    Fractured	      -53.630	      201.912	     Deep water table
+       340	   58560000	                Fraturado Centro-Sul	    Fractured	      -43.541	      109.392	     Deep water table
+       341	   58573000	                Fraturado Centro-Sul	    Fractured	      -42.029	       98.284	     Deep water table
+       342	   58585000	                Fraturado Centro-Sul	    Fractured	      -50.381	      166.885	     Deep water table
+       343	   58610000	                Fraturado Centro-Sul	    Fractured	      -35.491	      104.909	     Deep water table
+       344	   58630002	                Fraturado Centro-Sul	    Fractured	      -42.617	      144.056	     Deep water table
+       345	   58645000	                Fraturado Centro-Sul	    Fractured	      -47.393	      216.851	     Deep water table
+       346	   58658000	                Fraturado Centro-Sul	    Fractured	      -41.982	       92.624	     Deep water table
+       347	   58670002	                Fraturado Centro-Sul	    Fractured	      -42.421	       85.619	     Deep water table
+       348	   58710000	                Fraturado Centro-Sul	    Fractured	      -38.195	      118.963	     Deep water table
+       349	   58720000	                Fraturado Centro-Sul	    Fractured	      -41.793	      113.675	     Deep water table
+       350	   58730001	                Fraturado Centro-Sul	    Fractured	      -37.555	      106.949	     Deep water table
+       351	   58735000	                Fraturado Centro-Sul	    Fractured	      -35.470	      100.166	     Deep water table
+       352	   58755000	                Fraturado Centro-Sul	    Fractured	      -30.798	       96.417	     Deep water table
+       353	   58765001	                Fraturado Centro-Sul	    Fractured	      -35.804	      106.313	     Deep water table
+       354	   58770000	                Fraturado Centro-Sul	    Fractured	      -36.198	      109.588	     Deep water table
+       355	   58795000	                Fraturado Centro-Sul	    Fractured	      -41.277	      134.320	     Deep water table
+       356	   58825000	                Fraturado Centro-Sul	    Fractured	      -55.684	      205.791	     Deep water table
+       357	   58827000	                Fraturado Centro-Sul	    Fractured	      -62.834	      185.241	     Deep water table
+       358	   58850000	                Fraturado Centro-Sul	    Fractured	      -64.656	      225.281	     Deep water table
+       359	   58870000	                Fraturado Centro-Sul	    Fractured	      -50.827	      117.895	     Deep water table
+       360	   58874000	                Fraturado Centro-Sul	    Fractured	      -58.947	      181.903	     Deep water table
+       361	   58910000	                Fraturado Centro-Sul	    Fractured	      -45.845	      137.896	     Deep water table
+       362	   58916000	                Fraturado Centro-Sul	    Fractured	      -45.275	       94.024	     Deep water table
+       363	   58917000	                Fraturado Centro-Sul	    Fractured	      -45.261	       97.088	     Deep water table
+       364	   58920000	                Fraturado Centro-Sul	    Fractured	      -42.792	      124.976	     Deep water table
+       365	   58930000	                Fraturado Centro-Sul	    Fractured	      -57.849	      178.306	     Deep water table
+       366	   58940000	                Fraturado Centro-Sul	    Fractured	      -46.505	      135.492	     Deep water table
+       367	   58960000	                Fraturado Centro-Sul	    Fractured	      -45.472	      124.145	     Deep water table
+       368	   58974000	                Fraturado Centro-Sul	    Fractured	      -42.830	      135.055	     Deep water table
+       369	   59120000	                Fraturado Centro-Sul	    Fractured	      -75.360	      359.238	     Deep water table
+       370	   59125000	                Fraturado Centro-Sul	    Fractured	      -74.306	      273.947	     Deep water table
+       371	   59135000	                Fraturado Centro-Sul	    Fractured	      -63.295	      527.300	     Deep water table
+       372	   59240000	                Fraturado Centro-Sul	    Fractured	      -75.275	      417.561	     Deep water table
+       373	   59355000	                Fraturado Centro-Sul	    Fractured	      -44.162	      631.161	     Deep water table
+       374	   59370000	                Fraturado Centro-Sul	    Fractured	      -72.950	      392.164	     Deep water table
+       375	   59380000	                Fraturado Centro-Sul	    Fractured	      -89.971	      582.183	     Deep water table
+       376	   60010000	                Fraturado Centro-Sul	    Fractured	      -28.780	       75.623	     Deep water table
+       377	   60011000	                Fraturado Centro-Sul	    Fractured	      -28.799	       70.746	     Deep water table
+       378	   60040000	                Fraturado Centro-Sul	    Fractured	      -25.299	       61.972	     Deep water table
+       379	   60100000	                Fraturado Centro-Sul	    Fractured	      -19.290	      108.682	     Deep water table
+       380	   60110000	                Fraturado Centro-Sul	    Fractured	      -29.687	       70.057	     Deep water table
+       381	   60130000	                Fraturado Centro-Sul	    Fractured	      -24.295	       56.613	     Deep water table
+       382	   60145000	                         Bauru-Caiuá	       Porous	      -27.443	       70.924	     Deep water table
+       383	   60150000	                         Bauru-Caiuá	       Porous	      -25.207	       73.609	     Deep water table
+       384	   60220000	                Fraturado Centro-Sul	    Fractured	      -28.011	       93.881	     Deep water table
+       385	   60250000	                Fraturado Centro-Sul	    Fractured	      -26.195	       75.609	     Deep water table
+       386	   60265000	                Fraturado Centro-Sul	    Fractured	      -27.311	       84.696	     Deep water table
+       387	   60381000	                         Bauru-Caiuá	       Porous	      -18.165	       56.887	     Deep water table
+       388	   60432000	                Fraturado Centro-Sul	    Fractured	      -32.731	       74.910	     Deep water table
+       389	   60615000	                         Bauru-Caiuá	       Porous	      -18.902	       53.784	     Deep water table
+       390	   60635000	                Fraturado Centro-Sul	    Fractured	      -40.655	       81.722	     Deep water table
+       391	   60640000	                Fraturado Centro-Sul	    Fractured	      -36.864	       70.227	     Deep water table
+       392	   60642000	                Fraturado Centro-Sul	    Fractured	      -34.789	       79.922	     Deep water table
+       393	   60650000	                Fraturado Centro-Sul	    Fractured	      -34.477	       71.420	     Deep water table
+       394	   60653000	                Fraturado Centro-Sul	    Fractured	      -29.712	       83.521	     Deep water table
+       395	   60654000	                Fraturado Centro-Sul	    Fractured	      -35.411	       84.833	     Deep water table
+       396	   60665000	                Fraturado Centro-Sul	    Fractured	      -26.046	       69.704	     Deep water table
+       397	   60680000	                Fraturado Centro-Sul	    Fractured	      -28.655	       70.713	     Deep water table
+       398	   60715000	                Fraturado Centro-Sul	    Fractured	      -33.183	       65.077	     Deep water table
+       399	   60750000	                Fraturado Centro-Sul	    Fractured	      -28.021	       53.933	     Deep water table
+       400	   60765000	                Fraturado Centro-Sul	    Fractured	      -21.703	       44.857	     Deep water table
+       401	   60772000	                Fraturado Centro-Sul	    Fractured	      -24.868	       53.256	     Deep water table
+       402	   60774000	                         Bauru-Caiuá	       Porous	      -30.994	       76.059	     Deep water table
+       403	   60778000	                         Bauru-Caiuá	       Porous	      -26.437	       49.627	     Deep water table
+       404	   60781000	                         Bauru-Caiuá	       Porous	      -25.113	       54.512	     Deep water table
+       405	   60785005	                         Bauru-Caiuá	       Porous	      -26.077	       55.984	     Deep water table
+       406	   60790000	                         Bauru-Caiuá	       Porous	      -23.859	       53.921	     Deep water table
+       407	   60798000	                         Bauru-Caiuá	       Porous	      -22.645	       51.580	     Deep water table
+       408	   60810000	                         Serra Geral	    Fractured	      -19.016	       62.521	     Deep water table
+       409	   60845000	                         Bauru-Caiuá	       Porous	      -20.703	       49.976	     Deep water table
+       410	   60850000	                         Bauru-Caiuá	       Porous	      -22.681	       49.526	     Deep water table
+       411	   60855000	                         Bauru-Caiuá	       Porous	      -21.968	       48.724	     Deep water table
+       412	   60870000	                         Bauru-Caiuá	       Porous	      -23.374	       68.915	     Deep water table
+       413	   60895000	                         Bauru-Caiuá	       Porous	      -28.697	       47.461	     Deep water table
+       414	   60910000	                        Cachoeirinha	       Porous	      -27.045	       81.058	     Deep water table
+       415	   60925001	                         Bauru-Caiuá	       Porous	      -17.724	       46.795	     Deep water table
+       416	   60930000	                        Cachoeirinha	       Porous	      -17.640	       38.547	     Deep water table
+       417	   60940000	                        Cachoeirinha	       Porous	      -20.980	       49.131	     Deep water table
+       418	   60950000	                         Bauru-Caiuá	       Porous	      -19.261	       50.302	     Deep water table
+       419	   60970000	                         Bauru-Caiuá	       Porous	      -18.224	       50.573	     Deep water table
+       420	   61009000	                Fraturado Centro-Sul	    Fractured	      -46.469	      154.957	     Deep water table
+       421	   61012000	                Fraturado Centro-Sul	    Fractured	      -29.434	      105.480	     Deep water table
+       422	   61014000	                Fraturado Centro-Sul	    Fractured	      -76.649	      406.292	     Deep water table
+       423	   61024000	                Fraturado Centro-Sul	    Fractured	      -68.089	      321.027	     Deep water table
+       424	   61031000	                Fraturado Centro-Sul	    Fractured	      -59.819	      169.857	     Deep water table
+       425	   61045000	                Fraturado Centro-Sul	    Fractured	      -33.841	       83.350	     Deep water table
+       426	   61052000	                Fraturado Centro-Sul	    Fractured	      -31.155	       77.888	     Deep water table
+       427	   61060000	                Fraturado Centro-Sul	    Fractured	      -45.280	      149.739	     Deep water table
+       428	   61075000	                Fraturado Centro-Sul	    Fractured	      -28.777	       71.405	     Deep water table
+       429	   61078000	                Fraturado Centro-Sul	    Fractured	      -28.488	       92.139	     Deep water table
+       430	   61085000	                Fraturado Centro-Sul	    Fractured	      -16.192	      113.571	     Deep water table
+       431	   61090000	                Fraturado Centro-Sul	    Fractured	      -16.173	       82.021	     Deep water table
+       432	   61100000	                Fraturado Centro-Sul	    Fractured	      -16.349	       92.978	     Deep water table
+       433	   61105000	                Fraturado Centro-Sul	    Fractured	      -16.932	       63.997	     Deep water table
+       434	   61107000	                Fraturado Centro-Sul	    Fractured	      -17.000	       72.414	     Deep water table
+       435	   61115000	                Fraturado Centro-Sul	    Fractured	      -16.124	       74.141	     Deep water table
+       436	   61122000	                Fraturado Centro-Sul	    Fractured	      -16.424	       46.207	     Deep water table
+       437	   61135000	                Fraturado Centro-Sul	    Fractured	      -17.932	       69.353	     Deep water table
+       438	   61173000	                Fraturado Centro-Sul	    Fractured	      -32.600	       65.877	     Deep water table
+       439	   61267000	                Fraturado Centro-Sul	    Fractured	      -63.274	      463.912	     Deep water table
+       440	   61271000	                Fraturado Centro-Sul	    Fractured	      -61.261	      329.549	     Deep water table
+       441	   61295000	                Fraturado Centro-Sul	    Fractured	      -65.703	      290.203	     Deep water table
+       442	   61460000	                Fraturado Centro-Sul	    Fractured	      -45.805	      200.821	     Deep water table
+       443	   61473000	                Fraturado Centro-Sul	    Fractured	      -55.330	      258.306	     Deep water table
+       444	   61500000	                Fraturado Centro-Sul	    Fractured	      -46.290	      171.653	     Deep water table
+       445	   61510000	                Fraturado Centro-Sul	    Fractured	      -43.281	      173.900	     Deep water table
+       446	   61520000	                Fraturado Centro-Sul	    Fractured	      -24.464	       68.632	     Deep water table
+       447	   61537000	                Fraturado Centro-Sul	    Fractured	      -38.323	      138.663	     Deep water table
+       448	   61610000	                Fraturado Centro-Sul	    Fractured	      -29.052	       92.491	     Deep water table
+       449	   61700000	                Fraturado Centro-Sul	    Fractured	      -26.319	       88.585	     Deep water table
+       450	   61770000	                          Aquidauana	       Porous	      -27.740	       87.755	     Deep water table
+       451	   61800500	                Fraturado Centro-Sul	    Fractured	      -36.957	      125.462	     Deep water table
+       452	   61815000	                Fraturado Centro-Sul	    Fractured	      -23.421	      127.641	     Deep water table
+       453	   61826000	                Fraturado Centro-Sul	    Fractured	      -29.575	       83.362	     Deep water table
+       454	   61830000	                Fraturado Centro-Sul	    Fractured	      -31.581	       94.862	     Deep water table
+       455	   61861000	                Fraturado Centro-Sul	    Fractured	      -42.197	      144.013	     Deep water table
+       456	   61865000	                Fraturado Centro-Sul	    Fractured	      -34.612	      109.021	     Deep water table
+       457	   61879000	                Fraturado Centro-Sul	    Fractured	      -35.463	      140.992	     Deep water table
+       458	   61886000	                Fraturado Centro-Sul	    Fractured	      -33.482	      111.233	     Deep water table
+       459	   61902000	                Fraturado Centro-Sul	    Fractured	      -30.625	       85.827	     Deep water table
+       460	   61912000	                Fraturado Centro-Sul	    Fractured	      -32.027	       82.668	     Deep water table
+       461	   61915000	                Fraturado Centro-Sul	    Fractured	      -31.157	       76.307	     Deep water table
+       462	   62395000	                Fraturado Centro-Sul	    Fractured	      -30.503	       74.984	     Deep water table
+       463	   62600000	                Fraturado Centro-Sul	    Fractured	      -39.346	      139.565	     Deep water table
+       464	   62615000	                Fraturado Centro-Sul	    Fractured	      -37.590	      127.972	     Deep water table
+       465	   62625000	                Fraturado Centro-Sul	    Fractured	      -35.304	      121.705	     Deep water table
+       466	   62665000	                Fraturado Centro-Sul	    Fractured	      -46.045	      175.983	     Deep water table
+       467	   62670000	                Fraturado Centro-Sul	    Fractured	      -43.976	      132.569	     Deep water table
+       468	   62760130	                             Guarani	       Porous	      -26.660	       60.211	     Deep water table
+       469	   63350100	                         Bauru-Caiuá	       Porous	      -20.216	       53.708	     Deep water table
+       470	   63900001	                         Bauru-Caiuá	       Porous	      -22.736	       54.984	     Deep water table
+       471	   63955000	                         Bauru-Caiuá	       Porous	      -20.567	       46.055	     Deep water table
+       472	   64065000	                             Itararé	       Porous	      -28.157	       63.233	     Deep water table
+       473	   64360000	                             Itararé	       Porous	      -40.416	       95.792	     Deep water table
+       474	   64362000	                             Itararé	       Porous	      -33.747	       78.456	     Deep water table
+       475	   64380000	                             Itararé	       Porous	      -37.829	       87.759	     Deep water table
+       476	   64382000	                             Itararé	       Porous	      -32.138	       71.285	     Deep water table
+       477	   64442800	                          Rio Bonito	       Porous	      -21.021	       44.811	     Deep water table
+       478	   64447000	                             Itararé	       Porous	      -22.759	       52.766	     Deep water table
+       479	   64465000	                             Itararé	       Porous	      -26.195	       61.927	     Deep water table
+       480	   64501000	                             Itararé	       Porous	      -30.965	       73.745	     Deep water table
+       481	   64507000	                             Itararé	       Porous	      -31.920	       74.633	     Deep water table
+       482	   64508500	                         Serra Geral	    Fractured	      -38.092	       91.426	     Deep water table
+       483	   64550000	                         Serra Geral	    Fractured	      -34.540	       75.899	     Deep water table
+       484	   64613000	                         Serra Geral	    Fractured	      -18.361	       36.301	     Deep water table
+       485	   64617000	                         Serra Geral	    Fractured	      -22.225	       38.838	     Deep water table
+       486	   64620000	                          Passa Dois	       Porous	      -28.626	       65.800	     Deep water table
+       487	   64625000	                          Passa Dois	       Porous	      -34.859	       99.965	     Deep water table
+       488	   64645000	                          Passa Dois	       Porous	      -36.619	      106.641	     Deep water table
+       489	   64652000	                          Passa Dois	       Porous	      -40.388	      115.440	     Deep water table
+       490	   64655000	                          Passa Dois	       Porous	      -37.557	      107.993	     Deep water table
+       491	   64659000	                         Serra Geral	    Fractured	      -44.162	       91.385	     Deep water table
+       492	   64673000	                         Serra Geral	    Fractured	      -32.701	       65.520	     Deep water table
+       493	   64675002	                         Serra Geral	    Fractured	      -37.766	       95.737	     Deep water table
+       494	   64682000	                         Bauru-Caiuá	       Porous	      -38.146	       65.038	     Deep water table
+       495	   64685000	                         Serra Geral	    Fractured	      -36.980	       88.766	     Deep water table
+       496	   64693000	                         Serra Geral	    Fractured	      -37.114	       83.227	     Deep water table
+       497	   64715001	                         Serra Geral	    Fractured	      -28.482	       47.464	     Deep water table
+       498	   64771500	                         Serra Geral	    Fractured	      -43.097	       96.393	     Deep water table
+       499	   64773000	                         Serra Geral	    Fractured	      -50.312	      129.696	     Deep water table
+       500	   64775000	                         Serra Geral	    Fractured	      -45.658	      107.348	     Deep water table
+       501	   64785000	                         Serra Geral	    Fractured	      -34.128	       71.872	     Deep water table
+       502	   64795000	                         Serra Geral	    Fractured	      -42.038	       90.450	     Deep water table
+       503	   64799500	                         Serra Geral	    Fractured	      -40.888	       85.968	     Deep water table
+       504	   64810000	                         Bauru-Caiuá	       Porous	      -33.753	       55.470	     Deep water table
+       505	   64815000	                         Bauru-Caiuá	       Porous	      -33.156	       51.744	     Deep water table
+       506	   64820000	                         Serra Geral	    Fractured	      -38.885	       77.021	     Deep water table
+       507	   64830000	                         Serra Geral	    Fractured	      -37.693	       72.785	     Deep water table
+       508	   64843000	                         Bauru-Caiuá	       Porous	      -26.749	       59.844	     Deep water table
+       509	   65010000	                Fraturado Centro-Sul	    Fractured	      -12.894	       93.889	     Deep water table
+       510	   65015400	                Fraturado Centro-Sul	    Fractured	      -13.214	       49.723	     Deep water table
+       511	   65025000	                Fraturado Centro-Sul	    Fractured	      -10.851	       43.957	     Deep water table
+       512	   65027000	                Fraturado Centro-Sul	    Fractured	      -14.144	       36.612	     Deep water table
+       513	   65094500	                             Itararé	       Porous	      -23.487	       74.876	     Deep water table
+       514	   65095000	                             Itararé	       Porous	      -23.420	       75.221	     Deep water table
+       515	   65135000	                Fraturado Centro-Sul	    Fractured	      -18.118	       47.692	     Deep water table
+       516	   65136550	                Fraturado Centro-Sul	    Fractured	      -17.233	       44.707	     Deep water table
+       517	   65220000	                             Itararé	       Porous	      -19.137	       50.292	     Deep water table
+       518	   65310000	                          Passa Dois	       Porous	      -22.944	       56.478	     Deep water table
+       519	   65365000	                         Serra Geral	    Fractured	      -43.962	      107.546	     Deep water table
+       520	   65925000	                         Serra Geral	    Fractured	      -27.155	       63.265	     Deep water table
+       521	   65945000	                         Serra Geral	    Fractured	      -28.042	       65.384	     Deep water table
+       522	   65948000	                         Serra Geral	    Fractured	      -32.199	       75.064	     Deep water table
+       523	   65960000	                         Serra Geral	    Fractured	      -29.632	       72.702	     Deep water table
+       524	   65979000	                         Serra Geral	    Fractured	      -40.548	       88.161	     Deep water table
+       525	   66260001	                Fraturado Centro-Sul	    Fractured	      -27.191	       61.163	     Deep water table
+       526	   67100000	                            Pantanal	       Porous	      -19.214	       32.822	     Deep water table
+       527	   70100000	                         Serra Geral	    Fractured	      -51.687	      236.811	     Deep water table
+       528	   70200000	                         Serra Geral	    Fractured	      -49.883	      179.974	     Deep water table
+       529	   70300000	                         Serra Geral	    Fractured	      -49.935	      153.272	     Deep water table
+       530	   70500000	                         Serra Geral	    Fractured	      -29.842	       89.071	     Deep water table
+       531	   71200000	                          Passa Dois	       Porous	      -69.108	      262.813	     Deep water table
+       532	   71250000	                          Passa Dois	       Porous	      -72.344	      227.424	     Deep water table
+       533	   71300000	                          Passa Dois	       Porous	      -61.830	      213.093	     Deep water table
+       534	   71383000	                          Passa Dois	       Porous	      -41.299	      129.504	     Deep water table
+       535	   71498000	                         Serra Geral	    Fractured	      -35.320	       87.315	     Deep water table
+       536	   71550000	                         Serra Geral	    Fractured	      -38.035	      105.650	     Deep water table
+       537	   72430000	                         Serra Geral	    Fractured	      -22.341	       59.759	     Deep water table
+       538	   72630000	                         Serra Geral	    Fractured	      -23.459	       71.863	     Deep water table
+       539	   72680000	                         Serra Geral	    Fractured	      -26.419	       77.063	     Deep water table
+       540	   72715000	                         Serra Geral	    Fractured	      -35.111	       84.334	     Deep water table
+       541	   72810000	                         Serra Geral	    Fractured	      -40.500	       94.709	     Deep water table
+       542	   72870000	                         Serra Geral	    Fractured	      -33.841	       91.630	     Deep water table
+       543	   73300000	                         Serra Geral	    Fractured	      -43.164	      119.886	     Deep water table
+       544	   73330000	                         Serra Geral	    Fractured	      -49.468	      143.588	     Deep water table
+       545	   73350000	                         Serra Geral	    Fractured	      -48.614	      151.929	     Deep water table
+       546	   73600000	                         Serra Geral	    Fractured	      -29.211	       75.027	     Deep water table
+       547	   73690001	                         Serra Geral	    Fractured	      -37.015	       84.855	     Deep water table
+       548	   73765000	                         Serra Geral	    Fractured	      -46.648	      117.144	     Deep water table
+       549	   73770000	                         Serra Geral	    Fractured	      -32.996	       88.474	     Deep water table
+       550	   73780000	                         Serra Geral	    Fractured	      -45.478	      110.341	     Deep water table
+       551	   73820000	                         Serra Geral	    Fractured	      -45.214	      105.930	     Deep water table
+       552	   73900000	                         Serra Geral	    Fractured	      -31.987	       99.081	     Deep water table
+       553	   73960000	                         Serra Geral	    Fractured	      -35.162	       93.916	     Deep water table
+       554	   74100000	                         Serra Geral	    Fractured	      -36.440	      102.673	     Deep water table
+       555	   74205000	                         Serra Geral	    Fractured	      -20.683	       64.590	     Deep water table
+       556	   74270000	                         Serra Geral	    Fractured	      -22.840	       61.285	     Deep water table
+       557	   74295000	                         Serra Geral	    Fractured	      -30.406	      106.029	     Deep water table
+       558	   74320000	                         Serra Geral	    Fractured	      -43.918	      143.495	     Deep water table
+       559	   74370000	                         Serra Geral	    Fractured	      -23.228	       59.211	     Deep water table
+       560	   74460000	                         Serra Geral	    Fractured	      -17.442	       41.823	     Deep water table
+       561	   74470000	                         Serra Geral	    Fractured	      -20.910	       57.126	     Deep water table
+       562	   74700000	                         Serra Geral	    Fractured	      -18.349	       51.101	     Deep water table
+       563	   74750000	                         Serra Geral	    Fractured	      -16.459	       48.867	     Deep water table
+       564	   74800000	                         Serra Geral	    Fractured	      -33.538	       94.436	     Deep water table
+       565	   74880000	                         Serra Geral	    Fractured	      -19.557	       46.445	     Deep water table
+       566	   74900000	                         Serra Geral	    Fractured	      -18.459	       48.170	     Deep water table
+       567	   75550000	                         Serra Geral	    Fractured	      -30.507	       84.741	     Deep water table
+       568	   76310000	                             Guarani	       Porous	       -8.499	       23.449	     Deep water table
+       569	   77150000	                         Serra Geral	    Fractured	      -22.574	       62.395	     Deep water table
+       570	   81125000	                Fraturado Centro-Sul	    Fractured	      -32.836	       91.423	     Deep water table
+       571	   81140000	                Fraturado Centro-Sul	    Fractured	      -50.335	      171.436	     Deep water table
+       572	   81200000	                Fraturado Centro-Sul	    Fractured	      -44.976	      127.294	     Deep water table
+       573	   82009080	                Fraturado Centro-Sul	    Fractured	      -41.627	       98.587	     Deep water table
+       574	   82170000	                Fraturado Centro-Sul	    Fractured	      -40.001	      265.314	     Deep water table
+       575	   82320000	                             Itararé	       Porous	      -48.274	      258.818	     Deep water table
+       576	   82350000	                Fraturado Centro-Sul	    Fractured	      -47.579	      267.756	     Deep water table
+       577	   82770000	                Fraturado Centro-Sul	    Fractured	      -28.187	       88.600	     Deep water table
+       578	   83050000	                          Passa Dois	       Porous	      -52.376	      145.041	     Deep water table
+       579	   83105000	                          Rio Bonito	       Porous	      -80.540	      236.332	     Deep water table
+       580	   83250000	                          Rio Bonito	       Porous	      -63.244	      176.829	     Deep water table
+       581	   83300200	                          Rio Bonito	       Porous	      -53.594	      147.155	     Deep water table
+       582	   83345000	                          Rio Bonito	       Porous	      -44.523	      128.803	     Deep water table
+       583	   83440000	                             Itararé	       Porous	      -54.737	      157.126	     Deep water table
+       584	   83660000	                             Itararé	       Porous	      -50.645	      189.019	     Deep water table
+       585	   83675000	                             Itararé	       Porous	      -43.522	      199.724	     Deep water table
+       586	   83690000	                          Rio Bonito	       Porous	      -55.233	      154.341	     Deep water table
+       587	   83800002	                          Rio Bonito	       Porous	      -53.923	      156.397	     Deep water table
+       588	   83880000	                Fraturado Centro-Sul	    Fractured	      -48.182	      120.020	     Deep water table
+       589	   84071000	                Fraturado Centro-Sul	    Fractured	      -65.498	      201.616	     Deep water table
+       590	   84095000	                Fraturado Centro-Sul	    Fractured	      -69.032	      203.382	     Deep water table
+       591	   84100000	                Fraturado Centro-Sul	    Fractured	      -64.352	      269.702	     Deep water table
+       592	   84520000	                Fraturado Centro-Sul	    Fractured	      -67.811	      246.613	     Deep water table
+       593	   84551000	                Fraturado Centro-Sul	       Porous	      -56.289	      161.486	     Deep water table
+       594	   84580000	                Fraturado Centro-Sul	       Porous	      -59.927	      174.588	     Deep water table
+       595	   84600000	                Fraturado Centro-Sul	    Fractured	      -55.717	      207.859	     Deep water table
+       596	   84853000	                          Passa Dois	       Porous	      -77.376	      214.461	     Deep water table
+       597	   85400000	                         Serra Geral	    Fractured	      -24.666	       59.908	     Deep water table
+       598	   85438000	                             Guarani	       Porous	      -29.587	      105.183	     Deep water table
+       599	   85480000	                Fraturado Centro-Sul	       Porous	      -13.443	       46.405	     Deep water table
+       600	   85900000	                         Serra Geral	    Fractured	      -22.824	       61.081	     Deep water table
+       601	   86100000	                         Serra Geral	    Fractured	      -46.712	      158.669	     Deep water table
+       602	   86160000	                         Serra Geral	    Fractured	      -24.797	       92.691	     Deep water table
+       603	   86410000	                         Serra Geral	    Fractured	      -25.422	       62.914	     Deep water table
+       604	   86420000	                         Serra Geral	    Fractured	      -22.684	       51.712	     Deep water table
+       605	   86480000	                         Serra Geral	    Fractured	      -34.497	       94.879	     Deep water table
+       606	   86500000	                         Serra Geral	    Fractured	      -36.302	       97.816	     Deep water table
+       607	   86510000	                         Serra Geral	    Fractured	      -41.584	      119.620	     Deep water table
+       608	   86560000	                         Serra Geral	    Fractured	      -39.158	      104.829	     Deep water table
+       609	   86580000	                         Serra Geral	    Fractured	      -43.350	      120.211	     Deep water table
+       610	   86700000	                         Serra Geral	    Fractured	      -60.210	      153.040	     Deep water table
+       611	   86745000	                         Serra Geral	    Fractured	      -47.714	      153.647	     Deep water table
+       612	   87170000	                         Serra Geral	    Fractured	      -51.215	      170.925	     Deep water table
+       613	   87380000	                         Serra Geral	    Fractured	      -56.785	      184.879	     Deep water table
+       614	   87382000	                         Serra Geral	    Fractured	      -54.152	      176.077	     Deep water table
+       615	   87450100	                Fraturado Centro-Sul	    Fractured	      -22.766	       70.144	     Deep water table
+       616	   88575000	                Fraturado Centro-Sul	    Fractured	      -19.573	       68.043	     Deep water table
+       617	   88750000	                Fraturado Centro-Sul	    Fractured	      -27.863	       77.265	     Deep water table
+       618	   88850000	                Fraturado Centro-Sul	    Fractured	      -21.368	       66.820	     Deep water table
+       619	   12400000	                    Serra do Divisor	       Porous	      -16.012	       33.348	     Deep water table
+       620	   20200000	                Fraturado Centro-Sul	    Fractured	      -25.344	       62.610	     Deep water table
+       621	   21300000	                      Urucuia-Areado	       Porous	      -35.380	       65.565	     Deep water table
+       622	   21560000	                Fraturado Centro-Sul	    Fractured	      -19.786	       72.232	     Deep water table
+       623	   22050001	                Fraturado Centro-Sul	    Fractured	      -27.587	       84.915	     Deep water table
+       624	   22500000	                Fraturado Centro-Sul	    Fractured	      -24.848	       73.268	     Deep water table
+       625	   25100000	                Fraturado Centro-Sul	    Fractured	      -37.627	      143.911	     Deep water table
+       626	   26040000	                         Bauru-Caiuá	       Porous	      -25.048	       41.170	     Deep water table
+       627	   31490000	                           Barreiras	       Porous	       -8.392	       20.450	     Deep water table
+       628	   31520000	                           Barreiras	       Porous	       -8.075	       20.444	     Deep water table
+       629	   31600000	                           Barreiras	       Porous	       -6.233	       20.717	     Deep water table
+       630	   32400000	                     Fraturado Norte	    Fractured	       -8.361	       18.750	     Deep water table
+       631	   33075000	                           Itapecuru	       Porous	      -47.323	       64.914	     Deep water table
+       632	   34660000	                          Poti-Piauí	       Porous	      -39.503	       60.917	     Deep water table
+       633	   40040000	                Fraturado Centro-Sul	    Fractured	      -28.632	       51.889	     Deep water table
+       634	   40053000	                     Bambuí Cárstico	      Carstic	      -25.607	       71.741	     Deep water table
+       635	   40060001	                Fraturado Centro-Sul	    Fractured	      -35.253	      122.772	     Deep water table
+       636	   40150000	                Fraturado Centro-Sul	    Fractured	      -27.504	       84.093	     Deep water table
+       637	   40170000	                Fraturado Centro-Sul	    Fractured	      -26.418	       52.139	     Deep water table
+       638	   40185000	                Fraturado Centro-Sul	    Fractured	      -25.807	       59.872	     Deep water table
+       639	   40269900	                Fraturado Centro-Sul	    Fractured	      -30.911	       92.926	     Deep water table
+       640	   40300001	                Fraturado Centro-Sul	    Fractured	      -33.803	       84.172	     Deep water table
+       641	   40330000	                Fraturado Centro-Sul	    Fractured	      -28.436	       71.738	     Deep water table
+       642	   40500000	                Fraturado Centro-Sul	    Fractured	      -27.039	       53.552	     Deep water table
+       643	   40530000	                Fraturado Centro-Sul	    Fractured	      -18.423	       48.165	     Deep water table
+       644	   40680000	                Fraturado Centro-Sul	    Fractured	      -16.214	       52.858	     Deep water table
+       645	   40740000	                Fraturado Centro-Sul	    Fractured	      -24.159	       90.601	     Deep water table
+       646	   40800001	                Fraturado Centro-Sul	    Fractured	      -25.087	       89.342	     Deep water table
+       647	   40810350	                Fraturado Centro-Sul	    Fractured	      -53.676	      125.631	     Deep water table
+       648	   40810800	                Fraturado Centro-Sul	    Fractured	      -31.478	      107.480	     Deep water table
+       649	   40811100	                Fraturado Centro-Sul	    Fractured	      -27.905	      103.392	     Deep water table
+       650	   40823500	                Fraturado Centro-Sul	    Fractured	      -37.580	       80.703	     Deep water table
+       651	   40850000	                Fraturado Centro-Sul	    Fractured	      -26.101	       80.513	     Deep water table
+       652	   40930000	                Fraturado Centro-Sul	    Fractured	      -27.092	       93.137	     Deep water table
+       653	   40975000	                Fraturado Centro-Sul	    Fractured	      -26.548	       77.822	     Deep water table
+       654	   41050000	                Fraturado Centro-Sul	    Fractured	      -27.451	       69.111	     Deep water table
+       655	   41135000	                Fraturado Centro-Sul	    Fractured	      -26.406	       67.100	     Deep water table
+       656	   41199998	                Fraturado Centro-Sul	    Fractured	      -38.051	      153.787	     Deep water table
+       657	   41260000	                Fraturado Centro-Sul	    Fractured	      -34.807	      123.698	     Deep water table
+       658	   41380000	                Fraturado Centro-Sul	    Fractured	      -24.825	      126.673	     Deep water table
+       659	   41410000	                Fraturado Centro-Sul	    Fractured	      -30.464	      110.594	     Deep water table
+       660	   41440005	                Fraturado Centro-Sul	    Fractured	      -22.176	       61.758	     Deep water table
+       661	   41685000	                Fraturado Centro-Sul	    Fractured	      -16.625	       41.881	     Deep water table
+       662	   41780002	                Fraturado Centro-Sul	    Fractured	      -35.355	      166.581	     Deep water table
+       663	   41890000	                Fraturado Centro-Sul	    Fractured	      -35.553	      168.883	     Deep water table
+       664	   42187000	                     Bambuí Cárstico	      Carstic	      -35.326	       70.427	     Deep water table
+       665	   42250000	                Fraturado Centro-Sul	    Fractured	      -29.502	       89.149	     Deep water table
+       666	   42257000	                Fraturado Centro-Sul	    Fractured	      -25.537	       69.834	     Deep water table
+       667	   42365000	                      Urucuia-Areado	       Porous	      -33.335	       65.620	     Deep water table
+       668	   42435000	                Fraturado Centro-Sul	    Fractured	      -22.300	       52.865	     Deep water table
+       669	   42460000	                Fraturado Centro-Sul	    Fractured	      -29.445	       62.902	     Deep water table
+       670	   42490000	                Fraturado Centro-Sul	    Fractured	      -28.172	       64.850	     Deep water table
+       671	   42546000	                Fraturado Centro-Sul	    Fractured	      -22.651	       79.906	     Deep water table
+       672	   42840000	                Fraturado Centro-Sul	    Fractured	      -37.219	       59.430	     Deep water table
+       673	   42860000	                      Urucuia-Areado	       Porous	      -33.567	       53.843	     Deep water table
+       674	   45170001	                      Urucuia-Areado	       Porous	      -29.607	       57.348	     Deep water table
+       675	   45590000	                      Urucuia-Areado	       Porous	      -18.901	       40.948	     Deep water table
+       676	   45740001	                      Urucuia-Areado	       Porous	      -20.512	       33.646	     Deep water table
+       677	   45770000	                      Urucuia-Areado	       Porous	      -19.124	       41.770	     Deep water table
+       678	   45880000	                      Urucuia-Areado	       Porous	      -27.130	       41.102	     Deep water table
+       679	   46415000	                      Urucuia-Areado	       Porous	      -17.049	       26.581	     Deep water table
+       680	   46455000	                      Urucuia-Areado	       Porous	      -13.718	       28.391	     Deep water table
+       681	   46490000	                      Urucuia-Areado	       Porous	      -28.166	       35.356	     Deep water table
+       682	   46543000	                      Urucuia-Areado	       Porous	      -16.064	       42.176	     Deep water table
+       683	   46570000	                      Urucuia-Areado	       Porous	       -7.043	       18.088	     Deep water table
+       684	   46590000	                      Urucuia-Areado	       Porous	      -19.113	       46.941	     Deep water table
+       685	   46770000	                      Urucuia-Areado	       Porous	      -16.873	       62.626	     Deep water table
+       686	   46998000	                Fraturado Centro-Sul	    Fractured	      -27.723	       61.837	     Deep water table
+       687	   47249000	                 Fraturado Semiárido	    Fractured	      -51.229	      126.697	     Deep water table
+       688	   48850000	                 Fraturado Semiárido	    Fractured	      -34.336	       57.688	     Deep water table
+       689	   53790000	                 Fraturado Semiárido	    Fractured	      -50.918	       90.014	     Deep water table
+       690	   58442000	                Fraturado Centro-Sul	    Fractured	      -62.639	      244.540	     Deep water table
+       691	   58826000	                Fraturado Centro-Sul	    Fractured	      -66.928	      203.862	     Deep water table
+       692	   58846000	                Fraturado Centro-Sul	    Fractured	      -66.250	      189.819	     Deep water table
+       693	   58857000	                Fraturado Centro-Sul	    Fractured	      -56.640	      170.549	     Deep water table
+       694	   58880001	                Fraturado Centro-Sul	    Fractured	      -42.493	      137.283	     Deep water table
+       695	   60030000	                Fraturado Centro-Sul	    Fractured	      -24.759	       60.568	     Deep water table
+       696	   60435100	                Fraturado Centro-Sul	    Fractured	      -22.426	      111.894	     Deep water table
+       697	   60477400	                Fraturado Centro-Sul	    Fractured	      -33.188	      138.992	     Deep water table
+       698	   60477600	                Fraturado Centro-Sul	    Fractured	      -26.551	       53.045	     Deep water table
+       699	   60478500	                Fraturado Centro-Sul	    Fractured	      -28.409	       71.642	     Deep water table
+       700	   60478600	                Fraturado Centro-Sul	    Fractured	      -32.139	      161.718	     Deep water table
+       701	   60500000	                Fraturado Centro-Sul	    Fractured	      -27.585	       75.652	     Deep water table
+       702	   60540000	                Fraturado Centro-Sul	    Fractured	      -30.350	       67.511	     Deep water table
+       703	   61175000	                Fraturado Centro-Sul	    Fractured	      -28.541	       66.219	     Deep water table
+       704	   61565000	                Fraturado Centro-Sul	    Fractured	      -28.350	      145.177	     Deep water table
+       705	   61795000	                         Bauru-Caiuá	       Porous	      -23.773	       54.710	     Deep water table
+       706	   61910000	                Fraturado Centro-Sul	    Fractured	      -32.047	       84.896	     Deep water table
+       707	   61956001	                         Bauru-Caiuá	       Porous	      -23.584	       45.746	     Deep water table
+       708	   62095100	                Fraturado Centro-Sul	    Fractured	      -52.842	      116.124	     Deep water table
+       709	   62110000	                Fraturado Centro-Sul	    Fractured	      -29.861	       74.124	     Deep water table
+       710	   62496001	                             Itararé	       Porous	      -27.344	       60.151	     Deep water table
+       711	   62676000	                Fraturado Centro-Sul	    Fractured	      -38.274	      112.806	     Deep water table
+       712	   62772500	                         Serra Geral	       Porous	      -33.090	       73.923	     Deep water table
+       713	   63160000	                         Bauru-Caiuá	       Porous	      -36.212	       54.359	     Deep water table
+       714	   64346000	                         Bauru-Caiuá	       Porous	      -29.307	       50.010	     Deep water table
+       715	   64370000	                             Itararé	       Porous	      -33.367	       76.681	     Deep water table
+       716	   64491000	                             Itararé	       Porous	      -28.744	       65.942	     Deep water table
+       717	   65019700	                         Guabirotuba	       Porous	      -12.475	       48.693	     Deep water table
+       718	   65415000	                         Serra Geral	    Fractured	      -48.131	      121.129	     Deep water table
+       719	   65855000	                         Serra Geral	    Fractured	      -33.621	       82.502	     Deep water table
+       720	   66006000	                             Parecis	       Porous	      -15.617	       43.017	     Deep water table
+       721	   66008000	                       Alto Paraguai	       Porous	      -37.581	      109.300	     Deep water table
+       722	   66160000	                       Alto Paraguai	       Porous	      -21.383	       60.827	     Deep water table
+       723	   75155000	                         Serra Geral	    Fractured	      -18.870	       41.751	     Deep water table
+       724	   75205000	                         Serra Geral	    Fractured	      -16.922	       37.438	     Deep water table
+       725	   75450000	                         Serra Geral	    Fractured	      -15.525	       40.507	     Deep water table
+       726	   76100000	                         Serra Geral	    Fractured	      -24.575	       63.852	     Deep water table
+       727	   76300000	                             Guarani	       Porous	       -8.593	       19.766	     Deep water table
+       728	   76440000	                         Serra Geral	    Fractured	      -22.222	       53.782	     Deep water table
+       729	   76460000	                         Serra Geral	    Fractured	      -23.183	       51.949	     Deep water table
+       730	   81380000	                Fraturado Centro-Sul	    Fractured	      -50.025	      159.173	     Deep water table
+       731	   81683000	                Fraturado Centro-Sul	    Fractured	      -47.115	      152.779	     Deep water table
+       732	   84950000	                          Passa Dois	       Porous	      -55.987	      152.019	     Deep water table
+       733	   87160000	                         Serra Geral	    Fractured	      -47.764	      154.480	     Deep water table
+       734	   87399000	                            Lit. Sul	       Porous	      -10.974	       30.750	     Deep water table
+       735	   87400000	                            Lit. Sul	       Porous	      -13.526	       37.651	     Deep water table

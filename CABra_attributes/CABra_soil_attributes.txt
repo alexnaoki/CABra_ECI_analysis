@@ -1,0 +1,745 @@
+CABra dataset - Soil attributes
+ 
+soil_type is the most common taxonomy of soil.
+soil_textclass is the textural class of soil based on the USDA textural classification.
+soil_sand, soil_silt and soil_clay are the fraction of sand, silt and clay in the soil, respectively.
+soil_carbon is the fraction of organic carbon in the soil.
+soil_bulk and soil_depth are the bulk density and depth to the bedrock, respectively.
+ 
+  CABra ID	     ANA ID	       soil_type	  soil_textclass	  soil_sand	  soil_silt	  soil_clay	soil_carbon	  soil_bulk	 soil_depth
+          	           	                	                	          %	          %	          %	          ‰	     g cm¯³	          m
+         1	   13880000	        Acrisols	            Loam	     16.099	     24.310	     41.247	     34.439	     25.456	      1.335
+         2	   14110000	      Ferralsols	 Sandy clay loam	     34.458	     20.575	     57.493	     21.926	     17.609	      1.256
+         3	   14230000	      Ferralsols	      Sandy loam	     30.098	     15.378	     61.365	     23.241	     20.530	      1.219
+         4	   14250000	      Ferralsols	      Sandy loam	     34.490	     18.457	     58.808	     22.725	     18.612	      1.235
+         5	   14260000	      Ferralsols	      Sandy loam	     34.200	     19.372	     58.559	     22.066	     20.859	      1.248
+         6	   14280001	      Ferralsols	      Sandy loam	     35.076	     18.982	     58.748	     22.265	     21.090	      1.239
+         7	   14300000	      Ferralsols	      Sandy loam	     35.957	     17.682	     59.973	     22.351	     20.609	      1.205
+         8	   14330000	      Ferralsols	      Sandy loam	     34.952	     18.273	     58.797	     22.922	     19.571	      1.229
+         9	   14420000	      Ferralsols	      Sandy loam	     35.203	     18.495	     57.770	     23.727	     19.660	      1.224
+        10	   14495000	      Ferralsols	       Clay loam	     40.831	     32.486	     44.319	     23.197	     19.788	      1.267
+        11	   14515000	        Acrisols	 Sandy clay loam	     47.659	     30.222	     46.694	     23.086	     23.638	      1.298
+        12	   14550000	        Acrisols	 Sandy clay loam	    103.842	     27.832	     45.503	     26.666	     25.117	      1.306
+        13	   14680001	        Acrisols	 Sandy clay loam	     28.553	     32.887	     45.130	     22.004	     20.874	      1.296
+        14	   14710000	        Acrisols	 Sandy clay loam	     53.730	     27.534	     50.322	     22.145	     27.538	      1.342
+        15	   15030000	        Acrisols	            Loam	     43.348	     24.239	     46.473	     29.287	     21.519	      1.237
+        16	   15050000	      Ferralsols	 Sandy clay loam	     15.812	     21.409	     62.221	     16.362	     24.848	      1.365
+        17	   15120001	      Ferralsols	 Sandy clay loam	     13.304	     20.203	     62.281	     17.507	     22.580	      1.390
+        18	   15250000	      Ferralsols	 Sandy clay loam	     23.574	     23.456	     52.434	     24.106	     24.606	      1.338
+        19	   15320002	      Ferralsols	 Sandy clay loam	     31.795	     24.231	     49.680	     26.086	     24.674	      1.310
+        20	   15430000	        Acrisols	 Sandy clay loam	     17.100	     26.491	     52.491	     21.041	     18.141	      1.339
+        21	   15431000	        Acrisols	 Sandy clay loam	     18.670	     27.400	     52.860	     19.780	     21.492	      1.336
+        22	   15432000	        Acrisols	 Sandy clay loam	     20.093	     28.668	     52.092	     19.264	     20.157	      1.325
+        23	   15550000	        Acrisols	 Sandy clay loam	     18.745	     30.403	     47.469	     22.133	     23.728	      1.342
+        24	   15558000	        Acrisols	 Sandy clay loam	     17.722	     20.030	     62.965	     16.996	     23.606	      1.355
+        25	   15560000	        Acrisols	 Sandy clay loam	     17.630	     21.188	     61.051	     17.757	     23.375	      1.353
+        26	   15580000	        Acrisols	 Sandy clay loam	     17.391	     24.082	     57.056	     18.869	     22.662	      1.346
+        27	   15630000	      Ferralsols	 Sandy clay loam	     29.663	     24.602	     49.800	     25.595	     24.673	      1.316
+        28	   15700000	      Ferralsols	 Sandy clay loam	     28.998	     24.645	     49.404	     25.949	     24.694	      1.316
+        29	   15750000	        Acrisols	 Sandy clay loam	     18.379	     23.182	     57.661	     19.157	     18.268	      1.337
+        30	   15800000	        Acrisols	 Sandy clay loam	     15.690	     26.573	     51.106	     22.318	     18.767	      1.329
+        31	   15830000	        Acrisols	 Sandy clay loam	     15.529	     25.658	     52.799	     21.542	     18.836	      1.330
+        32	   15910000	        Acrisols	 Sandy clay loam	     13.747	     29.297	     47.400	     23.304	     22.802	      1.315
+        33	   16700000	      Ferralsols	       Clay loam	     19.017	     34.438	     44.044	     21.507	     31.427	      1.277
+        34	   17050001	        Acrisols	 Sandy clay loam	     35.910	     25.069	     47.177	     27.752	     22.450	      1.266
+        35	   17090000	        Acrisols	 Sandy clay loam	      4.642	     32.535	     45.207	     22.223	     28.214	      1.312
+        36	   17093000	      Ferralsols	 Sandy clay loam	     22.275	     22.214	     66.490	     11.278	     28.937	      1.353
+        37	   17120000	      Ferralsols	 Sandy clay loam	     22.398	     22.384	     66.571	     11.017	     30.606	      1.349
+        38	   17200000	      Ferralsols	 Sandy clay loam	     17.189	     21.093	     64.582	     14.305	     27.146	      1.376
+        39	   17280000	      Ferralsols	 Sandy clay loam	     22.827	     26.857	     60.879	     12.251	     34.845	      1.345
+        40	   17340000	      Ferralsols	 Sandy clay loam	     22.769	     24.729	     62.516	     12.741	     32.811	      1.342
+        41	   17345000	       Arenosols	 Sandy clay loam	     21.154	     23.926	     60.925	     15.147	     25.203	      1.297
+        42	   17350000	        Acrisols	 Sandy clay loam	     22.321	     24.259	     57.575	     18.170	     17.323	      1.313
+        43	   17730000	      Ferralsols	 Sandy clay loam	     20.397	     25.289	     57.227	     17.475	     24.932	      1.330
+        44	   18200000	      Ferralsols	       Clay loam	      6.090	     32.837	     44.581	     22.557	     29.581	      1.315
+        45	   18250000	      Ferralsols	       Clay loam	      3.364	     37.472	     43.203	     19.313	     33.934	      1.328
+        46	   18280000	      Ferralsols	       Clay loam	      8.137	     34.084	     44.614	     21.276	     32.166	      1.298
+        47	   18420000	      Ferralsols	 Sandy clay loam	     22.297	     22.035	     68.021	      9.892	     28.986	      1.352
+        48	   18460000	      Ferralsols	 Sandy clay loam	     24.432	     22.893	     62.596	     14.496	     30.527	      1.335
+        49	   18650000	        Acrisols	 Sandy clay loam	     14.035	     26.962	     49.533	     23.502	     21.887	      1.328
+        50	   18850000	      Ferralsols	 Sandy clay loam	     18.472	     25.848	     55.318	     18.823	     26.568	      1.332
+        51	   19100000	      Ferralsols	       Clay loam	     11.124	     33.465	     43.204	     23.310	     31.749	      1.292
+        52	   19150000	      Ferralsols	       Clay loam	      9.827	     33.195	     44.191	     22.586	     34.249	      1.298
+        53	   20050000	      Ferralsols	 Sandy clay loam	      5.892	     32.344	     46.605	     21.039	     30.599	      1.360
+        54	   20250000	      Ferralsols	 Sandy clay loam	      7.661	     31.512	     49.721	     18.765	     30.823	      1.342
+        55	   21500000	      Ferralsols	 Sandy clay loam	     12.161	     28.480	     47.840	     23.678	     30.585	      1.387
+        56	   21850000	      Ferralsols	 Sandy clay loam	     12.973	     25.846	     52.523	     21.633	     28.382	      1.386
+        57	   22680000	      Ferralsols	      Sandy loam	     12.585	     19.305	     66.682	     13.989	     34.134	      1.435
+        58	   22700000	      Ferralsols	      Sandy loam	     12.658	     19.247	     66.679	     14.050	     33.609	      1.434
+        59	   22900000	      Ferralsols	      Sandy loam	     14.095	     19.755	     65.296	     14.929	     29.412	      1.413
+        60	   23100000	      Ferralsols	 Sandy clay loam	     13.909	     23.992	     57.776	     18.226	     26.848	      1.385
+        61	   23250000	      Ferralsols	 Sandy clay loam	     16.613	     21.602	     61.304	     17.085	     21.759	      1.389
+        62	   23300000	      Ferralsols	 Sandy clay loam	     14.135	     23.555	     58.276	     18.163	     26.496	      1.387
+        63	   23600000	      Ferralsols	 Sandy clay loam	     14.267	     23.594	     58.275	     18.125	     26.541	      1.387
+        64	   23700000	      Ferralsols	 Sandy clay loam	     14.133	     23.592	     58.268	     18.134	     26.558	      1.387
+        65	   24050000	      Ferralsols	 Sandy clay loam	      8.762	     25.738	     61.278	     12.960	     29.336	      1.373
+        66	   24200000	      Ferralsols	 Sandy clay loam	      9.100	     22.804	     63.011	     14.170	     28.893	      1.385
+        67	   24500000	      Ferralsols	 Sandy clay loam	     17.671	     22.777	     62.948	     14.257	     27.075	      1.380
+        68	   24700000	      Ferralsols	 Sandy clay loam	     12.155	     22.021	     63.868	     14.093	     28.231	      1.384
+        69	   24750000	      Ferralsols	 Sandy clay loam	      8.122	     24.398	     60.201	     15.394	     28.841	      1.378
+        70	   24780000	      Ferralsols	 Sandy clay loam	     10.275	     24.159	     60.695	     15.137	     29.784	      1.376
+        71	   24800000	      Ferralsols	 Sandy clay loam	     10.016	     23.775	     60.860	     15.355	     29.635	      1.376
+        72	   24850000	      Ferralsols	 Sandy clay loam	     11.656	     22.394	     63.217	     14.371	     28.681	      1.383
+        73	   24900000	      Ferralsols	 Sandy clay loam	      5.623	     22.641	     62.356	     14.993	     28.208	      1.386
+        74	   24950000	      Ferralsols	 Sandy clay loam	     10.431	     24.612	     58.605	     16.792	     30.086	      1.363
+        75	   25130000	      Ferralsols	 Sandy clay loam	     13.199	     24.181	     58.784	     17.040	     28.802	      1.356
+        76	   25200000	      Ferralsols	 Sandy clay loam	     12.519	     22.978	     62.251	     14.758	     30.133	      1.378
+        77	   25700000	      Ferralsols	 Sandy clay loam	     13.345	     22.811	     62.565	     14.608	     30.804	      1.378
+        78	   25950000	      Ferralsols	 Sandy clay loam	     13.292	     22.568	     62.997	     14.416	     30.394	      1.379
+        79	   26050000	      Ferralsols	 Sandy clay loam	     18.923	     28.049	     59.858	     12.073	     34.364	      1.347
+        80	   26100000	      Ferralsols	 Sandy clay loam	     18.053	     26.326	     61.068	     12.587	     32.625	      1.354
+        81	   26300000	      Ferralsols	 Sandy clay loam	     20.784	     23.735	     63.004	     13.242	     33.718	      1.366
+        82	   26350000	      Ferralsols	 Sandy clay loam	     23.891	     23.643	     62.225	     14.115	     36.021	      1.358
+        83	   27500000	      Ferralsols	 Sandy clay loam	     19.772	     22.496	     61.626	     15.864	     32.426	      1.365
+        84	   28150000	      Ferralsols	 Sandy clay loam	     16.741	     23.609	     57.373	     19.025	     24.035	      1.368
+        85	   28300000	      Ferralsols	 Sandy clay loam	     19.489	     22.699	     60.866	     16.424	     31.611	      1.366
+        86	   28850000	      Ferralsols	 Sandy clay loam	     19.393	     22.759	     60.721	     16.509	     31.464	      1.366
+        87	   29050000	      Ferralsols	 Sandy clay loam	     17.012	     23.181	     59.489	     17.322	     29.422	      1.375
+        88	   29100000	        Acrisols	 Sandy clay loam	     16.226	     30.302	     46.201	     23.496	     26.179	      1.338
+        89	   29700000	      Ferralsols	 Sandy clay loam	     16.904	     23.750	     58.451	     17.791	     29.442	      1.372
+        90	   30300000	      Ferralsols	       Clay loam	     18.429	     32.211	     44.931	     22.834	     34.913	      1.299
+        91	   30400000	      Ferralsols	       Clay loam	     17.895	     31.736	     44.983	     23.257	     35.529	      1.301
+        92	   31700000	      Ferralsols	 Sandy clay loam	      9.425	     30.883	     49.177	     19.935	     41.525	      1.338
+        93	   32450002	      Ferralsols	 Sandy clay loam	      3.221	     26.307	     52.132	     21.580	     54.192	      1.338
+        94	   32620000	      Ferralsols	 Sandy clay loam	      7.301	     30.452	     49.481	     20.072	     43.900	      1.343
+        95	   32740000	      Ferralsols	 Sandy clay loam	      6.010	     29.544	     48.071	     22.364	     44.618	      1.360
+        96	   32830000	        Acrisols	 Sandy clay loam	      4.397	     28.944	     48.550	     22.509	     43.520	      1.341
+        97	   33025000	      Ferralsols	 Sandy clay loam	     10.453	     28.131	     55.718	     16.151	     42.324	      1.370
+        98	   33170000	      Ferralsols	 Sandy clay loam	     12.306	     30.781	     50.947	     18.271	     41.577	      1.347
+        99	   33190000	      Ferralsols	 Sandy clay loam	     11.064	     30.867	     50.416	     18.715	     43.237	      1.352
+       100	   33205000	      Ferralsols	 Sandy clay loam	      7.747	     21.093	     63.589	     15.313	     33.883	      1.406
+       101	   33250000	      Ferralsols	 Sandy clay loam	      8.141	     20.108	     64.802	     15.082	     31.876	      1.405
+       102	   33260000	      Ferralsols	 Sandy clay loam	      8.285	     20.618	     63.782	     15.594	     31.831	      1.403
+       103	   33270000	      Ferralsols	      Sandy loam	      7.349	     19.038	     65.088	     15.856	     24.825	      1.392
+       104	   33281000	      Ferralsols	 Sandy clay loam	      8.612	     20.964	     61.880	     17.153	     31.895	      1.397
+       105	   33290000	      Ferralsols	 Sandy clay loam	      8.923	     20.867	     61.435	     17.697	     32.055	      1.397
+       106	   33321000	      Ferralsols	 Sandy clay loam	      6.705	     23.525	     60.445	     16.028	     30.490	      1.398
+       107	   33330000	      Ferralsols	 Sandy clay loam	      8.161	     22.449	     61.492	     16.047	     32.661	      1.406
+       108	   33380000	      Ferralsols	 Sandy clay loam	     10.113	     24.831	     56.689	     18.482	     36.112	      1.385
+       109	   33420000	      Ferralsols	 Sandy clay loam	      8.825	     20.554	     65.690	     13.738	     32.171	      1.409
+       110	   33450000	      Ferralsols	      Sandy loam	      8.481	     19.395	     67.040	     13.543	     33.720	      1.411
+       111	   33460000	      Ferralsols	      Sandy loam	      8.148	     19.489	     66.780	     13.710	     32.875	      1.407
+       112	   33480000	      Ferralsols	 Sandy clay loam	      8.671	     20.109	     66.017	     13.855	     31.315	      1.405
+       113	   33520000	      Ferralsols	 Sandy clay loam	      8.078	     22.162	     63.315	     14.507	     28.373	      1.385
+       114	   33530000	      Ferralsols	 Sandy clay loam	      8.554	     20.593	     65.058	     14.331	     31.047	      1.395
+       115	   33550000	      Ferralsols	 Sandy clay loam	      8.891	     20.216	     64.976	     14.792	     31.101	      1.391
+       116	   33590000	      Ferralsols	      Sandy loam	      9.023	     19.834	     64.606	     15.544	     31.386	      1.392
+       117	   33620000	        Acrisols	      Sandy loam	      9.801	     19.078	     58.924	     22.001	     31.766	      1.379
+       118	   33630000	      Ferralsols	      Sandy loam	      9.208	     19.675	     63.768	     16.543	     31.512	      1.391
+       119	   33680000	      Ferralsols	      Sandy loam	      9.728	     19.407	     63.037	     17.545	     32.347	      1.391
+       120	   33730000	        Acrisols	      Sandy loam	     13.787	     17.000	     62.967	     20.044	     33.913	      1.387
+       121	   33760000	        Acrisols	      Sandy loam	      9.597	     16.739	     61.316	     21.932	     32.317	      1.407
+       122	   33780000	        Acrisols	      Sandy loam	     11.110	     17.180	     61.399	     21.419	     33.969	      1.392
+       123	   34020000	      Ferralsols	      Sandy loam	     10.934	     19.278	     65.909	     14.792	     26.395	      1.438
+       124	   34060000	      Ferralsols	 Sandy clay loam	     13.206	     20.724	     64.575	     14.682	     27.890	      1.419
+       125	   34090000	      Ferralsols	 Sandy clay loam	     12.536	     20.727	     65.356	     13.895	     32.170	      1.432
+       126	   34130000	      Ferralsols	 Sandy clay loam	     16.766	     22.687	     62.417	     14.879	     26.384	      1.398
+       127	   34170000	      Ferralsols	 Sandy clay loam	     11.054	     21.418	     63.384	     15.189	     28.003	      1.410
+       128	   34251000	      Ferralsols	 Sandy clay loam	     12.317	     20.708	     63.122	     16.156	     25.267	      1.444
+       129	   34270000	      Ferralsols	 Sandy clay loam	     13.001	     20.179	     64.249	     15.555	     26.972	      1.442
+       130	   34770000	      Ferralsols	      Sandy loam	      4.498	     17.273	     64.859	     17.851	     16.261	      1.470
+       131	   34940000	        Acrisols	      Sandy loam	     10.937	     15.695	     64.295	     19.998	     19.583	      1.443
+       132	   34980000	        Acrisols	      Sandy loam	      9.883	     15.944	     64.490	     19.552	     18.467	      1.443
+       133	   35260000	        Luvisols	      Sandy loam	      3.081	     17.248	     63.064	     19.683	     17.259	      1.466
+       134	   36045000	      Ferralsols	 Sandy clay loam	      3.061	     20.345	     60.743	     18.912	     20.230	      1.465
+       135	   36160000	        Lixisols	 Sandy clay loam	      3.902	     20.066	     59.870	     20.062	     17.093	      1.462
+       136	   36250000	      Ferralsols	 Sandy clay loam	      8.252	     22.214	     58.006	     19.794	     24.756	      1.442
+       137	   36290000	        Lixisols	 Sandy clay loam	      5.922	     22.539	     56.687	     20.789	     23.005	      1.449
+       138	   36390000	        Lixisols	 Sandy clay loam	      4.366	     20.266	     59.487	     20.249	     18.163	      1.464
+       139	   36580000	        Lixisols	      Sandy loam	      2.004	     18.811	     61.353	     19.838	     13.777	      1.480
+       140	   37380000	        Lixisols	 Sandy clay loam	      3.944	     21.447	     55.204	     23.361	     22.000	      1.454
+       141	   37410000	        Lixisols	 Sandy clay loam	      4.257	     21.499	     55.244	     23.266	     22.754	      1.462
+       142	   37470000	        Lixisols	 Sandy clay loam	      3.740	     21.015	     55.872	     23.119	     22.488	      1.470
+       143	   37515000	       Leptosols	      Sandy loam	      2.444	     18.089	     62.710	     19.199	     21.959	      1.482
+       144	   38170000	        Lixisols	      Sandy loam	      5.583	     15.968	     67.993	     16.034	     28.781	      1.486
+       145	   38485000	        Lixisols	      Sandy loam	      6.187	     15.657	     68.142	     16.192	     24.816	      1.462
+       146	   38650000	       Leptosols	      Sandy loam	      4.922	     18.031	     64.285	     17.666	     20.331	      1.468
+       147	   38830000	       Leptosols	      Sandy loam	      2.498	     19.294	     61.967	     18.741	     27.782	      1.473
+       148	   38850000	       Leptosols	      Sandy loam	      1.513	     18.141	     63.064	     18.779	     17.804	      1.494
+       149	   38860000	       Leptosols	      Sandy loam	      2.415	     18.316	     62.955	     18.725	     21.114	      1.482
+       150	   38895000	       Leptosols	      Sandy loam	      4.004	     18.612	     62.641	     18.742	     21.185	      1.463
+       151	   39084010	        Lixisols	 Sandy clay loam	      8.027	     21.467	     59.372	     19.171	     23.625	      1.386
+       152	   39185000	        Lixisols	      Sandy loam	      8.230	     19.961	     61.678	     18.356	     22.818	      1.422
+       153	   39360000	       Leptosols	 Sandy clay loam	     10.114	     20.014	     62.333	     17.655	     26.792	      1.409
+       154	   39540000	       Leptosols	      Sandy loam	      4.998	     18.179	     64.978	     16.845	     30.184	      1.435
+       155	   39560000	        Lixisols	 Sandy clay loam	     11.035	     21.257	     61.067	     17.684	     30.191	      1.399
+       156	   39770000	      Ferralsols	 Sandy clay loam	     14.731	     23.047	     59.016	     17.948	     35.116	      1.360
+       157	   39980000	        Lixisols	 Sandy clay loam	     14.677	     20.943	     60.955	     18.091	     24.100	      1.435
+       158	   40070000	      Ferralsols	      Sandy clay	     10.841	     36.065	     46.396	     17.515	     24.190	      1.368
+       159	   40100000	      Ferralsols	      Sandy clay	      9.326	     35.561	     47.115	     17.302	     23.943	      1.370
+       160	   41650002	      Ferralsols	 Sandy clay loam	     22.855	     33.913	     47.244	     18.844	     23.872	      1.329
+       161	   41818000	      Ferralsols	 Sandy clay loam	     19.962	     32.739	     48.540	     18.721	     26.017	      1.338
+       162	   41990000	      Ferralsols	 Sandy clay loam	     15.025	     31.448	     49.682	     18.872	     27.755	      1.347
+       163	   42210000	      Ferralsols	 Sandy clay loam	     10.768	     32.773	     49.045	     18.179	     26.368	      1.363
+       164	   42395000	      Ferralsols	 Sandy clay loam	      6.780	     32.134	     49.283	     18.573	     30.144	      1.364
+       165	   42690001	      Ferralsols	 Sandy clay loam	      5.523	     31.614	     49.422	     18.955	     32.054	      1.370
+       166	   42980000	      Ferralsols	 Sandy clay loam	      5.394	     30.496	     50.972	     18.527	     31.413	      1.374
+       167	   43200000	      Ferralsols	 Sandy clay loam	      9.082	     31.840	     49.920	     18.237	     27.896	      1.368
+       168	   43429998	      Ferralsols	 Sandy clay loam	      5.996	     28.742	     52.453	     18.813	     33.491	      1.386
+       169	   43670000	      Ferralsols	 Sandy clay loam	      7.118	     28.646	     52.814	     18.543	     33.622	      1.387
+       170	   43880000	      Ferralsols	 Sandy clay loam	      7.164	     28.106	     53.552	     18.346	     33.495	      1.390
+       171	   44200000	      Ferralsols	 Sandy clay loam	      8.807	     31.108	     50.652	     18.237	     28.759	      1.372
+       172	   44250000	      Ferralsols	 Sandy clay loam	      1.498	     21.788	     62.619	     15.584	     30.666	      1.412
+       173	   44290002	      Ferralsols	 Sandy clay loam	      8.644	     30.737	     51.062	     18.199	     28.866	      1.374
+       174	   44500000	      Ferralsols	 Sandy clay loam	      8.821	     30.585	     51.190	     18.223	     28.987	      1.375
+       175	   44540000	      Ferralsols	 Sandy clay loam	      9.499	     27.437	     52.983	     19.582	     23.967	      1.400
+       176	   44670000	      Ferralsols	 Sandy clay loam	      4.164	     30.789	     49.629	     19.589	     28.935	      1.393
+       177	   45210000	      Ferralsols	 Sandy clay loam	      2.806	     22.678	     60.853	     16.459	     31.974	      1.410
+       178	   45260000	      Ferralsols	 Sandy clay loam	      3.676	     23.160	     60.133	     16.698	     31.215	      1.409
+       179	   45298000	      Ferralsols	 Sandy clay loam	      8.295	     29.725	     51.992	     18.283	     29.380	      1.382
+       180	   45480000	      Ferralsols	 Sandy clay loam	      8.720	     29.457	     52.108	     18.435	     29.535	      1.384
+       181	   45910001	      Ferralsols	 Sandy clay loam	      9.035	     23.774	     60.202	     16.006	     30.801	      1.415
+       182	   45960001	      Ferralsols	 Sandy clay loam	      9.089	     24.037	     59.659	     16.288	     30.451	      1.414
+       183	   46035000	      Ferralsols	 Sandy clay loam	      8.887	     28.893	     52.829	     18.276	     29.659	      1.388
+       184	   46105000	      Ferralsols	 Sandy clay loam	      8.918	     28.883	     52.831	     18.285	     29.690	      1.388
+       185	   46150000	      Ferralsols	 Sandy clay loam	      9.252	     28.684	     52.918	     18.397	     29.662	      1.390
+       186	   46360000	      Ferralsols	 Sandy clay loam	      9.467	     28.343	     53.169	     18.488	     29.821	      1.391
+       187	   46550000	      Ferralsols	 Sandy clay loam	     14.512	     24.362	     60.036	     15.586	     32.850	      1.414
+       188	   46610000	      Ferralsols	 Sandy clay loam	     15.958	     24.751	     58.978	     16.262	     33.059	      1.410
+       189	   46650000	      Ferralsols	 Sandy clay loam	     15.715	     24.892	     58.458	     16.642	     32.945	      1.411
+       190	   46675000	      Ferralsols	 Sandy clay loam	     15.719	     25.044	     57.899	     17.051	     33.227	      1.412
+       191	   46790000	      Ferralsols	 Sandy clay loam	     18.577	     25.469	     58.282	     16.241	     36.102	      1.409
+       192	   46830000	      Ferralsols	 Sandy clay loam	     17.408	     25.201	     58.247	     16.547	     33.993	      1.414
+       193	   46870000	      Ferralsols	 Sandy clay loam	     16.493	     24.678	     58.695	     16.621	     33.481	      1.420
+       194	   46902000	      Ferralsols	 Sandy clay loam	     16.082	     24.843	     57.946	     17.209	     33.762	      1.419
+       195	   48020000	      Ferralsols	 Sandy clay loam	     10.658	     26.563	     55.328	     18.107	     30.672	      1.409
+       196	   48290000	      Ferralsols	 Sandy clay loam	     10.451	     26.346	     55.554	     18.098	     30.693	      1.412
+       197	   48590000	      Ferralsols	 Sandy clay loam	     10.143	     26.029	     55.844	     18.125	     30.481	      1.415
+       198	   49330000	      Ferralsols	 Sandy clay loam	      9.726	     25.516	     56.293	     18.188	     29.990	      1.420
+       199	   49370000	      Ferralsols	 Sandy clay loam	      9.713	     25.458	     56.349	     18.190	     29.921	      1.421
+       200	   49660000	      Ferralsols	 Sandy clay loam	      9.732	     25.329	     56.468	     18.201	     29.747	      1.421
+       201	   49705000	      Ferralsols	 Sandy clay loam	      9.752	     25.326	     56.468	     18.203	     29.744	      1.421
+       202	   50191000	       Leptosols	 Sandy clay loam	     10.304	     22.071	     59.275	     18.659	     19.094	      1.456
+       203	   50250000	       Leptosols	 Sandy clay loam	     14.075	     22.765	     57.564	     19.672	     19.761	      1.426
+       204	   50290000	       Leptosols	 Sandy clay loam	     16.647	     22.516	     57.985	     19.498	     24.253	      1.419
+       205	   50420000	      Ferralsols	 Sandy clay loam	     15.455	     24.983	     57.844	     17.196	     26.949	      1.382
+       206	   50465000	       Leptosols	 Sandy clay loam	     11.812	     22.321	     60.675	     17.012	     27.951	      1.432
+       207	   50520000	       Leptosols	 Sandy clay loam	      9.603	     21.231	     61.252	     17.520	     24.259	      1.450
+       208	   50540000	       Leptosols	 Sandy clay loam	      9.453	     21.209	     61.160	     17.634	     23.894	      1.450
+       209	   50595000	       Leptosols	 Sandy clay loam	      9.803	     21.598	     60.559	     17.848	     23.400	      1.446
+       210	   50620000	       Leptosols	 Sandy clay loam	      9.932	     21.575	     59.515	     18.901	     24.075	      1.445
+       211	   50660000	       Leptosols	 Sandy clay loam	     15.840	     22.715	     58.615	     18.671	     27.824	      1.423
+       212	   50720000	       Leptosols	 Sandy clay loam	      6.399	     21.944	     59.375	     18.673	     23.652	      1.439
+       213	   50730000	         Alisols	 Sandy clay loam	     15.441	     24.073	     58.118	     17.794	     34.706	      1.422
+       214	   50740000	        Acrisols	 Sandy clay loam	     20.904	     27.863	     52.365	     19.760	     35.671	      1.368
+       215	   51120000	      Ferralsols	 Sandy clay loam	     20.234	     27.360	     56.557	     16.091	     42.739	      1.362
+       216	   51140000	      Ferralsols	 Sandy clay loam	      8.300	     27.846	     55.039	     17.146	     36.799	      1.388
+       217	   51170000	      Ferralsols	 Sandy clay loam	     19.303	     28.353	     54.778	     16.898	     29.378	      1.359
+       218	   51190000	      Ferralsols	 Sandy clay loam	     13.500	     28.136	     54.571	     17.323	     33.869	      1.373
+       219	   51230000	      Ferralsols	 Sandy clay loam	     21.980	     28.917	     55.253	     15.856	     25.932	      1.364
+       220	   51240000	      Ferralsols	 Sandy clay loam	     15.132	     27.846	     55.162	     17.017	     33.515	      1.375
+       221	   51280000	      Ferralsols	 Sandy clay loam	     13.210	     26.765	     56.404	     16.848	     32.101	      1.386
+       222	   51330000	      Ferralsols	 Sandy clay loam	     13.212	     26.166	     57.238	     16.611	     30.117	      1.388
+       223	   51430000	      Ferralsols	 Sandy clay loam	     14.050	     24.060	     60.270	     15.676	     26.564	      1.401
+       224	   51440000	      Ferralsols	 Sandy clay loam	     13.185	     22.676	     60.801	     16.528	     25.531	      1.417
+       225	   51560000	      Ferralsols	 Sandy clay loam	     22.571	     26.333	     54.408	     19.318	     31.646	      1.376
+       226	   51795000	      Ferralsols	 Sandy clay loam	     36.429	     30.954	     46.836	     22.181	     25.222	      1.331
+       227	   54010005	      Ferralsols	 Sandy clay loam	     19.847	     30.919	     52.002	     17.092	     27.459	      1.325
+       228	   54110002	      Ferralsols	 Sandy clay loam	      7.583	     29.300	     53.793	     16.935	     27.001	      1.371
+       229	   54150000	      Ferralsols	 Sandy clay loam	     15.666	     30.577	     52.288	     17.157	     26.212	      1.342
+       230	   54165000	      Ferralsols	 Sandy clay loam	      8.104	     30.308	     52.549	     17.163	     25.988	      1.366
+       231	   54195000	      Ferralsols	 Sandy clay loam	     13.167	     30.600	     51.986	     17.433	     26.021	      1.349
+       232	   54230000	      Ferralsols	 Sandy clay loam	     19.619	     34.652	     48.637	     16.698	     25.498	      1.327
+       233	   54260000	      Ferralsols	      Sandy clay	     18.403	     35.414	     47.811	     16.759	     25.388	      1.322
+       234	   54300000	      Ferralsols	 Sandy clay loam	     10.447	     34.313	     49.701	     15.985	     26.176	      1.339
+       235	   54390000	      Ferralsols	 Sandy clay loam	     15.441	     34.576	     48.575	     16.846	     25.178	      1.332
+       236	   54500000	      Ferralsols	 Sandy clay loam	     15.266	     33.916	     49.131	     16.950	     24.744	      1.334
+       237	   54580000	      Ferralsols	 Sandy clay loam	     13.628	     31.679	     51.057	     17.274	     25.397	      1.344
+       238	   54590000	      Ferralsols	 Sandy clay loam	     21.056	     33.844	     51.414	     14.733	     21.241	      1.318
+       239	   54710000	      Ferralsols	 Sandy clay loam	     14.104	     31.711	     51.171	     17.127	     24.956	      1.343
+       240	   54770000	      Ferralsols	 Sandy clay loam	     18.506	     33.099	     50.931	     15.953	     22.790	      1.319
+       241	   54780000	      Ferralsols	 Sandy clay loam	     15.489	     32.021	     51.064	     16.920	     24.608	      1.337
+       242	   54950000	      Ferralsols	 Sandy clay loam	     15.703	     31.894	     51.196	     16.914	     24.694	      1.337
+       243	   55340000	      Ferralsols	 Sandy clay loam	     26.552	     32.432	     51.127	     16.451	     20.569	      1.299
+       244	   55360000	      Ferralsols	 Sandy clay loam	     28.739	     31.437	     53.219	     15.351	     21.603	      1.318
+       245	   55370000	      Ferralsols	 Sandy clay loam	     26.911	     31.179	     52.662	     16.163	     22.291	      1.328
+       246	   55380000	      Ferralsols	 Sandy clay loam	     26.617	     31.093	     52.663	     16.247	     22.278	      1.330
+       247	   55460000	      Ferralsols	 Sandy clay loam	     15.146	     30.243	     54.634	     15.149	     19.126	      1.349
+       248	   55490000	      Ferralsols	 Sandy clay loam	     16.030	     29.963	     54.848	     15.209	     20.562	      1.353
+       249	   55510000	      Ferralsols	 Sandy clay loam	     23.466	     29.202	     54.786	     16.015	     24.146	      1.364
+       250	   55520001	      Ferralsols	 Sandy clay loam	     24.816	     34.457	     49.276	     16.266	     19.962	      1.304
+       251	   55560000	      Ferralsols	 Sandy clay loam	     25.280	     34.175	     49.608	     16.212	     19.778	      1.305
+       252	   55610000	      Ferralsols	 Sandy clay loam	     17.753	     33.737	     50.247	     16.002	     19.180	      1.337
+       253	   55630000	      Ferralsols	 Sandy clay loam	     20.504	     33.728	     50.206	     16.064	     19.530	      1.322
+       254	   55660000	      Ferralsols	 Sandy clay loam	     16.959	     32.519	     51.271	     16.214	     19.430	      1.340
+       255	   55699998	      Ferralsols	 Sandy clay loam	     17.978	     33.070	     51.025	     15.909	     19.708	      1.333
+       256	   55790000	      Ferralsols	 Sandy clay loam	     18.404	     31.601	     53.098	     15.312	     19.066	      1.344
+       257	   55850000	      Ferralsols	 Sandy clay loam	     11.277	     31.253	     54.087	     14.676	     20.339	      1.357
+       258	   55900000	      Ferralsols	 Sandy clay loam	     21.872	     33.219	     52.017	     14.777	     24.221	      1.329
+       259	   55920000	      Ferralsols	 Sandy clay loam	     15.483	     32.117	     53.282	     14.612	     22.196	      1.339
+       260	   55960000	      Ferralsols	 Sandy clay loam	     13.011	     31.465	     53.864	     14.686	     21.439	      1.351
+       261	   56028000	      Ferralsols	      Sandy clay	     24.124	     36.825	     46.462	     16.785	     22.023	      1.321
+       262	   56055000	      Ferralsols	      Sandy clay	     20.894	     37.124	     46.442	     16.416	     21.842	      1.325
+       263	   56065000	      Ferralsols	      Sandy clay	     21.123	     37.534	     46.258	     16.151	     21.472	      1.316
+       264	   56075000	      Ferralsols	      Sandy clay	     22.727	     37.003	     46.369	     16.644	     22.030	      1.322
+       265	   56085000	      Ferralsols	      Sandy clay	     14.977	     36.936	     46.675	     16.398	     20.913	      1.356
+       266	   56090000	      Ferralsols	      Sandy clay	     20.781	     37.925	     45.581	     16.477	     21.700	      1.336
+       267	   56240000	      Ferralsols	      Sandy clay	     38.607	     35.538	     46.416	     18.056	     23.019	      1.271
+       268	   56335001	      Ferralsols	      Sandy clay	     37.482	     35.680	     46.326	     18.008	     23.039	      1.277
+       269	   56385000	      Ferralsols	      Sandy clay	     17.682	     35.215	     47.603	     17.182	     21.589	      1.330
+       270	   56415000	      Ferralsols	      Sandy clay	     18.542	     35.199	     47.839	     16.954	     22.069	      1.345
+       271	   56484998	      Ferralsols	      Sandy clay	     19.819	     36.161	     47.028	     16.796	     22.904	      1.333
+       272	   56539000	      Ferralsols	      Sandy clay	     22.333	     35.892	     47.075	     17.042	     22.684	      1.329
+       273	   56570000	      Ferralsols	      Sandy clay	     12.572	     35.182	     48.507	     16.272	     23.375	      1.359
+       274	   56610000	      Ferralsols	      Sandy clay	     33.875	     37.428	     45.229	     17.344	     23.654	      1.286
+       275	   56640000	      Ferralsols	 Sandy clay loam	     55.602	     33.421	     47.401	     19.174	     23.311	      1.220
+       276	   56775000	      Ferralsols	      Sandy clay	     28.842	     35.890	     46.924	     17.175	     25.910	      1.309
+       277	   56800000	      Ferralsols	       Clay loam	     21.406	     37.791	     44.474	     17.708	     25.536	      1.287
+       278	   56825000	      Ferralsols	      Sandy clay	     29.776	     35.987	     46.673	     17.332	     24.878	      1.305
+       279	   56845000	      Ferralsols	      Sandy clay	     25.048	     37.915	     45.108	     16.946	     24.589	      1.306
+       280	   56846000	      Ferralsols	      Sandy clay	     29.640	     36.263	     46.638	     17.091	     24.679	      1.311
+       281	   56850000	      Ferralsols	      Sandy clay	     26.375	     35.648	     47.156	     17.199	     23.589	      1.316
+       282	   56860000	      Ferralsols	       Clay loam	     25.312	     37.579	     44.846	     17.556	     24.460	      1.306
+       283	   56870000	      Ferralsols	      Sandy clay	     13.514	     36.766	     45.561	     17.667	     21.460	      1.338
+       284	   56891900	      Ferralsols	      Sandy clay	     17.462	     35.096	     47.748	     17.150	     22.399	      1.334
+       285	   56920000	      Ferralsols	      Sandy clay	     23.486	     35.172	     47.661	     17.171	     23.273	      1.322
+       286	   56940002	      Ferralsols	 Sandy clay loam	     19.504	     33.702	     49.845	     16.450	     23.579	      1.348
+       287	   56976000	      Ferralsols	      Sandy clay	     24.928	     36.490	     46.097	     17.420	     22.683	      1.299
+       288	   56983000	      Ferralsols	      Sandy clay	     32.885	     35.650	     45.880	     18.488	     22.489	      1.269
+       289	   56990000	      Ferralsols	 Sandy clay loam	     20.184	     34.334	     48.842	     16.844	     22.770	      1.314
+       290	   56990990	      Ferralsols	 Sandy clay loam	     25.158	     34.785	     49.625	     15.573	     21.190	      1.272
+       291	   56991500	      Ferralsols	 Sandy clay loam	     23.556	     34.583	     49.655	     15.744	     21.098	      1.281
+       292	   56992000	      Ferralsols	 Sandy clay loam	     18.771	     34.148	     50.032	     15.802	     21.096	      1.294
+       293	   56993551	      Ferralsols	 Sandy clay loam	     22.137	     34.113	     50.618	     15.252	     22.189	      1.294
+       294	   56995500	      Ferralsols	 Sandy clay loam	     26.097	     32.965	     52.559	     14.485	     22.332	      1.301
+       295	   57130000	      Ferralsols	 Sandy clay loam	     40.559	     34.746	     48.947	     16.249	     15.894	      1.218
+       296	   57170000	      Ferralsols	 Sandy clay loam	     38.222	     34.153	     49.593	     16.218	     17.646	      1.222
+       297	   57250000	       Cambisols	 Sandy clay loam	     43.758	     32.059	     51.072	     16.896	     12.279	      1.211
+       298	   57300000	      Ferralsols	 Sandy clay loam	     32.493	     30.358	     53.221	     16.460	     16.444	      1.300
+       299	   57320000	      Ferralsols	 Sandy clay loam	     34.987	     29.836	     53.760	     16.483	     16.292	      1.319
+       300	   57350000	      Ferralsols	 Sandy clay loam	     30.577	     34.006	     49.183	     16.792	     19.190	      1.234
+       301	   57360000	      Ferralsols	      Sandy clay	     18.777	     35.502	     48.714	     15.785	     20.505	      1.305
+       302	   57370000	      Ferralsols	      Sandy clay	     18.903	     35.257	     48.674	     16.073	     20.593	      1.302
+       303	   57400000	      Ferralsols	 Sandy clay loam	     21.369	     34.219	     49.412	     16.369	     19.824	      1.287
+       304	   57420000	      Ferralsols	 Sandy clay loam	     40.961	     33.083	     46.618	     20.320	     22.266	      1.200
+       305	   57450000	      Ferralsols	 Sandy clay loam	     22.556	     33.108	     49.917	     16.988	     20.278	      1.290
+       306	   57490000	      Ferralsols	 Sandy clay loam	     27.088	     32.589	     50.130	     17.279	     18.807	      1.266
+       307	   57550000	      Ferralsols	 Sandy clay loam	     28.674	     32.075	     50.609	     17.329	     18.505	      1.270
+       308	   57580000	      Ferralsols	 Sandy clay loam	     25.155	     31.751	     51.201	     17.071	     20.344	      1.292
+       309	   57700000	      Ferralsols	 Sandy clay loam	     28.669	     34.552	     46.774	     18.669	     23.121	      1.255
+       310	   57720000	      Ferralsols	 Sandy clay loam	     29.438	     33.820	     47.258	     18.889	     21.712	      1.252
+       311	   57740000	      Ferralsols	 Sandy clay loam	     23.861	     33.516	     48.374	     18.118	     21.681	      1.301
+       312	   57770000	      Ferralsols	 Sandy clay loam	     18.779	     32.419	     50.833	     16.757	     21.839	      1.334
+       313	   57830000	      Ferralsols	 Sandy clay loam	     19.701	     32.779	     49.766	     17.462	     21.649	      1.317
+       314	   57930000	      Ferralsols	 Sandy clay loam	     20.267	     32.066	     50.756	     17.190	     21.221	      1.324
+       315	   58030000	      Ferralsols	 Sandy clay loam	     29.217	     32.084	     50.306	     17.608	     21.442	      1.267
+       316	   58060000	       Cambisols	 Sandy clay loam	     39.065	     30.828	     52.497	     16.710	     15.563	      1.124
+       317	   58099000	      Ferralsols	 Sandy clay loam	     27.012	     31.923	     50.343	     17.730	     18.671	      1.248
+       318	   58142200	      Ferralsols	 Sandy clay loam	     29.773	     32.143	     49.138	     18.715	     17.373	      1.248
+       319	   58183000	      Ferralsols	 Sandy clay loam	     25.698	     31.787	     50.250	     17.963	     19.619	      1.266
+       320	   58204000	      Ferralsols	 Sandy clay loam	     25.827	     31.733	     50.325	     17.943	     20.092	      1.271
+       321	   58220000	      Ferralsols	 Sandy clay loam	     27.554	     32.369	     49.427	     18.197	     20.977	      1.274
+       322	   58258000	      Ferralsols	 Sandy clay loam	     32.347	     30.872	     50.827	     18.324	     17.065	      1.229
+       323	   58270000	      Ferralsols	 Sandy clay loam	     16.946	     31.830	     52.724	     15.460	     19.687	      1.327
+       324	   58380001	      Ferralsols	 Sandy clay loam	     24.965	     31.835	     50.772	     17.402	     19.739	      1.286
+       325	   58405000	      Ferralsols	 Sandy clay loam	     41.645	     33.063	     48.641	     18.288	     17.359	      1.222
+       326	   58420000	      Ferralsols	 Sandy clay loam	     36.566	     34.347	     47.011	     18.596	     18.048	      1.236
+       327	   58425000	      Ferralsols	 Sandy clay loam	     34.985	     34.747	     46.911	     18.286	     18.380	      1.244
+       328	   58434000	      Ferralsols	      Sandy clay	     31.924	     35.466	     47.359	     17.170	     19.436	      1.268
+       329	   58440000	      Ferralsols	 Sandy clay loam	     34.136	     34.640	     47.562	     17.766	     18.546	      1.258
+       330	   58470000	      Ferralsols	      Sandy clay	     23.788	     35.915	     46.033	     18.014	     21.359	      1.307
+       331	   58480500	      Ferralsols	      Sandy clay	     20.416	     35.749	     46.849	     17.341	     21.593	      1.316
+       332	   58500000	      Ferralsols	      Sandy clay	     29.755	     35.457	     46.110	     18.456	     20.882	      1.276
+       333	   58516500	      Ferralsols	      Sandy clay	     27.581	     35.766	     46.413	     17.822	     20.917	      1.288
+       334	   58520000	      Ferralsols	      Sandy clay	     24.088	     35.620	     46.798	     17.560	     21.037	      1.301
+       335	   58525000	       Cambisols	 Sandy clay loam	     58.302	     31.342	     45.942	     22.708	     15.541	      1.114
+       336	   58530000	      Ferralsols	 Sandy clay loam	     44.804	     32.209	     47.320	     20.459	     16.643	      1.184
+       337	   58535000	      Ferralsols	 Sandy clay loam	     40.763	     32.774	     47.746	     19.458	     16.783	      1.208
+       338	   58542000	      Ferralsols	 Sandy clay loam	     31.277	     34.049	     47.965	     17.962	     18.265	      1.257
+       339	   58550001	      Ferralsols	 Sandy clay loam	     29.444	     33.154	     49.209	     17.632	     18.634	      1.265
+       340	   58560000	      Ferralsols	 Sandy clay loam	     23.620	     34.600	     49.601	     15.790	     19.022	      1.322
+       341	   58573000	      Ferralsols	 Sandy clay loam	     19.093	     33.124	     51.227	     15.645	     19.955	      1.343
+       342	   58585000	      Ferralsols	 Sandy clay loam	     26.294	     33.121	     49.745	     17.137	     19.138	      1.293
+       343	   58610000	      Ferralsols	 Sandy clay loam	     12.615	     34.986	     49.048	     15.913	     20.145	      1.363
+       344	   58630002	      Ferralsols	 Sandy clay loam	     25.001	     32.840	     49.824	     17.335	     19.750	      1.291
+       345	   58645000	      Ferralsols	      Sandy clay	     30.430	     36.233	     46.809	     16.962	     21.124	      1.276
+       346	   58658000	      Ferralsols	 Sandy clay loam	     13.977	     34.599	     49.235	     16.151	     21.007	      1.361
+       347	   58670002	      Ferralsols	 Sandy clay loam	     12.803	     34.257	     48.794	     16.961	     20.032	      1.356
+       348	   58710000	      Ferralsols	      Sandy clay	     18.948	     36.175	     46.815	     16.989	     20.759	      1.346
+       349	   58720000	      Ferralsols	      Sandy clay	     21.991	     36.877	     46.088	     17.016	     20.660	      1.343
+       350	   58730001	      Ferralsols	      Sandy clay	     18.272	     35.704	     47.373	     16.903	     20.646	      1.354
+       351	   58735000	      Ferralsols	      Sandy clay	     17.078	     35.142	     47.918	     16.924	     20.270	      1.356
+       352	   58755000	      Ferralsols	      Sandy clay	     22.101	     36.482	     46.166	     17.326	     21.790	      1.342
+       353	   58765001	      Ferralsols	      Sandy clay	     19.165	     35.178	     47.656	     17.161	     20.883	      1.350
+       354	   58770000	      Ferralsols	 Sandy clay loam	     15.729	     34.489	     48.472	     17.034	     20.176	      1.353
+       355	   58795000	      Ferralsols	 Sandy clay loam	     21.912	     33.139	     49.654	     17.209	     19.809	      1.307
+       356	   58825000	      Ferralsols	 Sandy clay loam	     43.624	     34.705	     46.742	     18.511	     21.245	      1.205
+       357	   58827000	      Ferralsols	 Sandy clay loam	     41.045	     34.692	     46.590	     18.687	     21.318	      1.225
+       358	   58850000	      Ferralsols	 Sandy clay loam	     31.387	     34.870	     47.231	     17.860	     21.658	      1.266
+       359	   58870000	      Ferralsols	 Sandy clay loam	     19.432	     34.714	     48.395	     16.879	     20.899	      1.320
+       360	   58874000	      Ferralsols	 Sandy clay loam	     26.417	     34.565	     47.955	     17.454	     21.294	      1.290
+       361	   58910000	      Ferralsols	 Sandy clay loam	     18.513	     34.179	     48.392	     17.383	     21.940	      1.340
+       362	   58916000	      Ferralsols	 Sandy clay loam	     20.805	     34.528	     48.008	     17.418	     21.218	      1.304
+       363	   58917000	      Ferralsols	 Sandy clay loam	     17.327	     33.704	     48.968	     17.305	     21.452	      1.317
+       364	   58920000	      Ferralsols	 Sandy clay loam	     13.144	     32.665	     50.457	     16.881	     20.279	      1.338
+       365	   58930000	      Ferralsols	 Sandy clay loam	     17.482	     34.944	     47.852	     17.189	     21.130	      1.316
+       366	   58940000	      Ferralsols	 Sandy clay loam	     12.633	     32.713	     50.213	     17.085	     20.263	      1.336
+       367	   58960000	      Ferralsols	 Sandy clay loam	     12.692	     32.228	     50.631	     17.159	     20.116	      1.339
+       368	   58974000	      Ferralsols	 Sandy clay loam	     20.941	     32.953	     49.847	     17.203	     20.070	      1.312
+       369	   59120000	       Cambisols	 Sandy clay loam	     64.637	     31.540	     47.339	     21.122	     14.915	      1.157
+       370	   59125000	       Cambisols	 Sandy clay loam	     55.067	     31.537	     47.447	     21.012	     15.103	      1.172
+       371	   59135000	       Cambisols	 Sandy clay loam	     43.041	     30.224	     49.268	     20.530	     15.456	      1.155
+       372	   59240000	      Ferralsols	 Sandy clay loam	     42.377	     27.648	     53.552	     18.789	     18.061	      1.236
+       373	   59355000	       Cambisols	 Sandy clay loam	     48.861	     31.067	     49.373	     19.493	     18.440	      1.166
+       374	   59370000	       Cambisols	 Sandy clay loam	     45.829	     30.090	     51.348	     18.594	     15.026	      1.120
+       375	   59380000	       Cambisols	 Sandy clay loam	     56.458	     30.514	     50.368	     19.079	     12.587	      1.089
+       376	   60010000	      Ferralsols	      Sandy clay	      8.328	     37.134	     46.817	     16.029	     29.607	      1.363
+       377	   60011000	      Ferralsols	      Sandy clay	      7.160	     36.983	     46.651	     16.345	     29.158	      1.365
+       378	   60040000	      Ferralsols	      Sandy clay	      5.952	     36.892	     46.938	     16.161	     37.738	      1.352
+       379	   60100000	      Ferralsols	       Clay loam	      8.877	     38.186	     44.404	     17.415	     28.096	      1.361
+       380	   60110000	      Ferralsols	      Sandy clay	      4.126	     35.371	     47.399	     17.216	     26.997	      1.358
+       381	   60130000	      Ferralsols	            Clay	      9.310	     40.667	     44.365	     14.960	     29.583	      1.352
+       382	   60145000	      Ferralsols	            Clay	      8.942	     40.675	     44.914	     14.380	     34.474	      1.342
+       383	   60150000	      Ferralsols	            Clay	      9.764	     40.155	     44.300	     15.516	     32.845	      1.335
+       384	   60220000	      Ferralsols	 Sandy clay loam	     11.215	     33.871	     49.846	     16.281	     29.320	      1.363
+       385	   60250000	      Ferralsols	      Sandy clay	     11.250	     36.038	     48.325	     15.606	     26.193	      1.360
+       386	   60265000	      Ferralsols	      Sandy clay	     10.098	     36.476	     47.651	     15.846	     27.785	      1.353
+       387	   60381000	      Ferralsols	            Clay	     10.519	     41.092	     44.163	     14.709	     40.956	      1.330
+       388	   60432000	      Ferralsols	      Sandy clay	      6.601	     35.007	     49.909	     15.060	     40.312	      1.343
+       389	   60615000	      Ferralsols	      Sandy clay	      2.721	     38.342	     46.132	     15.506	     37.667	      1.357
+       390	   60635000	      Ferralsols	 Sandy clay loam	      9.500	     33.586	     47.777	     18.587	     32.572	      1.330
+       391	   60640000	      Ferralsols	 Sandy clay loam	      7.774	     33.686	     47.799	     18.472	     32.819	      1.339
+       392	   60642000	      Ferralsols	 Sandy clay loam	      8.133	     33.910	     47.621	     18.430	     32.830	      1.335
+       393	   60650000	      Ferralsols	 Sandy clay loam	      7.479	     33.464	     48.374	     18.126	     34.117	      1.338
+       394	   60653000	      Ferralsols	      Sandy clay	      8.537	     38.235	     46.495	     15.228	     39.110	      1.336
+       395	   60654000	      Ferralsols	 Sandy clay loam	      6.906	     34.308	     47.274	     18.383	     32.671	      1.346
+       396	   60665000	      Ferralsols	 Sandy clay loam	      3.896	     31.104	     52.214	     16.712	     32.747	      1.357
+       397	   60680000	      Ferralsols	 Sandy clay loam	      4.763	     32.748	     49.050	     18.199	     33.507	      1.348
+       398	   60715000	      Ferralsols	 Sandy clay loam	      4.753	     31.808	     49.283	     18.902	     31.902	      1.346
+       399	   60750000	      Ferralsols	 Sandy clay loam	      3.796	     30.021	     53.226	     16.774	     31.264	      1.357
+       400	   60765000	      Ferralsols	 Sandy clay loam	      4.369	     31.211	     51.316	     17.487	     30.807	      1.359
+       401	   60772000	      Ferralsols	 Sandy clay loam	      4.323	     32.081	     49.653	     18.274	     31.356	      1.351
+       402	   60774000	      Ferralsols	      Sandy clay	      6.760	     37.159	     48.423	     14.414	     34.606	      1.337
+       403	   60778000	      Ferralsols	 Sandy clay loam	      4.967	     34.000	     52.883	     13.111	     36.230	      1.350
+       404	   60781000	      Ferralsols	 Sandy clay loam	      5.330	     34.610	     51.494	     13.892	     34.158	      1.346
+       405	   60785005	      Ferralsols	 Sandy clay loam	      5.946	     33.437	     53.382	     13.179	     33.857	      1.351
+       406	   60790000	      Ferralsols	 Sandy clay loam	      5.370	     34.127	     51.505	     14.366	     33.047	      1.347
+       407	   60798000	      Ferralsols	 Sandy clay loam	      4.987	     34.594	     50.242	     15.161	     31.068	      1.345
+       408	   60810000	      Ferralsols	            Clay	      2.734	     40.637	     40.945	     18.406	     31.727	      1.313
+       409	   60845000	      Ferralsols	 Sandy clay loam	      4.051	     32.967	     51.974	     15.047	     26.070	      1.372
+       410	   60850000	      Ferralsols	 Sandy clay loam	      4.777	     30.294	     55.114	     14.579	     24.698	      1.375
+       411	   60855000	      Ferralsols	 Sandy clay loam	      3.763	     28.279	     57.211	     14.494	     23.564	      1.383
+       412	   60870000	      Ferralsols	 Sandy clay loam	      2.301	     26.063	     59.856	     14.078	     24.517	      1.398
+       413	   60895000	      Ferralsols	      Sandy clay	      6.517	     35.502	     51.040	     13.446	     38.299	      1.343
+       414	   60910000	      Ferralsols	 Sandy clay loam	      7.936	     33.880	     51.726	     14.395	     37.351	      1.348
+       415	   60925001	      Ferralsols	 Sandy clay loam	      1.403	     21.500	     65.385	     13.088	     17.089	      1.407
+       416	   60930000	      Ferralsols	 Sandy clay loam	     16.260	     33.534	     51.090	     15.364	     35.224	      1.339
+       417	   60940000	      Ferralsols	 Sandy clay loam	     12.189	     30.804	     55.016	     14.165	     33.312	      1.354
+       418	   60950000	      Ferralsols	 Sandy clay loam	      7.242	     25.728	     61.433	     12.816	     24.710	      1.386
+       419	   60970000	      Ferralsols	 Sandy clay loam	      6.786	     27.616	     59.785	     12.583	     23.926	      1.391
+       420	   61009000	      Ferralsols	      Sandy clay	     36.595	     35.297	     45.902	     18.756	     20.404	      1.245
+       421	   61012000	      Ferralsols	      Sandy clay	     25.902	     36.141	     46.069	     17.752	     21.260	      1.304
+       422	   61014000	       Cambisols	 Sandy clay loam	     49.941	     33.062	     45.021	     21.913	     19.448	      1.160
+       423	   61024000	       Cambisols	 Sandy clay loam	     46.039	     34.317	     45.130	     20.557	     20.655	      1.197
+       424	   61031000	       Cambisols	       Clay loam	     41.154	     36.591	     44.318	     19.096	     22.015	      1.253
+       425	   61045000	      Ferralsols	      Sandy clay	     25.114	     36.894	     45.047	     18.063	     21.909	      1.317
+       426	   61052000	      Ferralsols	      Sandy clay	     23.076	     36.919	     45.247	     17.815	     21.846	      1.328
+       427	   61060000	      Ferralsols	      Sandy clay	     30.474	     36.019	     45.195	     18.791	     21.515	      1.287
+       428	   61075000	      Ferralsols	      Sandy clay	     20.568	     36.708	     45.087	     18.209	     21.832	      1.346
+       429	   61078000	      Ferralsols	      Sandy clay	     19.822	     36.161	     45.657	     18.180	     21.821	      1.349
+       430	   61085000	      Ferralsols	      Sandy clay	     24.145	     35.996	     47.119	     16.921	     22.250	      1.291
+       431	   61090000	      Ferralsols	      Sandy clay	     23.194	     36.505	     46.726	     16.786	     22.006	      1.308
+       432	   61100000	      Ferralsols	      Sandy clay	     20.685	     37.377	     45.413	     17.168	     21.755	      1.315
+       433	   61105000	      Ferralsols	      Sandy clay	     20.059	     37.061	     45.810	     17.068	     21.593	      1.357
+       434	   61107000	      Ferralsols	      Sandy clay	     21.117	     36.450	     46.688	     16.853	     21.651	      1.332
+       435	   61115000	      Ferralsols	      Sandy clay	     25.684	     37.282	     46.204	     16.518	     22.840	      1.351
+       436	   61122000	      Ferralsols	      Sandy clay	     19.375	     37.527	     45.081	     17.336	     20.894	      1.377
+       437	   61135000	      Ferralsols	      Sandy clay	     19.353	     36.132	     47.102	     16.752	     21.523	      1.349
+       438	   61173000	      Ferralsols	       Clay loam	     19.636	     39.264	     43.185	     17.575	     21.273	      1.360
+       439	   61267000	      Ferralsols	       Clay loam	     41.889	     34.046	     43.650	     22.300	     17.328	      1.181
+       440	   61271000	       Cambisols	 Sandy clay loam	     38.810	     33.716	     45.147	     21.143	     18.492	      1.207
+       441	   61295000	      Ferralsols	      Sandy clay	     31.092	     35.626	     45.647	     18.776	     20.793	      1.272
+       442	   61460000	      Ferralsols	       Clay loam	     29.379	     34.944	     44.959	     20.129	     22.091	      1.280
+       443	   61473000	      Ferralsols	      Sandy clay	     33.248	     35.172	     45.159	     19.673	     22.531	      1.275
+       444	   61500000	      Ferralsols	      Sandy clay	     28.637	     36.263	     45.274	     18.502	     22.219	      1.291
+       445	   61510000	      Ferralsols	       Clay loam	     27.138	     35.445	     44.936	     19.646	     22.475	      1.298
+       446	   61520000	      Ferralsols	      Sandy clay	     12.887	     35.576	     45.610	     18.832	     22.177	      1.358
+       447	   61537000	      Ferralsols	       Clay loam	     22.910	     35.808	     44.965	     19.247	     22.081	      1.319
+       448	   61610000	      Ferralsols	      Sandy clay	     19.318	     36.781	     45.668	     17.545	     22.398	      1.338
+       449	   61700000	      Ferralsols	      Sandy clay	     16.076	     35.396	     48.268	     16.310	     22.681	      1.372
+       450	   61770000	      Ferralsols	      Sandy clay	     14.315	     35.280	     48.961	     15.712	     18.278	      1.387
+       451	   61800500	      Ferralsols	      Sandy clay	     24.844	     36.076	     46.854	     17.106	     23.811	      1.303
+       452	   61815000	      Ferralsols	      Sandy clay	     16.216	     36.588	     46.620	     16.708	     21.187	      1.343
+       453	   61826000	      Ferralsols	      Sandy clay	     13.246	     36.236	     45.880	     17.859	     17.485	      1.376
+       454	   61830000	      Ferralsols	      Sandy clay	     15.748	     35.966	     46.323	     17.714	     18.236	      1.350
+       455	   61861000	      Ferralsols	      Sandy clay	     29.307	     35.805	     45.863	     18.366	     23.351	      1.291
+       456	   61865000	      Ferralsols	      Sandy clay	     23.312	     35.353	     46.408	     18.261	     19.684	      1.326
+       457	   61879000	      Ferralsols	 Sandy clay loam	     22.371	     34.246	     48.443	     17.324	     17.007	      1.321
+       458	   61886000	      Ferralsols	 Sandy clay loam	     17.694	     34.478	     48.499	     17.034	     15.976	      1.344
+       459	   61902000	      Ferralsols	      Sandy clay	     13.889	     35.279	     48.032	     16.688	     14.695	      1.360
+       460	   61912000	      Ferralsols	      Sandy clay	     12.865	     35.221	     48.231	     16.546	     14.505	      1.362
+       461	   61915000	      Ferralsols	      Sandy clay	     11.424	     35.893	     47.160	     16.943	     14.155	      1.360
+       462	   62395000	      Ferralsols	 Sandy clay loam	     17.584	     31.197	     51.574	     17.230	     14.876	      1.302
+       463	   62600000	      Ferralsols	 Sandy clay loam	     26.305	     33.936	     47.343	     18.743	     16.645	      1.270
+       464	   62615000	      Ferralsols	 Sandy clay loam	     23.656	     33.795	     48.081	     18.144	     15.906	      1.284
+       465	   62625000	      Ferralsols	 Sandy clay loam	     20.307	     34.629	     47.741	     17.667	     14.695	      1.321
+       466	   62665000	      Ferralsols	 Sandy clay loam	     30.342	     33.695	     47.464	     18.829	     15.671	      1.226
+       467	   62670000	      Ferralsols	 Sandy clay loam	     25.543	     33.164	     48.146	     18.677	     15.684	      1.250
+       468	   62760130	      Ferralsols	 Sandy clay loam	     15.594	     31.759	     53.725	     14.498	     14.168	      1.372
+       469	   63350100	      Ferralsols	      Sandy loam	      4.843	     17.781	     71.651	     10.539	     14.791	      1.425
+       470	   63900001	      Ferralsols	 Sandy clay loam	      4.263	     23.243	     65.096	     11.633	     12.575	      1.413
+       471	   63955000	      Ferralsols	 Sandy clay loam	      4.211	     24.226	     63.727	     12.013	     12.198	      1.402
+       472	   64065000	      Ferralsols	 Sandy clay loam	     17.172	     33.457	     48.114	     18.440	     13.079	      1.265
+       473	   64360000	      Ferralsols	       Clay loam	     20.592	     36.560	     41.472	     21.961	     11.194	      1.296
+       474	   64362000	      Ferralsols	       Clay loam	     16.382	     34.154	     44.613	     21.226	     10.994	      1.323
+       475	   64380000	      Ferralsols	       Clay loam	     20.246	     37.368	     39.876	     22.734	      9.464	      1.305
+       476	   64382000	      Ferralsols	       Clay loam	     16.165	     36.085	     42.011	     21.886	     10.623	      1.322
+       477	   64442800	      Ferralsols	            Clay	     27.298	     45.939	     27.491	     26.550	      9.007	      1.289
+       478	   64447000	      Ferralsols	            Clay	     26.863	     43.176	     31.058	     25.762	     10.707	      1.303
+       479	   64465000	      Ferralsols	            Clay	     25.722	     42.449	     32.123	     25.425	     10.977	      1.302
+       480	   64501000	      Ferralsols	            Clay	     24.725	     41.252	     33.946	     24.798	     11.018	      1.293
+       481	   64507000	      Ferralsols	            Clay	     23.612	     42.166	     33.590	     24.241	     11.157	      1.294
+       482	   64508500	      Ferralsols	            Clay	     18.251	     46.348	     32.487	     21.163	     12.052	      1.296
+       483	   64550000	      Ferralsols	      Sandy clay	     11.253	     39.006	     45.385	     15.592	     11.209	      1.363
+       484	   64613000	      Ferralsols	       Clay loam	      6.674	     39.387	     44.593	     16.003	     13.334	      1.360
+       485	   64617000	      Ferralsols	      Sandy clay	      6.753	     37.486	     47.254	     15.244	     12.460	      1.358
+       486	   64620000	      Ferralsols	            Clay	     26.899	     45.840	     27.156	     26.994	      8.278	      1.305
+       487	   64625000	      Ferralsols	            Clay	     26.653	     43.104	     29.964	     26.935	      8.201	      1.308
+       488	   64645000	      Ferralsols	            Clay	     27.567	     45.738	     28.142	     26.121	      8.310	      1.295
+       489	   64652000	        Acrisols	       Clay loam	     18.436	     36.185	     39.243	     24.564	      9.569	      1.315
+       490	   64655000	      Ferralsols	            Clay	     25.166	     43.589	     30.933	     25.475	      8.646	      1.303
+       491	   64659000	        Nitisols	            Clay	     25.718	     47.181	     27.774	     25.043	      8.039	      1.335
+       492	   64673000	      Ferralsols	            Clay	     25.810	     53.514	     26.191	     20.292	     12.019	      1.358
+       493	   64675002	      Ferralsols	            Clay	     23.366	     45.507	     30.510	     23.979	      9.307	      1.318
+       494	   64682000	      Ferralsols	 Sandy clay loam	     10.125	     25.895	     62.382	     11.713	     11.671	      1.395
+       495	   64685000	      Ferralsols	            Clay	     21.642	     44.046	     33.709	     22.240	      9.816	      1.328
+       496	   64693000	      Ferralsols	            Clay	     19.242	     40.286	     39.452	     20.254	     10.280	      1.340
+       497	   64715001	      Ferralsols	      Sandy clay	      8.190	     37.932	     48.228	     13.832	     11.306	      1.349
+       498	   64771500	      Ferralsols	            Clay	     31.288	     50.146	     21.749	     28.108	      7.904	      1.277
+       499	   64773000	      Ferralsols	            Clay	     28.710	     47.360	     25.232	     27.405	      8.647	      1.297
+       500	   64775000	      Ferralsols	            Clay	     25.835	     47.784	     25.867	     26.346	      8.981	      1.303
+       501	   64785000	      Ferralsols	            Clay	     18.725	     54.881	     24.643	     20.462	     13.439	      1.316
+       502	   64795000	      Ferralsols	            Clay	     27.864	     51.295	     23.193	     25.508	      8.691	      1.300
+       503	   64799500	      Ferralsols	            Clay	     26.953	     51.706	     23.587	     24.702	      9.109	      1.304
+       504	   64810000	      Ferralsols	      Sandy clay	     10.981	     39.008	     46.081	     14.899	     13.576	      1.370
+       505	   64815000	      Ferralsols	 Sandy clay loam	     10.694	     34.881	     51.087	     14.015	     13.454	      1.378
+       506	   64820000	      Ferralsols	            Clay	     23.125	     48.145	     29.725	     22.123	     10.174	      1.320
+       507	   64830000	      Ferralsols	            Clay	     23.022	     48.685	     29.906	     21.403	     10.465	      1.326
+       508	   64843000	      Ferralsols	 Sandy clay loam	      9.385	     31.076	     53.250	     15.661	     18.246	      1.364
+       509	   65010000	      Ferralsols	       Clay loam	     27.380	     39.913	     36.336	     23.731	     14.148	      1.239
+       510	   65015400	      Ferralsols	            Clay	     30.625	     41.308	     34.742	     23.923	     13.094	      1.271
+       511	   65025000	      Ferralsols	       Clay loam	     29.940	     39.908	     36.298	     23.772	     14.083	      1.263
+       512	   65027000	        Acrisols	            Clay	     28.676	     42.850	     32.658	     24.447	     11.273	      1.287
+       513	   65094500	       Cambisols	            Clay	     28.774	     41.232	     32.276	     26.506	     10.045	      1.246
+       514	   65095000	       Cambisols	            Clay	     28.936	     41.250	     32.265	     26.498	     10.037	      1.246
+       515	   65135000	      Ferralsols	            Clay	     28.372	     42.256	     33.229	     24.495	     10.867	      1.252
+       516	   65136550	      Ferralsols	            Clay	     28.877	     42.359	     33.444	     24.182	     10.569	      1.257
+       517	   65220000	      Ferralsols	            Clay	     29.636	     42.938	     30.602	     26.453	     10.819	      1.275
+       518	   65310000	      Ferralsols	            Clay	     30.155	     43.790	     29.448	     26.756	     10.587	      1.270
+       519	   65365000	        Nitisols	            Clay	     27.864	     52.417	     20.525	     27.111	      7.660	      1.251
+       520	   65925000	        Nitisols	            Clay	     48.944	     55.904	     16.986	     27.119	      8.139	      1.208
+       521	   65945000	      Ferralsols	            Clay	     45.696	     60.106	     13.880	     26.001	      6.893	      1.241
+       522	   65948000	      Ferralsols	            Clay	     43.804	     56.858	     16.188	     26.959	      5.116	      1.269
+       523	   65960000	      Ferralsols	            Clay	     44.302	     55.749	     17.012	     27.239	      7.307	      1.245
+       524	   65979000	      Ferralsols	            Clay	     32.895	     51.458	     22.810	     25.726	      7.185	      1.322
+       525	   66260001	      Ferralsols	      Sandy loam	     16.684	     19.704	     63.364	     16.925	     22.663	      1.395
+       526	   67100000	      Ferralsols	 Sandy clay loam	     21.577	     20.757	     58.696	     20.537	     26.040	      1.376
+       527	   70100000	       Cambisols	       Clay loam	     60.506	     39.729	     30.508	     29.785	      9.888	      1.180
+       528	   70200000	        Nitisols	       Clay loam	     58.047	     39.830	     30.199	     29.981	      9.568	      1.200
+       529	   70300000	        Nitisols	            Clay	     58.327	     41.538	     28.812	     29.650	      8.791	      1.201
+       530	   70500000	        Nitisols	            Clay	     61.169	     43.533	     27.186	     29.266	      9.314	      1.233
+       531	   71200000	       Cambisols	       Clay loam	     41.997	     37.929	     32.008	     30.077	      9.051	      1.170
+       532	   71250000	       Cambisols	       Clay loam	     42.963	     38.302	     31.977	     29.733	      9.170	      1.187
+       533	   71300000	       Cambisols	       Clay loam	     39.978	     38.033	     32.228	     29.747	      9.143	      1.186
+       534	   71383000	        Nitisols	       Clay loam	     38.901	     37.754	     32.738	     29.509	      9.546	      1.211
+       535	   71498000	        Nitisols	            Clay	     32.851	     46.729	     24.826	     28.436	      8.912	      1.209
+       536	   71550000	        Nitisols	            Clay	     36.366	     42.010	     28.897	     29.087	      9.341	      1.216
+       537	   72430000	        Nitisols	            Clay	     57.398	     49.749	     20.669	     29.567	     10.439	      1.310
+       538	   72630000	      Ferralsols	            Clay	     64.533	     49.143	     21.662	     29.189	      9.020	      1.333
+       539	   72680000	      Ferralsols	            Clay	     63.801	     49.111	     21.721	     29.164	      8.846	      1.329
+       540	   72715000	        Nitisols	            Clay	     29.072	     48.049	     24.103	     27.856	      9.027	      1.212
+       541	   72810000	        Nitisols	            Clay	     29.477	     47.925	     23.280	     28.794	      8.718	      1.221
+       542	   72870000	        Nitisols	            Clay	     46.815	     50.489	     18.831	     30.685	     10.448	      1.251
+       543	   73300000	        Nitisols	            Clay	     38.127	     51.378	     20.143	     28.493	      8.025	      1.200
+       544	   73330000	        Nitisols	            Clay	     39.951	     50.871	     20.041	     29.103	      7.786	      1.215
+       545	   73350000	        Nitisols	            Clay	     42.702	     49.809	     20.826	     29.369	      7.543	      1.238
+       546	   73600000	        Nitisols	            Clay	     47.637	     52.939	     19.180	     27.902	      9.005	      1.211
+       547	   73690001	        Nitisols	            Clay	     33.221	     51.022	     21.927	     27.064	      8.891	      1.202
+       548	   73765000	        Nitisols	            Clay	     43.040	     49.150	     20.583	     30.257	      6.143	      1.271
+       549	   73770000	        Nitisols	            Clay	     43.634	     51.580	     20.055	     28.368	      8.627	      1.227
+       550	   73780000	      Ferralsols	            Clay	     42.599	     49.336	     21.052	     29.592	      6.196	      1.249
+       551	   73820000	        Nitisols	            Clay	     44.210	     48.929	     21.227	     29.835	      6.301	      1.273
+       552	   73900000	        Nitisols	            Clay	     46.440	     49.726	     21.387	     28.874	      6.982	      1.301
+       553	   73960000	        Nitisols	            Clay	     44.086	     50.305	     20.789	     28.905	      8.284	      1.249
+       554	   74100000	        Nitisols	            Clay	     48.060	     46.064	     24.470	     29.464	      9.292	      1.258
+       555	   74205000	      Ferralsols	            Clay	     57.102	     49.980	     23.007	     27.024	     10.046	      1.293
+       556	   74270000	      Ferralsols	            Clay	     60.429	     48.682	     23.532	     27.779	      8.372	      1.313
+       557	   74295000	        Nitisols	            Clay	     41.312	     48.047	     22.636	     29.273	      6.905	      1.330
+       558	   74320000	        Nitisols	            Clay	     43.805	     48.001	     22.852	     29.139	      6.760	      1.302
+       559	   74370000	      Ferralsols	            Clay	     60.487	     49.559	     23.895	     26.552	      8.441	      1.324
+       560	   74460000	      Ferralsols	            Clay	     71.935	     49.916	     25.023	     25.049	     10.330	      1.328
+       561	   74470000	      Ferralsols	            Clay	     63.345	     49.569	     24.497	     25.929	      8.932	      1.338
+       562	   74700000	      Ferralsols	            Clay	     55.709	     47.791	     24.916	     27.268	      9.319	      1.339
+       563	   74750000	      Ferralsols	            Clay	     41.536	     46.721	     26.299	     26.977	      8.675	      1.342
+       564	   74800000	        Nitisols	            Clay	     48.174	     46.098	     25.046	     28.852	      8.748	      1.281
+       565	   74880000	      Ferralsols	            Clay	     44.102	     46.142	     27.246	     26.581	      9.733	      1.342
+       566	   74900000	      Ferralsols	            Clay	     39.911	     45.098	     28.191	     26.691	      9.146	      1.345
+       567	   75550000	        Nitisols	            Clay	     46.906	     45.605	     25.970	     28.421	      9.294	      1.294
+       568	   76310000	       Planosols	 Sandy clay loam	     25.603	     25.466	     47.699	     26.833	     14.810	      1.455
+       569	   77150000	        Acrisols	       Clay loam	     40.365	     38.586	     33.490	     27.922	     12.392	      1.327
+       570	   81125000	       Cambisols	            Clay	     18.969	     40.098	     36.889	     23.002	     10.044	      1.250
+       571	   81140000	        Acrisols	       Clay loam	     22.158	     35.976	     39.630	     24.389	      9.488	      1.266
+       572	   81200000	        Acrisols	       Clay loam	     20.159	     38.022	     37.889	     24.095	      9.901	      1.264
+       573	   82009080	        Acrisols	       Clay loam	     25.602	     34.127	     42.739	     23.085	     13.011	      1.252
+       574	   82170000	       Cambisols	       Clay loam	     43.591	     33.499	     41.103	     25.386	     11.467	      1.155
+       575	   82320000	       Cambisols	            Clay	     32.541	     40.422	     32.650	     26.968	      8.117	      1.243
+       576	   82350000	        Acrisols	       Clay loam	     30.450	     37.282	     36.999	     25.750	     10.355	      1.248
+       577	   82770000	      Ferralsols	       Clay loam	     48.091	     32.952	     43.238	     23.809	     17.044	      1.231
+       578	   83050000	        Nitisols	       Clay loam	     29.681	     38.041	     33.284	     28.674	      8.459	      1.276
+       579	   83105000	       Cambisols	       Clay loam	     42.407	     36.678	     34.705	     28.617	      8.345	      1.236
+       580	   83250000	        Acrisols	       Clay loam	     45.322	     36.688	     34.509	     28.798	      9.404	      1.278
+       581	   83300200	        Acrisols	       Clay loam	     38.827	     36.875	     34.465	     28.659	      9.477	      1.289
+       582	   83345000	        Nitisols	       Clay loam	     25.492	     39.691	     31.706	     28.599	      8.453	      1.304
+       583	   83440000	        Acrisols	       Clay loam	     26.722	     37.538	     34.116	     28.348	      8.214	      1.298
+       584	   83660000	       Cambisols	       Clay loam	     27.248	     39.178	     33.215	     27.626	      7.856	      1.251
+       585	   83675000	       Cambisols	       Clay loam	     23.664	     38.705	     34.487	     26.821	      8.839	      1.249
+       586	   83690000	        Acrisols	       Clay loam	     33.373	     36.957	     34.762	     28.284	      8.914	      1.293
+       587	   83800002	        Acrisols	       Clay loam	     32.318	     36.999	     35.133	     27.873	      9.127	      1.291
+       588	   83880000	        Acrisols	       Clay loam	     20.035	     34.984	     42.552	     22.490	     11.246	      1.346
+       589	   84071000	       Cambisols	       Clay loam	     29.279	     36.773	     37.029	     26.229	      8.020	      1.306
+       590	   84095000	        Acrisols	       Clay loam	     27.727	     36.488	     37.956	     25.581	      8.008	      1.310
+       591	   84100000	       Cambisols	       Clay loam	     23.984	     35.544	     39.634	     24.844	      8.215	      1.294
+       592	   84520000	       Cambisols	       Clay loam	     23.779	     33.659	     39.280	     27.065	      8.442	      1.225
+       593	   84551000	        Acrisols	       Clay loam	     33.402	     33.695	     39.470	     26.840	     11.980	      1.250
+       594	   84580000	        Acrisols	       Clay loam	     31.785	     34.127	     39.396	     26.491	     10.549	      1.253
+       595	   84600000	        Acrisols	       Clay loam	     23.998	     32.585	     42.811	     24.600	      9.122	      1.248
+       596	   84853000	        Acrisols	       Clay loam	     32.754	     33.572	     39.417	     27.017	     11.387	      1.210
+       597	   85400000	      Ferralsols	            Clay	     59.442	     43.065	     29.032	     27.900	     10.062	      1.361
+       598	   85438000	        Acrisols	       Clay loam	     31.344	     31.552	     39.806	     28.649	     13.097	      1.421
+       599	   85480000	        Acrisols	 Sandy clay loam	     27.112	     26.411	     47.585	     25.993	     12.920	      1.464
+       600	   85900000	        Acrisols	       Clay loam	     44.102	     34.220	     37.749	     28.032	     12.858	      1.411
+       601	   86100000	        Nitisols	       Clay loam	     50.468	     36.641	     33.644	     29.718	      8.779	      1.203
+       602	   86160000	        Nitisols	       Clay loam	     59.164	     37.461	     33.305	     29.236	      8.730	      1.228
+       603	   86410000	        Nitisols	            Clay	     52.193	     44.768	     24.601	     30.621	     10.741	      1.315
+       604	   86420000	        Nitisols	            Clay	     53.516	     45.058	     24.189	     30.748	     10.255	      1.317
+       605	   86480000	        Nitisols	            Clay	     50.596	     42.749	     26.190	     31.081	      8.630	      1.328
+       606	   86500000	        Nitisols	            Clay	     50.134	     42.277	     26.720	     31.021	      8.321	      1.329
+       607	   86510000	        Nitisols	       Clay loam	     50.110	     39.968	     29.383	     30.655	      8.846	      1.283
+       608	   86560000	        Nitisols	            Clay	     52.838	     42.021	     27.680	     30.304	      7.820	      1.351
+       609	   86580000	        Nitisols	            Clay	     51.937	     41.772	     27.850	     30.384	      7.744	      1.347
+       610	   86700000	        Nitisols	            Clay	     35.120	     40.168	     28.214	     31.655	      6.231	      1.325
+       611	   86745000	        Nitisols	       Clay loam	     39.658	     39.601	     29.666	     30.754	      6.833	      1.307
+       612	   87170000	        Nitisols	       Clay loam	     42.134	     36.014	     34.170	     29.826	      8.326	      1.269
+       613	   87380000	        Acrisols	       Clay loam	     35.434	     33.662	     38.129	     28.224	     11.453	      1.281
+       614	   87382000	        Acrisols	       Clay loam	     37.228	     33.262	     38.770	     27.980	     11.823	      1.285
+       615	   87450100	        Acrisols	 Sandy clay loam	     71.609	     27.596	     50.016	     22.366	     14.935	      1.426
+       616	   88575000	        Acrisols	 Sandy clay loam	     50.178	     26.943	     47.425	     25.629	      9.530	      1.355
+       617	   88750000	        Acrisols	 Sandy clay loam	     59.331	     27.233	     47.223	     25.508	     12.967	      1.374
+       618	   88850000	        Acrisols	 Sandy clay loam	     53.069	     28.603	     45.839	     25.538	      9.987	      1.359
+       619	   12400000	        Acrisols	       Clay loam	     16.644	     30.678	     38.550	     30.782	     23.401	      1.306
+       620	   20200000	      Ferralsols	 Sandy clay loam	      7.438	     31.931	     49.747	     18.324	     32.119	      1.337
+       621	   21300000	      Ferralsols	 Sandy clay loam	      4.679	     26.464	     54.112	     19.418	     32.741	      1.395
+       622	   21560000	      Ferralsols	 Sandy clay loam	     11.111	     28.300	     47.734	     23.967	     27.540	      1.395
+       623	   22050001	      Ferralsols	 Sandy clay loam	     12.989	     27.069	     52.422	     20.510	     27.316	      1.373
+       624	   22500000	      Ferralsols	 Sandy clay loam	     13.620	     25.215	     55.736	     19.046	     26.609	      1.379
+       625	   25100000	      Ferralsols	 Sandy clay loam	     10.348	     27.665	     53.064	     19.324	     26.360	      1.337
+       626	   26040000	      Ferralsols	 Sandy clay loam	     19.492	     30.398	     57.829	     11.756	     34.176	      1.338
+       627	   31490000	      Ferralsols	 Sandy clay loam	      2.102	     25.385	     53.918	     20.713	     59.597	      1.362
+       628	   31520000	      Ferralsols	 Sandy clay loam	      2.260	     25.252	     53.895	     20.870	     60.788	      1.358
+       629	   31600000	      Ferralsols	 Sandy clay loam	      4.367	     22.209	     59.039	     18.732	     84.726	      1.394
+       630	   32400000	      Ferralsols	 Sandy clay loam	      2.055	     26.863	     52.287	     20.873	     51.007	      1.341
+       631	   33075000	      Ferralsols	 Sandy clay loam	     11.175	     31.709	     51.692	     16.589	     40.495	      1.341
+       632	   34660000	      Ferralsols	      Sandy loam	      9.823	     19.314	     65.595	     15.074	     25.804	      1.444
+       633	   40040000	      Ferralsols	      Sandy clay	     10.169	     36.900	     45.147	     17.911	     24.055	      1.384
+       634	   40053000	      Ferralsols	            Clay	     11.709	     41.448	     38.949	     19.588	     24.553	      1.361
+       635	   40060001	      Ferralsols	      Sandy clay	     19.395	     35.952	     46.542	     17.471	     23.033	      1.343
+       636	   40150000	      Ferralsols	      Sandy clay	     18.718	     36.367	     46.402	     17.239	     22.619	      1.362
+       637	   40170000	      Ferralsols	       Clay loam	     16.464	     37.707	     44.942	     17.380	     23.561	      1.370
+       638	   40185000	      Ferralsols	      Sandy clay	     14.412	     37.430	     45.201	     17.398	     23.659	      1.370
+       639	   40269900	      Ferralsols	      Sandy clay	     30.140	     36.774	     46.290	     16.947	     23.537	      1.358
+       640	   40300001	      Ferralsols	      Sandy clay	     18.879	     36.570	     46.080	     17.361	     23.112	      1.354
+       641	   40330000	      Ferralsols	      Sandy clay	     15.357	     36.594	     46.101	     17.317	     23.254	      1.362
+       642	   40500000	      Ferralsols	      Sandy clay	      4.600	     35.338	     47.904	     16.737	     24.811	      1.369
+       643	   40530000	      Ferralsols	 Sandy clay loam	      6.888	     34.926	     47.616	     17.414	     22.512	      1.376
+       644	   40680000	      Ferralsols	      Sandy clay	     24.267	     37.505	     45.703	     16.767	     21.497	      1.353
+       645	   40740000	      Ferralsols	      Sandy clay	     24.594	     36.206	     46.768	     17.025	     22.468	      1.349
+       646	   40800001	      Ferralsols	      Sandy clay	     25.088	     36.107	     46.527	     17.369	     22.727	      1.349
+       647	   40810350	      Ferralsols	      Sandy clay	     23.266	     36.876	     45.112	     17.994	     23.685	      1.355
+       648	   40810800	      Ferralsols	       Clay loam	     40.227	     37.025	     44.723	     18.317	     22.822	      1.355
+       649	   40811100	      Ferralsols	       Clay loam	     36.960	     37.448	     44.164	     18.430	     22.404	      1.356
+       650	   40823500	      Ferralsols	      Sandy clay	     22.001	     36.692	     45.505	     17.841	     22.044	      1.359
+       651	   40850000	      Ferralsols	      Sandy clay	     21.800	     36.093	     46.400	     17.511	     23.027	      1.351
+       652	   40930000	      Ferralsols	      Sandy clay	     19.740	     37.000	     46.682	     16.270	     25.786	      1.351
+       653	   40975000	      Ferralsols	 Sandy clay loam	      9.423	     34.187	     49.790	     16.000	     30.946	      1.357
+       654	   41050000	      Ferralsols	      Sandy clay	     10.294	     37.257	     46.028	     16.679	     29.045	      1.356
+       655	   41135000	      Ferralsols	 Sandy clay loam	     10.898	     34.502	     48.013	     17.476	     25.004	      1.364
+       656	   41199998	      Ferralsols	 Sandy clay loam	     41.598	     34.741	     47.414	     17.842	     24.132	      1.265
+       657	   41260000	      Ferralsols	      Sandy clay	     38.077	     35.145	     46.818	     18.041	     25.336	      1.290
+       658	   41380000	      Ferralsols	 Sandy clay loam	      9.964	     32.456	     48.512	     19.012	     24.195	      1.336
+       659	   41410000	      Ferralsols	      Sandy clay	     29.604	     35.030	     46.524	     18.449	     24.562	      1.311
+       660	   41440005	      Ferralsols	       Clay loam	     33.052	     37.684	     43.572	     18.727	     24.227	      1.346
+       661	   41685000	      Ferralsols	 Sandy clay loam	      4.120	     31.922	     49.401	     18.694	     26.530	      1.367
+       662	   41780002	      Ferralsols	 Sandy clay loam	     20.346	     30.595	     51.596	     17.808	     31.348	      1.345
+       663	   41890000	      Ferralsols	 Sandy clay loam	     10.670	     28.383	     52.487	     19.134	     33.542	      1.331
+       664	   42187000	      Ferralsols	 Sandy clay loam	      1.466	     31.221	     49.695	     19.084	     27.692	      1.374
+       665	   42250000	      Ferralsols	 Sandy clay loam	      7.017	     33.999	     47.471	     18.522	     30.674	      1.354
+       666	   42257000	      Ferralsols	 Sandy clay loam	      3.776	     32.631	     48.481	     18.884	     29.143	      1.366
+       667	   42365000	      Ferralsols	 Sandy clay loam	      6.154	     32.260	     50.791	     16.938	     28.771	      1.359
+       668	   42435000	      Ferralsols	 Sandy clay loam	      3.329	     32.153	     48.800	     19.041	     26.490	      1.375
+       669	   42460000	      Ferralsols	      Sandy clay	      6.374	     36.906	     46.260	     16.816	     38.772	      1.355
+       670	   42490000	      Ferralsols	      Sandy clay	      5.724	     35.672	     46.214	     18.099	     37.120	      1.357
+       671	   42546000	      Ferralsols	 Sandy clay loam	      1.847	     31.754	     49.580	     18.668	     34.847	      1.380
+       672	   42840000	      Ferralsols	      Sandy clay	      7.608	     36.084	     48.323	     15.573	     31.921	      1.344
+       673	   42860000	      Ferralsols	 Sandy clay loam	      3.942	     29.002	     54.379	     16.622	     29.397	      1.371
+       674	   45170001	      Ferralsols	 Sandy clay loam	      3.151	     21.850	     62.035	     16.105	     31.842	      1.414
+       675	   45590000	      Ferralsols	 Sandy clay loam	      8.898	     23.665	     61.137	     15.183	     32.545	      1.416
+       676	   45740001	      Ferralsols	 Sandy clay loam	     12.814	     23.030	     62.133	     14.810	     31.586	      1.417
+       677	   45770000	      Ferralsols	 Sandy clay loam	      8.084	     23.647	     60.160	     16.185	     31.894	      1.414
+       678	   45880000	      Ferralsols	 Sandy clay loam	      5.570	     23.399	     60.342	     16.246	     29.898	      1.414
+       679	   46415000	      Ferralsols	 Sandy clay loam	     15.417	     22.983	     61.784	     15.217	     32.927	      1.418
+       680	   46455000	      Ferralsols	 Sandy clay loam	     17.940	     26.578	     57.036	     16.382	     35.621	      1.401
+       681	   46490000	      Ferralsols	 Sandy clay loam	     13.085	     23.142	     62.292	     14.545	     30.859	      1.426
+       682	   46543000	      Ferralsols	 Sandy clay loam	     17.459	     24.721	     59.127	     16.143	     32.403	      1.404
+       683	   46570000	      Ferralsols	 Sandy clay loam	     25.484	     28.702	     53.729	     17.579	     43.689	      1.385
+       684	   46590000	      Ferralsols	 Sandy clay loam	     19.118	     25.765	     56.994	     17.243	     35.391	      1.402
+       685	   46770000	      Ferralsols	 Sandy clay loam	     20.148	     25.568	     58.506	     15.915	     37.022	      1.414
+       686	   46998000	      Ferralsols	 Sandy clay loam	     10.710	     27.634	     54.095	     18.270	     30.419	      1.397
+       687	   47249000	      Ferralsols	 Sandy clay loam	     13.987	     24.822	     56.464	     18.713	     27.916	      1.426
+       688	   48850000	       Leptosols	 Sandy clay loam	      2.672	     20.639	     58.975	     20.391	     23.207	      1.464
+       689	   53790000	      Ferralsols	 Sandy clay loam	      9.958	     31.384	     52.579	     16.057	     28.416	      1.362
+       690	   58442000	      Ferralsols	 Sandy clay loam	     34.143	     34.641	     47.562	     17.766	     18.545	      1.258
+       691	   58826000	      Ferralsols	 Sandy clay loam	     43.349	     33.330	     46.956	     19.707	     20.524	      1.227
+       692	   58846000	      Ferralsols	      Sandy clay	     34.453	     35.364	     46.502	     18.086	     21.914	      1.254
+       693	   58857000	      Ferralsols	      Sandy clay	     25.463	     36.173	     46.724	     17.105	     21.467	      1.284
+       694	   58880001	      Ferralsols	 Sandy clay loam	     22.168	     33.203	     49.576	     17.221	     19.911	      1.306
+       695	   60030000	      Ferralsols	      Sandy clay	      5.365	     36.891	     47.166	     15.933	     39.252	      1.356
+       696	   60435100	      Ferralsols	 Sandy clay loam	      4.592	     30.048	     54.440	     15.501	     46.503	      1.375
+       697	   60477400	      Ferralsols	      Sandy clay	     14.684	     36.292	     47.297	     16.423	     38.449	      1.328
+       698	   60477600	      Ferralsols	      Sandy clay	     12.675	     36.728	     46.726	     16.562	     42.392	      1.334
+       699	   60478500	      Ferralsols	      Sandy clay	     11.729	     38.639	     45.360	     15.983	     42.473	      1.323
+       700	   60478600	      Ferralsols	            Clay	     14.262	     41.866	     40.844	     17.319	     41.579	      1.307
+       701	   60500000	      Ferralsols	      Sandy clay	      7.192	     35.064	     47.848	     17.086	     38.017	      1.354
+       702	   60540000	      Ferralsols	      Sandy clay	      6.484	     36.638	     45.617	     17.733	     37.324	      1.351
+       703	   61175000	      Ferralsols	       Clay loam	     16.269	     38.010	     44.108	     17.897	     21.339	      1.370
+       704	   61565000	      Ferralsols	      Sandy clay	     24.782	     37.117	     45.361	     17.583	     23.478	      1.293
+       705	   61795000	      Ferralsols	 Sandy clay loam	      4.874	     34.643	     49.270	     16.073	     24.861	      1.365
+       706	   61910000	      Ferralsols	      Sandy clay	     13.287	     35.238	     48.208	     16.551	     14.483	      1.362
+       707	   61956001	      Ferralsols	 Sandy clay loam	      3.046	     26.706	     59.410	     13.871	     10.459	      1.386
+       708	   62095100	       Cambisols	       Clay loam	     36.806	     36.006	     43.192	     20.814	     15.036	      1.176
+       709	   62110000	      Ferralsols	 Sandy clay loam	     26.585	     34.089	     46.573	     19.332	     16.355	      1.225
+       710	   62496001	      Ferralsols	 Sandy clay loam	     17.689	     31.837	     51.634	     16.544	     12.663	      1.293
+       711	   62676000	      Ferralsols	 Sandy clay loam	     22.267	     33.129	     48.782	     18.085	     15.383	      1.276
+       712	   62772500	      Ferralsols	      Sandy clay	      4.667	     36.356	     47.766	     15.876	     13.532	      1.357
+       713	   63160000	      Ferralsols	 Sandy clay loam	      5.287	     24.484	     62.294	     13.205	      9.620	      1.390
+       714	   64346000	      Ferralsols	 Sandy clay loam	      5.183	     24.557	     63.665	     11.767	      9.485	      1.416
+       715	   64370000	      Ferralsols	       Clay loam	     15.478	     35.197	     44.109	     20.687	     10.826	      1.330
+       716	   64491000	      Ferralsols	            Clay	     25.251	     41.273	     33.757	     24.969	     10.992	      1.292
+       717	   65019700	      Ferralsols	       Clay loam	     28.431	     38.543	     38.434	     23.004	     13.896	      1.263
+       718	   65415000	        Nitisols	            Clay	     25.015	     48.875	     23.800	     27.331	      8.710	      1.238
+       719	   65855000	      Ferralsols	            Clay	     33.700	     53.631	     18.319	     28.061	      9.034	      1.265
+       720	   66006000	      Ferralsols	 Sandy clay loam	     15.581	     24.539	     61.768	     13.682	     26.499	      1.370
+       721	   66008000	      Ferralsols	      Sandy loam	     19.042	     19.389	     61.889	     18.726	     20.583	      1.387
+       722	   66160000	      Ferralsols	 Sandy clay loam	     17.947	     20.981	     61.510	     17.501	     23.817	      1.394
+       723	   75155000	      Ferralsols	            Clay	     64.637	     48.598	     25.729	     25.649	     10.118	      1.319
+       724	   75205000	      Ferralsols	            Clay	     61.181	     46.378	     27.797	     25.798	     11.588	      1.326
+       725	   75450000	      Ferralsols	            Clay	     31.666	     43.368	     30.216	     26.414	     10.824	      1.366
+       726	   76100000	        Acrisols	       Clay loam	     36.928	     38.016	     33.458	     28.529	      9.834	      1.387
+       727	   76300000	       Planosols	 Sandy clay loam	     24.355	     24.765	     49.672	     25.560	     14.235	      1.464
+       728	   76440000	        Acrisols	       Clay loam	     34.546	     38.391	     34.019	     27.589	      9.172	      1.367
+       729	   76460000	        Acrisols	       Clay loam	     29.089	     37.121	     35.715	     27.170	      8.332	      1.382
+       730	   81380000	        Acrisols	       Clay loam	     23.970	     37.032	     38.924	     24.043	     10.744	      1.248
+       731	   81683000	        Acrisols	       Clay loam	     24.145	     35.632	     41.198	     23.169	     11.878	      1.239
+       732	   84950000	        Acrisols	       Clay loam	     42.145	     36.000	     38.311	     25.700	     12.662	      1.225
+       733	   87160000	        Nitisols	       Clay loam	     46.311	     36.286	     33.631	     30.089	      8.264	      1.252
+       734	   87399000	        Acrisols	 Sandy clay loam	     63.937	     26.609	     48.145	     25.237	     22.303	      1.409
+       735	   87400000	        Acrisols	 Sandy clay loam	     63.178	     27.061	     47.498	     25.434	     21.106	      1.404

@@ -1,0 +1,744 @@
+CABra dataset - Geology attributes
+ 
+catch_lith is the most common lithologic class in the catchment.
+sub_porosity is subsurface porosity.
+sub_permeability is the subsurface permeability.
+sub_hconduc is the subsurface hydraulic conductivity.
+ 
+  CABra ID	     ANA ID	                          catch_lith	  sub_porosity	  sub_permeability	  sub_hconduc
+          	           	                                    	              	           log(m²)	   log(m s¯¹)
+         1	   13880000	     Siliciclastic sedimentary rocks	         0.192	           -14.306	       -7.306
+         2	   14110000	                 Acid plutonic rocks	         0.055	           -13.883	       -6.883
+         3	   14230000	                        Metamorphics	         0.070	           -13.413	       -6.413
+         4	   14250000	                 Acid plutonic rocks	         0.064	           -13.679	       -6.679
+         5	   14260000	     Siliciclastic sedimentary rocks	         0.129	           -14.073	       -7.073
+         6	   14280001	     Siliciclastic sedimentary rocks	         0.133	           -13.996	       -6.996
+         7	   14300000	                 Acid plutonic rocks	         0.033	           -13.095	       -6.095
+         8	   14330000	                 Acid plutonic rocks	         0.087	           -13.687	       -6.687
+         9	   14420000	            Unconsolidated sediments	         0.107	           -13.512	       -6.512
+        10	   14495000	                        Metamorphics	         0.026	           -14.047	       -7.047
+        11	   14515000	                        Metamorphics	         0.042	           -13.786	       -6.786
+        12	   14550000	     Siliciclastic sedimentary rocks	         0.140	           -13.967	       -6.967
+        13	   14680001	                        Metamorphics	         0.010	           -14.038	       -7.038
+        14	   14710000	                        Metamorphics	         0.066	           -13.599	       -6.599
+        15	   15030000	            Unconsolidated sediments	         0.169	           -13.901	       -6.901
+        16	   15050000	                 Acid plutonic rocks	         0.125	           -13.386	       -6.386
+        17	   15120001	            Unconsolidated sediments	         0.125	           -13.216	       -6.216
+        18	   15250000	             Mixed sedimentary rocks	         0.152	           -13.781	       -6.781
+        19	   15320002	             Mixed sedimentary rocks	         0.167	           -13.923	       -6.923
+        20	   15430000	                        Metamorphics	         0.015	           -13.989	       -6.989
+        21	   15431000	                        Metamorphics	         0.010	           -13.630	       -6.630
+        22	   15432000	                 Acid plutonic rocks	         0.010	           -14.074	       -7.074
+        23	   15550000	                        Metamorphics	         0.059	           -13.406	       -6.406
+        24	   15558000	     Siliciclastic sedimentary rocks	         0.185	           -14.305	       -7.305
+        25	   15560000	     Siliciclastic sedimentary rocks	         0.150	           -14.345	       -7.345
+        26	   15580000	                        Metamorphics	         0.110	           -14.026	       -7.026
+        27	   15630000	             Mixed sedimentary rocks	         0.160	           -13.865	       -6.865
+        28	   15700000	             Mixed sedimentary rocks	         0.162	           -13.821	       -6.821
+        29	   15750000	                        Metamorphics	         0.107	           -13.087	       -6.087
+        30	   15800000	                 Acid plutonic rocks	         0.082	           -13.164	       -6.164
+        31	   15830000	                 Acid plutonic rocks	         0.086	           -13.375	       -6.375
+        32	   15910000	     Siliciclastic sedimentary rocks	         0.206	           -13.569	       -6.569
+        33	   16700000	                 Acid plutonic rocks	         0.039	           -13.062	       -6.062
+        34	   17050001	            Unconsolidated sediments	         0.164	           -13.787	       -6.787
+        35	   17090000	                 Acid plutonic rocks	         0.032	           -13.165	       -6.165
+        36	   17093000	            Unconsolidated sediments	         0.241	           -12.999	       -5.999
+        37	   17120000	     Siliciclastic sedimentary rocks	         0.252	           -13.004	       -6.004
+        38	   17200000	     Siliciclastic sedimentary rocks	         0.208	           -14.421	       -7.421
+        39	   17280000	     Siliciclastic sedimentary rocks	         0.229	           -13.446	       -6.446
+        40	   17340000	     Siliciclastic sedimentary rocks	         0.215	           -13.306	       -6.306
+        41	   17345000	     Siliciclastic sedimentary rocks	         0.190	           -15.200	       -8.200
+        42	   17350000	         Intermediate volcanic rocks	         0.120	           -13.314	       -6.314
+        43	   17730000	     Siliciclastic sedimentary rocks	         0.158	           -13.344	       -6.344
+        44	   18200000	                 Acid plutonic rocks	         0.048	           -13.710	       -6.710
+        45	   18250000	                        Metamorphics	         0.075	           -13.830	       -6.830
+        46	   18280000	                 Acid plutonic rocks	         0.010	           -13.534	       -6.534
+        47	   18420000	     Siliciclastic sedimentary rocks	         0.243	           -13.155	       -6.155
+        48	   18460000	            Unconsolidated sediments	         0.180	           -13.226	       -6.226
+        49	   18650000	                 Acid plutonic rocks	         0.059	           -14.066	       -7.066
+        50	   18850000	                        Metamorphics	         0.111	           -13.585	       -6.585
+        51	   19100000	                        Metamorphics	         0.041	           -13.000	       -6.000
+        52	   19150000	                 Acid plutonic rocks	         0.016	           -13.151	       -6.151
+        53	   20050000	                        Metamorphics	         0.037	           -13.814	       -6.814
+        54	   20250000	                        Metamorphics	         0.021	           -13.255	       -6.255
+        55	   21500000	            Unconsolidated sediments	         0.161	           -13.260	       -6.260
+        56	   21850000	             Mixed sedimentary rocks	         0.152	           -13.646	       -6.646
+        57	   22680000	     Siliciclastic sedimentary rocks	         0.193	           -13.439	       -6.439
+        58	   22700000	     Siliciclastic sedimentary rocks	         0.192	           -13.547	       -6.547
+        59	   22900000	     Siliciclastic sedimentary rocks	         0.187	           -14.182	       -7.182
+        60	   23100000	                        Metamorphics	         0.096	           -13.726	       -6.726
+        61	   23250000	             Mixed sedimentary rocks	         0.191	           -13.829	       -6.829
+        62	   23300000	                        Metamorphics	         0.107	           -13.800	       -6.800
+        63	   23600000	                        Metamorphics	         0.111	           -13.754	       -6.754
+        64	   23700000	                        Metamorphics	         0.112	           -13.766	       -6.766
+        65	   24050000	     Siliciclastic sedimentary rocks	         0.257	           -13.000	       -6.000
+        66	   24200000	     Siliciclastic sedimentary rocks	         0.201	           -13.091	       -6.091
+        67	   24500000	     Siliciclastic sedimentary rocks	         0.193	           -14.550	       -7.550
+        68	   24700000	     Siliciclastic sedimentary rocks	         0.196	           -13.900	       -6.900
+        69	   24750000	     Siliciclastic sedimentary rocks	         0.159	           -13.000	       -6.000
+        70	   24780000	     Siliciclastic sedimentary rocks	         0.161	           -13.000	       -6.000
+        71	   24800000	     Siliciclastic sedimentary rocks	         0.129	           -13.000	       -6.000
+        72	   24850000	     Siliciclastic sedimentary rocks	         0.179	           -13.662	       -6.662
+        73	   24900000	     Siliciclastic sedimentary rocks	         0.155	           -13.000	       -6.000
+        74	   24950000	                        Metamorphics	         0.076	           -13.000	       -6.000
+        75	   25130000	                 Acid plutonic rocks	         0.012	           -13.000	       -6.000
+        76	   25200000	     Siliciclastic sedimentary rocks	         0.155	           -13.444	       -6.444
+        77	   25700000	     Siliciclastic sedimentary rocks	         0.150	           -13.387	       -6.387
+        78	   25950000	     Siliciclastic sedimentary rocks	         0.132	           -13.346	       -6.346
+        79	   26050000	            Unconsolidated sediments	         0.207	           -13.937	       -6.937
+        80	   26100000	     Siliciclastic sedimentary rocks	         0.199	           -14.131	       -7.131
+        81	   26300000	            Unconsolidated sediments	         0.193	           -13.634	       -6.634
+        82	   26350000	            Unconsolidated sediments	         0.198	           -13.497	       -6.497
+        83	   27500000	            Unconsolidated sediments	         0.141	           -13.387	       -6.387
+        84	   28150000	     Siliciclastic sedimentary rocks	         0.157	           -13.291	       -6.291
+        85	   28300000	            Unconsolidated sediments	         0.133	           -13.438	       -6.438
+        86	   28850000	            Unconsolidated sediments	         0.134	           -13.457	       -6.457
+        87	   29050000	                        Metamorphics	         0.126	           -13.591	       -6.591
+        88	   29100000	                        Metamorphics	         0.037	           -13.462	       -6.462
+        89	   29700000	                        Metamorphics	         0.120	           -13.571	       -6.571
+        90	   30300000	                        Metamorphics	         0.011	           -13.000	       -6.000
+        91	   30400000	                 Acid plutonic rocks	         0.012	           -13.000	       -6.000
+        92	   31700000	     Siliciclastic sedimentary rocks	         0.200	           -13.000	       -6.000
+        93	   32450002	                        Metamorphics	         0.076	           -13.891	       -6.891
+        94	   32620000	     Siliciclastic sedimentary rocks	         0.184	           -13.237	       -6.237
+        95	   32740000	     Siliciclastic sedimentary rocks	         0.124	           -14.645	       -7.645
+        96	   32830000	     Siliciclastic sedimentary rocks	         0.190	           -15.179	       -8.179
+        97	   33025000	            Unconsolidated sediments	         0.214	           -13.008	       -6.008
+        98	   33170000	            Unconsolidated sediments	         0.208	           -13.137	       -6.137
+        99	   33190000	            Unconsolidated sediments	         0.206	           -13.426	       -6.426
+       100	   33205000	     Siliciclastic sedimentary rocks	         0.200	           -13.754	       -6.754
+       101	   33250000	     Siliciclastic sedimentary rocks	         0.201	           -14.280	       -7.280
+       102	   33260000	     Siliciclastic sedimentary rocks	         0.199	           -14.401	       -7.401
+       103	   33270000	     Siliciclastic sedimentary rocks	         0.188	           -15.137	       -8.137
+       104	   33281000	     Siliciclastic sedimentary rocks	         0.196	           -14.675	       -7.675
+       105	   33290000	     Siliciclastic sedimentary rocks	         0.195	           -14.706	       -7.706
+       106	   33321000	     Siliciclastic sedimentary rocks	         0.150	           -13.819	       -6.819
+       107	   33330000	     Siliciclastic sedimentary rocks	         0.194	           -13.610	       -6.610
+       108	   33380000	     Siliciclastic sedimentary rocks	         0.184	           -14.354	       -7.354
+       109	   33420000	     Siliciclastic sedimentary rocks	         0.208	           -14.383	       -7.383
+       110	   33450000	     Siliciclastic sedimentary rocks	         0.232	           -13.750	       -6.750
+       111	   33460000	     Siliciclastic sedimentary rocks	         0.226	           -13.964	       -6.964
+       112	   33480000	     Siliciclastic sedimentary rocks	         0.212	           -14.270	       -7.270
+       113	   33520000	             Mixed sedimentary rocks	         0.172	           -14.610	       -7.610
+       114	   33530000	     Siliciclastic sedimentary rocks	         0.198	           -14.542	       -7.542
+       115	   33550000	     Siliciclastic sedimentary rocks	         0.196	           -14.647	       -7.647
+       116	   33590000	     Siliciclastic sedimentary rocks	         0.196	           -14.666	       -7.666
+       117	   33620000	     Siliciclastic sedimentary rocks	         0.190	           -15.200	       -8.200
+       118	   33630000	     Siliciclastic sedimentary rocks	         0.195	           -14.743	       -7.743
+       119	   33680000	     Siliciclastic sedimentary rocks	         0.195	           -14.778	       -7.778
+       120	   33730000	     Siliciclastic sedimentary rocks	         0.207	           -14.420	       -7.420
+       121	   33760000	     Siliciclastic sedimentary rocks	         0.238	           -13.099	       -6.099
+       122	   33780000	     Siliciclastic sedimentary rocks	         0.214	           -14.082	       -7.082
+       123	   34020000	     Siliciclastic sedimentary rocks	         0.203	           -13.000	       -6.000
+       124	   34060000	             Mixed sedimentary rocks	         0.196	           -13.000	       -6.000
+       125	   34090000	             Mixed sedimentary rocks	         0.190	           -13.000	       -6.000
+       126	   34130000	             Mixed sedimentary rocks	         0.190	           -13.046	       -6.046
+       127	   34170000	             Mixed sedimentary rocks	         0.195	           -13.159	       -6.159
+       128	   34251000	     Siliciclastic sedimentary rocks	         0.164	           -13.024	       -6.024
+       129	   34270000	     Siliciclastic sedimentary rocks	         0.175	           -13.091	       -6.091
+       130	   34770000	     Siliciclastic sedimentary rocks	         0.152	           -14.171	       -7.171
+       131	   34940000	     Siliciclastic sedimentary rocks	         0.196	           -14.892	       -7.892
+       132	   34980000	     Siliciclastic sedimentary rocks	         0.190	           -14.434	       -7.434
+       133	   35260000	                        Metamorphics	         0.011	           -14.093	       -7.093
+       134	   36045000	                        Metamorphics	         0.060	           -13.675	       -6.675
+       135	   36160000	                        Metamorphics	         0.041	           -13.905	       -6.905
+       136	   36250000	     Siliciclastic sedimentary rocks	         0.113	           -13.214	       -6.214
+       137	   36290000	                        Metamorphics	         0.075	           -13.708	       -6.708
+       138	   36390000	                        Metamorphics	         0.049	           -13.915	       -6.915
+       139	   36580000	                        Metamorphics	         0.014	           -14.081	       -7.081
+       140	   37380000	                        Metamorphics	         0.018	           -14.059	       -7.059
+       141	   37410000	                        Metamorphics	         0.035	           -14.008	       -7.008
+       142	   37470000	                        Metamorphics	         0.030	           -14.024	       -7.024
+       143	   37515000	                        Metamorphics	         0.013	           -14.079	       -7.079
+       144	   38170000	                        Metamorphics	         0.047	           -14.067	       -7.067
+       145	   38485000	                 Acid plutonic rocks	         0.051	           -13.944	       -6.944
+       146	   38650000	                        Metamorphics	         0.018	           -14.107	       -7.107
+       147	   38830000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       148	   38850000	                        Metamorphics	         0.013	           -14.082	       -7.082
+       149	   38860000	                        Metamorphics	         0.011	           -14.088	       -7.088
+       150	   38895000	                        Metamorphics	         0.016	           -14.059	       -7.059
+       151	   39084010	                        Metamorphics	         0.013	           -14.080	       -7.080
+       152	   39185000	                 Acid plutonic rocks	         0.014	           -14.057	       -7.057
+       153	   39360000	                 Acid plutonic rocks	         0.010	           -14.054	       -7.054
+       154	   39540000	                 Acid plutonic rocks	         0.010	           -14.100	       -7.100
+       155	   39560000	                 Acid plutonic rocks	         0.012	           -13.805	       -6.805
+       156	   39770000	                        Metamorphics	         0.027	           -13.258	       -6.258
+       157	   39980000	                        Metamorphics	         0.066	           -13.739	       -6.739
+       158	   40070000	             Mixed sedimentary rocks	         0.133	           -13.349	       -6.349
+       159	   40100000	             Mixed sedimentary rocks	         0.142	           -13.369	       -6.369
+       160	   41650002	             Mixed sedimentary rocks	         0.095	           -13.715	       -6.715
+       161	   41818000	             Mixed sedimentary rocks	         0.103	           -13.735	       -6.735
+       162	   41990000	             Mixed sedimentary rocks	         0.122	           -13.725	       -6.725
+       163	   42210000	             Mixed sedimentary rocks	         0.129	           -13.518	       -6.518
+       164	   42395000	                        Metamorphics	         0.132	           -13.290	       -6.290
+       165	   42690001	            Unconsolidated sediments	         0.158	           -13.127	       -6.127
+       166	   42980000	            Unconsolidated sediments	         0.168	           -13.222	       -6.222
+       167	   43200000	             Mixed sedimentary rocks	         0.142	           -13.425	       -6.425
+       168	   43429998	     Siliciclastic sedimentary rocks	         0.194	           -13.000	       -6.000
+       169	   43670000	     Siliciclastic sedimentary rocks	         0.198	           -13.000	       -6.000
+       170	   43880000	     Siliciclastic sedimentary rocks	         0.198	           -13.000	       -6.000
+       171	   44200000	            Unconsolidated sediments	         0.151	           -13.357	       -6.357
+       172	   44250000	     Siliciclastic sedimentary rocks	         0.191	           -13.079	       -6.079
+       173	   44290002	     Siliciclastic sedimentary rocks	         0.152	           -13.344	       -6.344
+       174	   44500000	     Siliciclastic sedimentary rocks	         0.153	           -13.358	       -6.358
+       175	   44540000	             Mixed sedimentary rocks	         0.166	           -13.674	       -6.674
+       176	   44670000	         Carbonate sedimentary rocks	         0.123	           -13.132	       -6.132
+       177	   45210000	     Siliciclastic sedimentary rocks	         0.190	           -13.097	       -6.097
+       178	   45260000	     Siliciclastic sedimentary rocks	         0.188	           -13.179	       -6.179
+       179	   45298000	     Siliciclastic sedimentary rocks	         0.152	           -13.369	       -6.369
+       180	   45480000	            Unconsolidated sediments	         0.150	           -13.414	       -6.414
+       181	   45910001	     Siliciclastic sedimentary rocks	         0.185	           -13.169	       -6.169
+       182	   45960001	     Siliciclastic sedimentary rocks	         0.182	           -13.224	       -6.224
+       183	   46035000	     Siliciclastic sedimentary rocks	         0.154	           -13.413	       -6.413
+       184	   46105000	     Siliciclastic sedimentary rocks	         0.154	           -13.411	       -6.411
+       185	   46150000	     Siliciclastic sedimentary rocks	         0.152	           -13.428	       -6.428
+       186	   46360000	     Siliciclastic sedimentary rocks	         0.149	           -13.441	       -6.441
+       187	   46550000	     Siliciclastic sedimentary rocks	         0.185	           -13.014	       -6.014
+       188	   46610000	     Siliciclastic sedimentary rocks	         0.187	           -13.015	       -6.015
+       189	   46650000	     Siliciclastic sedimentary rocks	         0.187	           -13.020	       -6.020
+       190	   46675000	     Siliciclastic sedimentary rocks	         0.187	           -13.019	       -6.019
+       191	   46790000	     Siliciclastic sedimentary rocks	         0.188	           -13.017	       -6.017
+       192	   46830000	     Siliciclastic sedimentary rocks	         0.173	           -13.267	       -6.267
+       193	   46870000	     Siliciclastic sedimentary rocks	         0.168	           -13.258	       -6.258
+       194	   46902000	     Siliciclastic sedimentary rocks	         0.183	           -13.109	       -6.109
+       195	   48020000	     Siliciclastic sedimentary rocks	         0.158	           -13.408	       -6.408
+       196	   48290000	     Siliciclastic sedimentary rocks	         0.154	           -13.424	       -6.424
+       197	   48590000	     Siliciclastic sedimentary rocks	         0.149	           -13.447	       -6.447
+       198	   49330000	     Siliciclastic sedimentary rocks	         0.143	           -13.473	       -6.473
+       199	   49370000	     Siliciclastic sedimentary rocks	         0.142	           -13.478	       -6.478
+       200	   49660000	     Siliciclastic sedimentary rocks	         0.139	           -13.491	       -6.491
+       201	   49705000	     Siliciclastic sedimentary rocks	         0.139	           -13.492	       -6.492
+       202	   50191000	                        Metamorphics	         0.124	           -13.818	       -6.818
+       203	   50250000	     Siliciclastic sedimentary rocks	         0.207	           -14.349	       -7.349
+       204	   50290000	     Siliciclastic sedimentary rocks	         0.186	           -14.232	       -7.232
+       205	   50420000	                        Metamorphics	         0.047	           -13.012	       -6.012
+       206	   50465000	                        Metamorphics	         0.059	           -13.287	       -6.287
+       207	   50520000	                        Metamorphics	         0.048	           -13.636	       -6.636
+       208	   50540000	                        Metamorphics	         0.059	           -13.594	       -6.594
+       209	   50595000	                        Metamorphics	         0.096	           -13.487	       -6.487
+       210	   50620000	     Siliciclastic sedimentary rocks	         0.211	           -13.082	       -6.082
+       211	   50660000	     Siliciclastic sedimentary rocks	         0.196	           -13.191	       -6.191
+       212	   50720000	                        Metamorphics	         0.084	           -13.379	       -6.379
+       213	   50730000	     Siliciclastic sedimentary rocks	         0.196	           -13.497	       -6.497
+       214	   50740000	             Mixed sedimentary rocks	         0.207	           -14.339	       -7.339
+       215	   51120000	            Unconsolidated sediments	         0.222	           -13.090	       -6.090
+       216	   51140000	     Siliciclastic sedimentary rocks	         0.175	           -13.491	       -6.491
+       217	   51170000	             Mixed sedimentary rocks	         0.200	           -13.007	       -6.007
+       218	   51190000	     Siliciclastic sedimentary rocks	         0.186	           -13.318	       -6.318
+       219	   51230000	     Siliciclastic sedimentary rocks	         0.213	           -13.035	       -6.035
+       220	   51240000	     Siliciclastic sedimentary rocks	         0.193	           -13.229	       -6.229
+       221	   51280000	                        Metamorphics	         0.149	           -13.380	       -6.380
+       222	   51330000	                        Metamorphics	         0.124	           -13.500	       -6.500
+       223	   51430000	                        Metamorphics	         0.094	           -13.224	       -6.224
+       224	   51440000	                        Metamorphics	         0.072	           -13.469	       -6.469
+       225	   51560000	                        Metamorphics	         0.031	           -13.190	       -6.190
+       226	   51795000	                        Metamorphics	         0.056	           -13.000	       -6.000
+       227	   54010005	                        Metamorphics	         0.146	           -13.386	       -6.386
+       228	   54110002	                        Metamorphics	         0.076	           -13.772	       -6.772
+       229	   54150000	                        Metamorphics	         0.109	           -13.568	       -6.568
+       230	   54165000	                        Metamorphics	         0.102	           -13.384	       -6.384
+       231	   54195000	                        Metamorphics	         0.096	           -13.581	       -6.581
+       232	   54230000	                        Metamorphics	         0.085	           -13.335	       -6.335
+       233	   54260000	                        Metamorphics	         0.088	           -13.142	       -6.142
+       234	   54300000	                        Metamorphics	         0.048	           -13.000	       -6.000
+       235	   54390000	                        Metamorphics	         0.085	           -13.143	       -6.143
+       236	   54500000	                        Metamorphics	         0.068	           -13.165	       -6.165
+       237	   54580000	                        Metamorphics	         0.077	           -13.381	       -6.381
+       238	   54590000	                 Acid plutonic rocks	         0.039	           -13.000	       -6.000
+       239	   54710000	                        Metamorphics	         0.073	           -13.375	       -6.375
+       240	   54770000	                 Acid plutonic rocks	         0.053	           -13.427	       -6.427
+       241	   54780000	                        Metamorphics	         0.066	           -13.446	       -6.446
+       242	   54950000	                        Metamorphics	         0.061	           -13.481	       -6.481
+       243	   55340000	                        Metamorphics	         0.020	           -13.036	       -6.036
+       244	   55360000	                        Metamorphics	         0.011	           -13.000	       -6.000
+       245	   55370000	                        Metamorphics	         0.020	           -13.000	       -6.000
+       246	   55380000	                        Metamorphics	         0.027	           -13.000	       -6.000
+       247	   55460000	                        Metamorphics	         0.057	           -13.016	       -6.016
+       248	   55490000	                        Metamorphics	         0.064	           -13.011	       -6.011
+       249	   55510000	     Siliciclastic sedimentary rocks	         0.226	           -13.000	       -6.000
+       250	   55520001	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       251	   55560000	                 Acid plutonic rocks	         0.011	           -13.000	       -6.000
+       252	   55610000	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       253	   55630000	                 Acid plutonic rocks	         0.016	           -13.000	       -6.000
+       254	   55660000	                 Acid plutonic rocks	         0.029	           -13.263	       -6.263
+       255	   55699998	                 Acid plutonic rocks	         0.025	           -13.037	       -6.037
+       256	   55790000	                 Acid plutonic rocks	         0.011	           -13.000	       -6.000
+       257	   55850000	                 Acid plutonic rocks	         0.020	           -13.055	       -6.055
+       258	   55900000	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       259	   55920000	                 Acid plutonic rocks	         0.012	           -13.009	       -6.009
+       260	   55960000	                 Acid plutonic rocks	         0.023	           -13.035	       -6.035
+       261	   56028000	                 Acid plutonic rocks	         0.014	           -13.996	       -6.996
+       262	   56055000	                 Acid plutonic rocks	         0.010	           -13.997	       -6.997
+       263	   56065000	                        Metamorphics	         0.023	           -13.000	       -6.000
+       264	   56075000	                 Acid plutonic rocks	         0.015	           -13.780	       -6.780
+       265	   56085000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       266	   56090000	                        Metamorphics	         0.019	           -13.000	       -6.000
+       267	   56240000	                        Metamorphics	         0.010	           -13.773	       -6.773
+       268	   56335001	                        Metamorphics	         0.012	           -13.713	       -6.713
+       269	   56385000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       270	   56415000	                        Metamorphics	         0.011	           -13.000	       -6.000
+       271	   56484998	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       272	   56539000	                        Metamorphics	         0.018	           -13.283	       -6.283
+       273	   56570000	                 Acid plutonic rocks	         0.013	           -13.000	       -6.000
+       274	   56610000	                        Metamorphics	         0.019	           -13.531	       -6.531
+       275	   56640000	                        Metamorphics	         0.079	           -14.271	       -7.271
+       276	   56775000	                 Acid plutonic rocks	         0.038	           -13.608	       -6.608
+       277	   56800000	                 Acid plutonic rocks	         0.018	           -13.314	       -6.314
+       278	   56825000	                 Acid plutonic rocks	         0.025	           -13.360	       -6.360
+       279	   56845000	                 Acid plutonic rocks	         0.017	           -13.000	       -6.000
+       280	   56846000	                 Acid plutonic rocks	         0.014	           -13.000	       -6.000
+       281	   56850000	                        Metamorphics	         0.022	           -13.312	       -6.312
+       282	   56860000	                 Acid plutonic rocks	         0.028	           -13.227	       -6.227
+       283	   56870000	                 Acid plutonic rocks	         0.019	           -13.070	       -6.070
+       284	   56891900	                 Acid plutonic rocks	         0.022	           -13.445	       -6.445
+       285	   56920000	                        Metamorphics	         0.022	           -13.386	       -6.386
+       286	   56940002	                 Acid plutonic rocks	         0.015	           -13.234	       -6.234
+       287	   56976000	                        Metamorphics	         0.014	           -13.029	       -6.029
+       288	   56983000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       289	   56990000	                        Metamorphics	         0.018	           -13.469	       -6.469
+       290	   56990990	                        Metamorphics	         0.010	           -13.559	       -6.559
+       291	   56991500	                        Metamorphics	         0.010	           -13.385	       -6.385
+       292	   56992000	                        Metamorphics	         0.012	           -13.569	       -6.569
+       293	   56993551	                        Metamorphics	         0.025	           -13.693	       -6.693
+       294	   56995500	                 Acid plutonic rocks	         0.010	           -13.110	       -6.110
+       295	   57130000	                        Metamorphics	         0.010	           -13.120	       -6.120
+       296	   57170000	                        Metamorphics	         0.010	           -13.098	       -6.098
+       297	   57250000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       298	   57300000	                        Metamorphics	         0.019	           -13.000	       -6.000
+       299	   57320000	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       300	   57350000	                        Metamorphics	         0.010	           -13.828	       -6.828
+       301	   57360000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       302	   57370000	                        Metamorphics	         0.010	           -13.073	       -6.073
+       303	   57400000	                        Metamorphics	         0.010	           -13.459	       -6.459
+       304	   57420000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       305	   57450000	                        Metamorphics	         0.010	           -13.606	       -6.606
+       306	   57490000	                 Acid plutonic rocks	         0.010	           -13.807	       -6.807
+       307	   57550000	                 Acid plutonic rocks	         0.014	           -13.622	       -6.622
+       308	   57580000	                        Metamorphics	         0.013	           -13.679	       -6.679
+       309	   57700000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       310	   57720000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       311	   57740000	                        Metamorphics	         0.010	           -13.245	       -6.245
+       312	   57770000	                        Metamorphics	         0.010	           -13.099	       -6.099
+       313	   57830000	                        Metamorphics	         0.010	           -13.245	       -6.245
+       314	   57930000	                        Metamorphics	         0.011	           -13.269	       -6.269
+       315	   58030000	                        Metamorphics	         0.010	           -13.785	       -6.785
+       316	   58060000	                        Metamorphics	         0.010	           -13.843	       -6.843
+       317	   58099000	                        Metamorphics	         0.016	           -13.453	       -6.453
+       318	   58142200	                        Metamorphics	         0.010	           -13.136	       -6.136
+       319	   58183000	                        Metamorphics	         0.044	           -13.246	       -6.246
+       320	   58204000	                        Metamorphics	         0.050	           -13.231	       -6.231
+       321	   58220000	                        Metamorphics	         0.010	           -13.897	       -6.897
+       322	   58258000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       323	   58270000	                        Metamorphics	         0.011	           -13.400	       -6.400
+       324	   58380001	                        Metamorphics	         0.040	           -13.369	       -6.369
+       325	   58405000	                 Acid plutonic rocks	         0.010	           -14.048	       -7.048
+       326	   58420000	                 Acid plutonic rocks	         0.010	           -13.693	       -6.693
+       327	   58425000	                 Acid plutonic rocks	         0.010	           -13.532	       -6.532
+       328	   58434000	                 Acid plutonic rocks	         0.010	           -14.091	       -7.091
+       329	   58440000	                 Acid plutonic rocks	         0.010	           -13.633	       -6.633
+       330	   58470000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       331	   58480500	                        Metamorphics	         0.010	           -13.000	       -6.000
+       332	   58500000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       333	   58516500	                        Metamorphics	         0.010	           -13.370	       -6.370
+       334	   58520000	                        Metamorphics	         0.010	           -13.223	       -6.223
+       335	   58525000	                        Metamorphics	         0.010	           -13.536	       -6.536
+       336	   58530000	                        Metamorphics	         0.010	           -13.652	       -6.652
+       337	   58535000	                        Metamorphics	         0.010	           -13.654	       -6.654
+       338	   58542000	                        Metamorphics	         0.010	           -13.317	       -6.317
+       339	   58550001	                        Metamorphics	         0.010	           -13.233	       -6.233
+       340	   58560000	                        Metamorphics	         0.010	           -14.003	       -7.003
+       341	   58573000	                        Metamorphics	         0.010	           -13.328	       -6.328
+       342	   58585000	                        Metamorphics	         0.010	           -13.266	       -6.266
+       343	   58610000	                        Metamorphics	         0.010	           -13.242	       -6.242
+       344	   58630002	                        Metamorphics	         0.029	           -13.376	       -6.376
+       345	   58645000	                 Acid plutonic rocks	         0.010	           -13.026	       -6.026
+       346	   58658000	                 Acid plutonic rocks	         0.010	           -13.134	       -6.134
+       347	   58670002	                        Metamorphics	         0.010	           -13.088	       -6.088
+       348	   58710000	                        Metamorphics	         0.012	           -13.035	       -6.035
+       349	   58720000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       350	   58730001	                        Metamorphics	         0.013	           -13.017	       -6.017
+       351	   58735000	                        Metamorphics	         0.012	           -13.012	       -6.012
+       352	   58755000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       353	   58765001	                        Metamorphics	         0.010	           -13.000	       -6.000
+       354	   58770000	                        Metamorphics	         0.011	           -13.005	       -6.005
+       355	   58795000	                        Metamorphics	         0.024	           -13.344	       -6.344
+       356	   58825000	                 Acid plutonic rocks	         0.010	           -13.892	       -6.892
+       357	   58827000	                 Acid plutonic rocks	         0.010	           -13.683	       -6.683
+       358	   58850000	                 Acid plutonic rocks	         0.010	           -13.790	       -6.790
+       359	   58870000	                 Acid plutonic rocks	         0.010	           -13.631	       -6.631
+       360	   58874000	                 Acid plutonic rocks	         0.010	           -13.752	       -6.752
+       361	   58910000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       362	   58916000	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       363	   58917000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       364	   58920000	                        Metamorphics	         0.010	           -13.018	       -6.018
+       365	   58930000	                        Metamorphics	         0.010	           -13.000	       -6.000
+       366	   58940000	                        Metamorphics	         0.010	           -13.192	       -6.192
+       367	   58960000	                        Metamorphics	         0.012	           -13.349	       -6.349
+       368	   58974000	                        Metamorphics	         0.022	           -13.371	       -6.371
+       369	   59120000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       370	   59125000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       371	   59135000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       372	   59240000	                        Metamorphics	         0.020	           -14.041	       -7.041
+       373	   59355000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       374	   59370000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       375	   59380000	                 Acid plutonic rocks	         0.010	           -14.100	       -7.100
+       376	   60010000	             Mixed sedimentary rocks	         0.156	           -13.000	       -6.000
+       377	   60011000	             Mixed sedimentary rocks	         0.157	           -13.003	       -6.003
+       378	   60040000	                        Metamorphics	         0.055	           -13.149	       -6.149
+       379	   60100000	             Mixed sedimentary rocks	         0.090	           -13.000	       -6.000
+       380	   60110000	                        Metamorphics	         0.022	           -13.499	       -6.499
+       381	   60130000	                        Metamorphics	         0.059	           -13.000	       -6.000
+       382	   60145000	             Mixed sedimentary rocks	         0.184	           -13.000	       -6.000
+       383	   60150000	             Mixed sedimentary rocks	         0.164	           -13.081	       -6.081
+       384	   60220000	                        Metamorphics	         0.027	           -14.068	       -7.068
+       385	   60250000	                        Metamorphics	         0.011	           -13.001	       -6.001
+       386	   60265000	                        Metamorphics	         0.048	           -13.000	       -6.000
+       387	   60381000	             Mixed sedimentary rocks	         0.190	           -13.000	       -6.000
+       388	   60432000	                        Metamorphics	         0.045	           -13.000	       -6.000
+       389	   60615000	             Mixed sedimentary rocks	         0.192	           -13.000	       -6.000
+       390	   60635000	                        Metamorphics	         0.011	           -13.000	       -6.000
+       391	   60640000	                        Metamorphics	         0.013	           -13.000	       -6.000
+       392	   60642000	                        Metamorphics	         0.014	           -13.000	       -6.000
+       393	   60650000	                        Metamorphics	         0.013	           -13.000	       -6.000
+       394	   60653000	                        Metamorphics	         0.036	           -13.000	       -6.000
+       395	   60654000	                        Metamorphics	         0.017	           -13.000	       -6.000
+       396	   60665000	                        Metamorphics	         0.025	           -13.335	       -6.335
+       397	   60680000	                        Metamorphics	         0.029	           -13.184	       -6.184
+       398	   60715000	                        Metamorphics	         0.027	           -13.000	       -6.000
+       399	   60750000	                        Metamorphics	         0.044	           -13.000	       -6.000
+       400	   60765000	                        Metamorphics	         0.062	           -13.000	       -6.000
+       401	   60772000	                        Metamorphics	         0.058	           -13.000	       -6.000
+       402	   60774000	            Unconsolidated sediments	         0.205	           -13.000	       -6.000
+       403	   60778000	            Unconsolidated sediments	         0.201	           -13.000	       -6.000
+       404	   60781000	            Unconsolidated sediments	         0.194	           -13.000	       -6.000
+       405	   60785005	            Unconsolidated sediments	         0.202	           -13.000	       -6.000
+       406	   60790000	            Unconsolidated sediments	         0.185	           -13.000	       -6.000
+       407	   60798000	            Unconsolidated sediments	         0.171	           -13.000	       -6.000
+       408	   60810000	                Basic volcanic rocks	         0.090	           -13.000	       -6.000
+       409	   60845000	     Siliciclastic sedimentary rocks	         0.171	           -13.000	       -6.000
+       410	   60850000	     Siliciclastic sedimentary rocks	         0.180	           -13.000	       -6.000
+       411	   60855000	     Siliciclastic sedimentary rocks	         0.179	           -13.000	       -6.000
+       412	   60870000	     Siliciclastic sedimentary rocks	         0.183	           -13.000	       -6.000
+       413	   60895000	            Unconsolidated sediments	         0.210	           -13.000	       -6.000
+       414	   60910000	            Unconsolidated sediments	         0.217	           -13.000	       -6.000
+       415	   60925001	     Siliciclastic sedimentary rocks	         0.190	           -13.000	       -6.000
+       416	   60930000	            Unconsolidated sediments	         0.216	           -13.000	       -6.000
+       417	   60940000	            Unconsolidated sediments	         0.220	           -13.000	       -6.000
+       418	   60950000	     Siliciclastic sedimentary rocks	         0.200	           -13.000	       -6.000
+       419	   60970000	     Siliciclastic sedimentary rocks	         0.202	           -13.317	       -6.317
+       420	   61009000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       421	   61012000	                        Metamorphics	         0.010	           -13.490	       -6.490
+       422	   61014000	                 Acid plutonic rocks	         0.010	           -14.100	       -7.100
+       423	   61024000	                        Metamorphics	         0.010	           -13.868	       -6.868
+       424	   61031000	                        Metamorphics	         0.010	           -13.198	       -6.198
+       425	   61045000	                        Metamorphics	         0.010	           -13.116	       -6.116
+       426	   61052000	                        Metamorphics	         0.010	           -13.167	       -6.167
+       427	   61060000	                        Metamorphics	         0.010	           -13.292	       -6.292
+       428	   61075000	                        Metamorphics	         0.015	           -13.044	       -6.044
+       429	   61078000	                        Metamorphics	         0.015	           -13.257	       -6.257
+       430	   61085000	                        Metamorphics	         0.010	           -13.234	       -6.234
+       431	   61090000	                        Metamorphics	         0.013	           -13.592	       -6.592
+       432	   61100000	                        Metamorphics	         0.010	           -13.221	       -6.221
+       433	   61105000	                        Metamorphics	         0.015	           -13.241	       -6.241
+       434	   61107000	                        Metamorphics	         0.018	           -13.554	       -6.554
+       435	   61115000	                 Acid plutonic rocks	         0.014	           -13.609	       -6.609
+       436	   61122000	                        Metamorphics	         0.010	           -13.850	       -6.850
+       437	   61135000	                        Metamorphics	         0.015	           -13.460	       -6.460
+       438	   61173000	                        Metamorphics	         0.011	           -13.000	       -6.000
+       439	   61267000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       440	   61271000	                        Metamorphics	         0.010	           -14.024	       -7.024
+       441	   61295000	                        Metamorphics	         0.010	           -13.534	       -6.534
+       442	   61460000	                        Metamorphics	         0.018	           -13.559	       -6.559
+       443	   61473000	                        Metamorphics	         0.010	           -14.021	       -7.021
+       444	   61500000	                        Metamorphics	         0.016	           -13.000	       -6.000
+       445	   61510000	                        Metamorphics	         0.016	           -13.468	       -6.468
+       446	   61520000	                        Metamorphics	         0.015	           -13.019	       -6.019
+       447	   61537000	                        Metamorphics	         0.015	           -13.313	       -6.313
+       448	   61610000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       449	   61700000	                        Metamorphics	         0.101	           -14.498	       -7.498
+       450	   61770000	     Siliciclastic sedimentary rocks	         0.148	           -14.832	       -7.832
+       451	   61800500	                 Acid plutonic rocks	         0.010	           -13.439	       -6.439
+       452	   61815000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       453	   61826000	                        Metamorphics	         0.011	           -13.997	       -6.997
+       454	   61830000	                        Metamorphics	         0.071	           -13.580	       -6.580
+       455	   61861000	                        Metamorphics	         0.014	           -13.000	       -6.000
+       456	   61865000	                        Metamorphics	         0.021	           -13.017	       -6.017
+       457	   61879000	                 Acid plutonic rocks	         0.010	           -13.344	       -6.344
+       458	   61886000	                        Metamorphics	         0.039	           -13.403	       -6.403
+       459	   61902000	     Siliciclastic sedimentary rocks	         0.094	           -13.292	       -6.292
+       460	   61912000	     Siliciclastic sedimentary rocks	         0.123	           -13.218	       -6.218
+       461	   61915000	     Siliciclastic sedimentary rocks	         0.126	           -13.254	       -6.254
+       462	   62395000	                        Metamorphics	         0.022	           -13.000	       -6.000
+       463	   62600000	                 Acid plutonic rocks	         0.015	           -13.450	       -6.450
+       464	   62615000	                 Acid plutonic rocks	         0.014	           -13.411	       -6.411
+       465	   62625000	                 Acid plutonic rocks	         0.011	           -13.524	       -6.524
+       466	   62665000	                        Metamorphics	         0.010	           -13.193	       -6.193
+       467	   62670000	                        Metamorphics	         0.020	           -13.072	       -6.072
+       468	   62760130	     Siliciclastic sedimentary rocks	         0.253	           -12.868	       -5.868
+       469	   63350100	     Siliciclastic sedimentary rocks	         0.266	           -12.504	       -5.504
+       470	   63900001	     Siliciclastic sedimentary rocks	         0.220	           -12.958	       -5.958
+       471	   63955000	     Siliciclastic sedimentary rocks	         0.221	           -13.000	       -6.000
+       472	   64065000	     Siliciclastic sedimentary rocks	         0.119	           -13.700	       -6.700
+       473	   64360000	     Siliciclastic sedimentary rocks	         0.188	           -13.882	       -6.882
+       474	   64362000	     Siliciclastic sedimentary rocks	         0.180	           -14.378	       -7.378
+       475	   64380000	     Siliciclastic sedimentary rocks	         0.190	           -14.795	       -7.795
+       476	   64382000	     Siliciclastic sedimentary rocks	         0.168	           -14.719	       -7.719
+       477	   64442800	     Siliciclastic sedimentary rocks	         0.170	           -14.545	       -7.545
+       478	   64447000	     Siliciclastic sedimentary rocks	         0.185	           -14.766	       -7.766
+       479	   64465000	     Siliciclastic sedimentary rocks	         0.180	           -14.562	       -7.562
+       480	   64501000	     Siliciclastic sedimentary rocks	         0.166	           -14.364	       -7.364
+       481	   64507000	     Siliciclastic sedimentary rocks	         0.155	           -14.163	       -7.163
+       482	   64508500	                Basic volcanic rocks	         0.102	           -12.996	       -5.996
+       483	   64550000	                Basic volcanic rocks	         0.151	           -12.953	       -5.953
+       484	   64613000	                Basic volcanic rocks	         0.117	           -13.000	       -6.000
+       485	   64617000	                Basic volcanic rocks	         0.141	           -12.994	       -5.994
+       486	   64620000	     Siliciclastic sedimentary rocks	         0.145	           -15.645	       -8.645
+       487	   64625000	     Siliciclastic sedimentary rocks	         0.138	           -15.645	       -8.645
+       488	   64645000	     Siliciclastic sedimentary rocks	         0.137	           -14.377	       -7.377
+       489	   64652000	     Siliciclastic sedimentary rocks	         0.155	           -15.329	       -8.329
+       490	   64655000	     Siliciclastic sedimentary rocks	         0.140	           -14.448	       -7.448
+       491	   64659000	                Basic volcanic rocks	         0.090	           -12.676	       -5.676
+       492	   64673000	                Basic volcanic rocks	         0.103	           -12.827	       -5.827
+       493	   64675002	                Basic volcanic rocks	         0.118	           -13.694	       -6.694
+       494	   64682000	     Siliciclastic sedimentary rocks	         0.260	           -12.738	       -5.738
+       495	   64685000	                Basic volcanic rocks	         0.129	           -13.552	       -6.552
+       496	   64693000	                Basic volcanic rocks	         0.152	           -13.430	       -6.430
+       497	   64715001	                Basic volcanic rocks	         0.150	           -12.984	       -5.984
+       498	   64771500	                Basic volcanic rocks	         0.090	           -12.734	       -5.734
+       499	   64773000	                Basic volcanic rocks	         0.090	           -12.611	       -5.611
+       500	   64775000	                Basic volcanic rocks	         0.090	           -12.581	       -5.581
+       501	   64785000	                Basic volcanic rocks	         0.098	           -12.961	       -5.961
+       502	   64795000	                Basic volcanic rocks	         0.091	           -12.734	       -5.734
+       503	   64799500	                Basic volcanic rocks	         0.091	           -12.748	       -5.748
+       504	   64810000	     Siliciclastic sedimentary rocks	         0.195	           -12.889	       -5.889
+       505	   64815000	     Siliciclastic sedimentary rocks	         0.214	           -12.817	       -5.817
+       506	   64820000	                Basic volcanic rocks	         0.117	           -12.777	       -5.777
+       507	   64830000	                Basic volcanic rocks	         0.115	           -12.806	       -5.806
+       508	   64843000	     Siliciclastic sedimentary rocks	         0.156	           -13.304	       -6.304
+       509	   65010000	                 Acid plutonic rocks	         0.063	           -14.016	       -7.016
+       510	   65015400	                        Metamorphics	         0.070	           -13.973	       -6.973
+       511	   65025000	                        Metamorphics	         0.094	           -13.959	       -6.959
+       512	   65027000	                        Metamorphics	         0.066	           -13.864	       -6.864
+       513	   65094500	     Siliciclastic sedimentary rocks	         0.133	           -14.363	       -7.363
+       514	   65095000	     Siliciclastic sedimentary rocks	         0.132	           -14.353	       -7.353
+       515	   65135000	                        Metamorphics	         0.047	           -14.173	       -7.173
+       516	   65136550	                 Acid plutonic rocks	         0.034	           -14.149	       -7.149
+       517	   65220000	     Siliciclastic sedimentary rocks	         0.146	           -14.723	       -7.723
+       518	   65310000	     Siliciclastic sedimentary rocks	         0.148	           -14.470	       -7.470
+       519	   65365000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       520	   65925000	                Basic volcanic rocks	         0.090	           -12.586	       -5.586
+       521	   65945000	                Basic volcanic rocks	         0.090	           -12.811	       -5.811
+       522	   65948000	                Basic volcanic rocks	         0.090	           -12.794	       -5.794
+       523	   65960000	                Basic volcanic rocks	         0.090	           -12.728	       -5.728
+       524	   65979000	                Basic volcanic rocks	         0.090	           -12.601	       -5.601
+       525	   66260001	     Siliciclastic sedimentary rocks	         0.155	           -14.469	       -7.469
+       526	   67100000	            Unconsolidated sediments	         0.192	           -13.514	       -6.514
+       527	   70100000	                Basic volcanic rocks	         0.090	           -12.501	       -5.501
+       528	   70200000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       529	   70300000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       530	   70500000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       531	   71200000	     Siliciclastic sedimentary rocks	         0.162	           -13.514	       -6.514
+       532	   71250000	     Siliciclastic sedimentary rocks	         0.158	           -14.815	       -7.815
+       533	   71300000	     Siliciclastic sedimentary rocks	         0.161	           -14.314	       -7.314
+       534	   71383000	     Siliciclastic sedimentary rocks	         0.170	           -14.763	       -7.763
+       535	   71498000	                Basic volcanic rocks	         0.094	           -12.586	       -5.586
+       536	   71550000	                Basic volcanic rocks	         0.133	           -13.673	       -6.673
+       537	   72430000	                Basic volcanic rocks	         0.090	           -12.820	       -5.820
+       538	   72630000	                Basic volcanic rocks	         0.090	           -12.835	       -5.835
+       539	   72680000	                Basic volcanic rocks	         0.090	           -12.808	       -5.808
+       540	   72715000	                Basic volcanic rocks	         0.090	           -12.525	       -5.525
+       541	   72810000	                Basic volcanic rocks	         0.090	           -12.645	       -5.645
+       542	   72870000	                Basic volcanic rocks	         0.090	           -12.944	       -5.944
+       543	   73300000	                Basic volcanic rocks	         0.090	           -12.593	       -5.593
+       544	   73330000	                Basic volcanic rocks	         0.090	           -12.565	       -5.565
+       545	   73350000	                Basic volcanic rocks	         0.090	           -12.540	       -5.540
+       546	   73600000	                Basic volcanic rocks	         0.090	           -12.580	       -5.580
+       547	   73690001	                Basic volcanic rocks	         0.090	           -12.585	       -5.585
+       548	   73765000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       549	   73770000	                Basic volcanic rocks	         0.090	           -12.563	       -5.563
+       550	   73780000	                Basic volcanic rocks	         0.090	           -12.504	       -5.504
+       551	   73820000	                Basic volcanic rocks	         0.090	           -12.503	       -5.503
+       552	   73900000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       553	   73960000	                Basic volcanic rocks	         0.090	           -12.543	       -5.543
+       554	   74100000	                Basic volcanic rocks	         0.098	           -12.817	       -5.817
+       555	   74205000	                Basic volcanic rocks	         0.090	           -12.952	       -5.952
+       556	   74270000	                Basic volcanic rocks	         0.092	           -12.894	       -5.894
+       557	   74295000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       558	   74320000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       559	   74370000	                Basic volcanic rocks	         0.090	           -12.962	       -5.962
+       560	   74460000	                Basic volcanic rocks	         0.090	           -13.000	       -6.000
+       561	   74470000	                Basic volcanic rocks	         0.090	           -12.939	       -5.939
+       562	   74700000	                Basic volcanic rocks	         0.090	           -12.865	       -5.865
+       563	   74750000	                Basic volcanic rocks	         0.090	           -12.937	       -5.937
+       564	   74800000	                Basic volcanic rocks	         0.097	           -12.801	       -5.801
+       565	   74880000	                Basic volcanic rocks	         0.090	           -12.709	       -5.709
+       566	   74900000	                Basic volcanic rocks	         0.090	           -12.636	       -5.636
+       567	   75550000	                Basic volcanic rocks	         0.097	           -12.814	       -5.814
+       568	   76310000	     Siliciclastic sedimentary rocks	         0.170	           -14.099	       -7.099
+       569	   77150000	                Basic volcanic rocks	         0.119	           -13.086	       -6.086
+       570	   81125000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       571	   81140000	                        Metamorphics	         0.013	           -13.957	       -6.957
+       572	   81200000	                        Metamorphics	         0.023	           -13.998	       -6.998
+       573	   82009080	                        Metamorphics	         0.050	           -13.889	       -6.889
+       574	   82170000	                 Acid plutonic rocks	         0.053	           -13.846	       -6.846
+       575	   82320000	     Siliciclastic sedimentary rocks	         0.155	           -14.681	       -7.681
+       576	   82350000	                        Metamorphics	         0.088	           -13.436	       -6.436
+       577	   82770000	                        Metamorphics	         0.090	           -13.493	       -6.493
+       578	   83050000	     Siliciclastic sedimentary rocks	         0.156	           -15.420	       -8.420
+       579	   83105000	     Siliciclastic sedimentary rocks	         0.182	           -13.089	       -6.089
+       580	   83250000	     Siliciclastic sedimentary rocks	         0.180	           -14.504	       -7.504
+       581	   83300200	     Siliciclastic sedimentary rocks	         0.174	           -15.020	       -8.020
+       582	   83345000	     Siliciclastic sedimentary rocks	         0.176	           -15.001	       -8.001
+       583	   83440000	     Siliciclastic sedimentary rocks	         0.179	           -15.070	       -8.070
+       584	   83660000	     Siliciclastic sedimentary rocks	         0.161	           -13.995	       -6.995
+       585	   83675000	     Siliciclastic sedimentary rocks	         0.123	           -13.076	       -6.076
+       586	   83690000	     Siliciclastic sedimentary rocks	         0.170	           -14.866	       -7.866
+       587	   83800002	     Siliciclastic sedimentary rocks	         0.159	           -14.637	       -7.637
+       588	   83880000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       589	   84071000	                 Acid plutonic rocks	         0.075	           -13.179	       -6.179
+       590	   84095000	     Siliciclastic sedimentary rocks	         0.085	           -13.301	       -6.301
+       591	   84100000	                 Acid plutonic rocks	         0.012	           -13.560	       -6.560
+       592	   84520000	                 Acid plutonic rocks	         0.045	           -13.000	       -6.000
+       593	   84551000	     Siliciclastic sedimentary rocks	         0.129	           -14.378	       -7.378
+       594	   84580000	     Siliciclastic sedimentary rocks	         0.106	           -13.947	       -6.947
+       595	   84600000	                 Acid plutonic rocks	         0.019	           -13.958	       -6.958
+       596	   84853000	     Siliciclastic sedimentary rocks	         0.191	           -13.064	       -6.064
+       597	   85400000	                Basic volcanic rocks	         0.105	           -12.971	       -5.971
+       598	   85438000	     Siliciclastic sedimentary rocks	         0.164	           -13.996	       -6.996
+       599	   85480000	     Siliciclastic sedimentary rocks	         0.131	           -14.010	       -7.010
+       600	   85900000	     Siliciclastic sedimentary rocks	         0.138	           -13.672	       -6.672
+       601	   86100000	                 Acid volcanic rocks	         0.090	           -12.500	       -5.500
+       602	   86160000	                 Acid volcanic rocks	         0.090	           -12.500	       -5.500
+       603	   86410000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       604	   86420000	                 Acid volcanic rocks	         0.090	           -12.500	       -5.500
+       605	   86480000	                 Acid volcanic rocks	         0.090	           -12.566	       -5.566
+       606	   86500000	                 Acid volcanic rocks	         0.090	           -12.546	       -5.546
+       607	   86510000	                 Acid volcanic rocks	         0.090	           -12.505	       -5.505
+       608	   86560000	                 Acid volcanic rocks	         0.090	           -12.767	       -5.767
+       609	   86580000	                 Acid volcanic rocks	         0.090	           -12.719	       -5.719
+       610	   86700000	                Basic volcanic rocks	         0.090	           -12.500	       -5.500
+       611	   86745000	                 Acid volcanic rocks	         0.090	           -12.805	       -5.805
+       612	   87170000	                 Acid volcanic rocks	         0.099	           -12.502	       -5.502
+       613	   87380000	                Basic volcanic rocks	         0.151	           -12.589	       -5.589
+       614	   87382000	                Basic volcanic rocks	         0.155	           -12.670	       -5.670
+       615	   87450100	                        Metamorphics	         0.029	           -13.998	       -6.998
+       616	   88575000	                        Metamorphics	         0.016	           -14.107	       -7.107
+       617	   88750000	                        Metamorphics	         0.021	           -14.040	       -7.040
+       618	   88850000	                        Metamorphics	         0.010	           -14.100	       -7.100
+       619	   12400000	             Mixed sedimentary rocks	         0.191	           -15.045	       -8.045
+       620	   20200000	                 Acid plutonic rocks	         0.029	           -13.000	       -6.000
+       621	   21300000	     Siliciclastic sedimentary rocks	         0.148	           -12.835	       -5.835
+       622	   21560000	             Mixed sedimentary rocks	         0.147	           -14.052	       -7.052
+       623	   22050001	                        Metamorphics	         0.070	           -13.634	       -6.634
+       624	   22500000	                        Metamorphics	         0.068	           -13.553	       -6.553
+       625	   25100000	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       626	   26040000	            Unconsolidated sediments	         0.217	           -13.228	       -6.228
+       627	   31490000	     Siliciclastic sedimentary rocks	         0.236	           -12.988	       -5.988
+       628	   31520000	     Siliciclastic sedimentary rocks	         0.209	           -13.083	       -6.083
+       629	   31600000	     Siliciclastic sedimentary rocks	         0.202	           -13.000	       -6.000
+       630	   32400000	                        Metamorphics	         0.089	           -13.602	       -6.602
+       631	   33075000	            Unconsolidated sediments	         0.216	           -13.000	       -6.000
+       632	   34660000	             Mixed sedimentary rocks	         0.173	           -13.363	       -6.363
+       633	   40040000	             Mixed sedimentary rocks	         0.130	           -13.000	       -6.000
+       634	   40053000	         Carbonate sedimentary rocks	         0.097	           -13.000	       -6.000
+       635	   40060001	                        Metamorphics	         0.078	           -13.569	       -6.569
+       636	   40150000	                 Acid plutonic rocks	         0.013	           -13.629	       -6.629
+       637	   40170000	                 Acid plutonic rocks	         0.037	           -13.418	       -6.418
+       638	   40185000	                 Acid plutonic rocks	         0.033	           -13.537	       -6.537
+       639	   40269900	                 Acid plutonic rocks	         0.011	           -13.487	       -6.487
+       640	   40300001	                 Acid plutonic rocks	         0.010	           -13.688	       -6.688
+       641	   40330000	                 Acid plutonic rocks	         0.017	           -13.544	       -6.544
+       642	   40500000	            Unconsolidated sediments	         0.176	           -13.000	       -6.000
+       643	   40530000	             Mixed sedimentary rocks	         0.157	           -13.858	       -6.858
+       644	   40680000	                 Acid plutonic rocks	         0.016	           -13.000	       -6.000
+       645	   40740000	                 Acid plutonic rocks	         0.011	           -13.448	       -6.448
+       646	   40800001	                        Metamorphics	         0.019	           -13.630	       -6.630
+       647	   40810350	                 Acid plutonic rocks	         0.010	           -13.000	       -6.000
+       648	   40810800	                 Acid plutonic rocks	         0.029	           -13.046	       -6.046
+       649	   40811100	                 Acid plutonic rocks	         0.047	           -13.023	       -6.023
+       650	   40823500	                 Acid plutonic rocks	         0.073	           -13.689	       -6.689
+       651	   40850000	                        Metamorphics	         0.021	           -13.659	       -6.659
+       652	   40930000	     Siliciclastic sedimentary rocks	         0.168	           -14.586	       -7.586
+       653	   40975000	             Mixed sedimentary rocks	         0.177	           -14.297	       -7.297
+       654	   41050000	                        Pyroclastics	         0.149	           -13.780	       -6.780
+       655	   41135000	             Mixed sedimentary rocks	         0.123	           -13.623	       -6.623
+       656	   41199998	                        Metamorphics	         0.069	           -14.326	       -7.326
+       657	   41260000	                        Metamorphics	         0.058	           -14.161	       -7.161
+       658	   41380000	             Mixed sedimentary rocks	         0.116	           -14.359	       -7.359
+       659	   41410000	                        Metamorphics	         0.079	           -13.909	       -6.909
+       660	   41440005	             Mixed sedimentary rocks	         0.122	           -13.486	       -6.486
+       661	   41685000	             Mixed sedimentary rocks	         0.159	           -13.202	       -6.202
+       662	   41780002	     Siliciclastic sedimentary rocks	         0.117	           -13.465	       -6.465
+       663	   41890000	     Siliciclastic sedimentary rocks	         0.136	           -13.932	       -6.932
+       664	   42187000	         Carbonate sedimentary rocks	         0.115	           -12.674	       -5.674
+       665	   42250000	                        Metamorphics	         0.039	           -13.000	       -6.000
+       666	   42257000	                        Metamorphics	         0.068	           -13.000	       -6.000
+       667	   42365000	     Siliciclastic sedimentary rocks	         0.167	           -13.684	       -6.684
+       668	   42435000	                        Metamorphics	         0.131	           -13.000	       -6.000
+       669	   42460000	             Mixed sedimentary rocks	         0.176	           -13.000	       -6.000
+       670	   42490000	             Mixed sedimentary rocks	         0.169	           -13.000	       -6.000
+       671	   42546000	             Mixed sedimentary rocks	         0.179	           -13.000	       -6.000
+       672	   42840000	            Unconsolidated sediments	         0.197	           -13.885	       -6.885
+       673	   42860000	     Siliciclastic sedimentary rocks	         0.192	           -13.925	       -6.925
+       674	   45170001	     Siliciclastic sedimentary rocks	         0.190	           -13.018	       -6.018
+       675	   45590000	     Siliciclastic sedimentary rocks	         0.189	           -13.000	       -6.000
+       676	   45740001	     Siliciclastic sedimentary rocks	         0.191	           -13.081	       -6.081
+       677	   45770000	     Siliciclastic sedimentary rocks	         0.184	           -13.096	       -6.096
+       678	   45880000	     Siliciclastic sedimentary rocks	         0.186	           -13.157	       -6.157
+       679	   46415000	     Siliciclastic sedimentary rocks	         0.191	           -13.000	       -6.000
+       680	   46455000	     Siliciclastic sedimentary rocks	         0.192	           -13.000	       -6.000
+       681	   46490000	     Siliciclastic sedimentary rocks	         0.187	           -13.029	       -6.029
+       682	   46543000	     Siliciclastic sedimentary rocks	         0.191	           -13.018	       -6.018
+       683	   46570000	     Siliciclastic sedimentary rocks	         0.192	           -13.020	       -6.020
+       684	   46590000	     Siliciclastic sedimentary rocks	         0.188	           -13.020	       -6.020
+       685	   46770000	     Siliciclastic sedimentary rocks	         0.190	           -13.000	       -6.000
+       686	   46998000	     Siliciclastic sedimentary rocks	         0.155	           -13.380	       -6.380
+       687	   47249000	             Mixed sedimentary rocks	         0.199	           -14.171	       -7.171
+       688	   48850000	                        Metamorphics	         0.041	           -13.913	       -6.913
+       689	   53790000	            Unconsolidated sediments	         0.117	           -13.249	       -6.249
+       690	   58442000	                 Acid plutonic rocks	         0.010	           -13.633	       -6.633
+       691	   58826000	                 Acid plutonic rocks	         0.010	           -13.978	       -6.978
+       692	   58846000	                 Acid plutonic rocks	         0.010	           -13.690	       -6.690
+       693	   58857000	                 Acid plutonic rocks	         0.010	           -13.025	       -6.025
+       694	   58880001	                        Metamorphics	         0.023	           -13.378	       -6.378
+       695	   60030000	                        Metamorphics	         0.058	           -13.024	       -6.024
+       696	   60435100	                        Metamorphics	         0.010	           -13.000	       -6.000
+       697	   60477400	                        Metamorphics	         0.016	           -13.000	       -6.000
+       698	   60477600	            Unconsolidated sediments	         0.151	           -13.000	       -6.000
+       699	   60478500	                        Metamorphics	         0.101	           -13.000	       -6.000
+       700	   60478600	            Unconsolidated sediments	         0.181	           -13.000	       -6.000
+       701	   60500000	                        Metamorphics	         0.047	           -13.000	       -6.000
+       702	   60540000	                        Metamorphics	         0.044	           -13.482	       -6.482
+       703	   61175000	                        Metamorphics	         0.012	           -13.017	       -6.017
+       704	   61565000	                        Metamorphics	         0.010	           -13.438	       -6.438
+       705	   61795000	     Siliciclastic sedimentary rocks	         0.160	           -13.000	       -6.000
+       706	   61910000	     Siliciclastic sedimentary rocks	         0.113	           -13.241	       -6.241
+       707	   61956001	     Siliciclastic sedimentary rocks	         0.190	           -15.200	       -8.200
+       708	   62095100	                        Metamorphics	         0.010	           -14.100	       -7.100
+       709	   62110000	                        Metamorphics	         0.035	           -13.579	       -6.579
+       710	   62496001	     Siliciclastic sedimentary rocks	         0.123	           -13.528	       -6.528
+       711	   62676000	                        Metamorphics	         0.021	           -13.043	       -6.043
+       712	   62772500	     Siliciclastic sedimentary rocks	         0.186	           -13.000	       -6.000
+       713	   63160000	     Siliciclastic sedimentary rocks	         0.185	           -14.763	       -7.763
+       714	   64346000	     Siliciclastic sedimentary rocks	         0.185	           -13.275	       -6.275
+       715	   64370000	     Siliciclastic sedimentary rocks	         0.166	           -14.134	       -7.134
+       716	   64491000	     Siliciclastic sedimentary rocks	         0.168	           -14.401	       -7.401
+       717	   65019700	                        Metamorphics	         0.100	           -13.684	       -6.684
+       718	   65415000	                Basic volcanic rocks	         0.094	           -12.500	       -5.500
+       719	   65855000	                Basic volcanic rocks	         0.090	           -12.670	       -5.670
+       720	   66006000	     Siliciclastic sedimentary rocks	         0.222	           -13.000	       -6.000
+       721	   66008000	     Siliciclastic sedimentary rocks	         0.172	           -14.638	       -7.638
+       722	   66160000	     Siliciclastic sedimentary rocks	         0.162	           -14.421	       -7.421
+       723	   75155000	                Basic volcanic rocks	         0.092	           -12.888	       -5.888
+       724	   75205000	                Basic volcanic rocks	         0.096	           -13.000	       -6.000
+       725	   75450000	                Basic volcanic rocks	         0.090	           -12.909	       -5.909
+       726	   76100000	                Basic volcanic rocks	         0.107	           -12.694	       -5.694
+       727	   76300000	     Siliciclastic sedimentary rocks	         0.208	           -14.153	       -7.153
+       728	   76440000	                Basic volcanic rocks	         0.107	           -12.687	       -5.687
+       729	   76460000	                 Acid volcanic rocks	         0.090	           -12.582	       -5.582
+       730	   81380000	                        Metamorphics	         0.021	           -14.053	       -7.053
+       731	   81683000	                        Metamorphics	         0.022	           -14.043	       -7.043
+       732	   84950000	     Siliciclastic sedimentary rocks	         0.190	           -12.750	       -5.750
+       733	   87160000	                 Acid volcanic rocks	         0.091	           -12.500	       -5.500
+       734	   87399000	            Unconsolidated sediments	         0.238	           -12.243	       -5.243
+       735	   87400000	            Unconsolidated sediments	         0.235	           -12.451	       -5.451
