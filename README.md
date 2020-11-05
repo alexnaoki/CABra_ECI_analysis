@@ -1,4 +1,4 @@
-# CABra_notebook
+# CABra's hydrological effective area analysis
 
 The following code is based on the [CABra's dataset](https://zenodo.org/record/4070147#.X6QHwWhKiiM) and [Liu et al. (2020)](https://iopscience.iop.org/article/10.1088/1748-9326/aba7e5#:~:text=We%20find%20that%20one%20in,change%20outside%20their%20topographic%20boundaries.) idea of understanding the hydrologically effective area of a catchment.
 
