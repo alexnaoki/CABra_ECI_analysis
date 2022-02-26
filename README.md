@@ -5,9 +5,6 @@
 This repository consists of the exploratory data analysis and the statistical analysis for the article "Are Brazilian Catchments Gaining or Losing Water? The Effective Area of Tropical Catchments" which was recently accepted from the Hydrological Processes journal.
 
 
-The following code is based on the [CABra's dataset](https://zenodo.org/record/4070147#.X6QHwWhKiiM) and [Liu et al. (2020)](https://iopscience.iop.org/article/10.1088/1748-9326/aba7e5#:~:text=We%20find%20that%20one%20in,change%20outside%20their%20topographic%20boundaries.) idea of understanding the hydrologically effective area of a catchment.
-
-
 There are 4 Jupyter Notebooks in this repository, which are focus on applying the data:
 - [Principal Component Analysis](https://github.com/alexnaoki/CABra_notebook/blob/main/pca.ipynb)
 - [Random Forest](https://github.com/alexnaoki/CABra_notebook/blob/main/randomforest.ipynb)
