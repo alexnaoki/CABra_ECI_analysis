@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4247710.svg)](https://doi.org/10.5281/zenodo.4247710)
 
-This repository consists of the exploratory data analysis and the statistical analysis for the article "Are Brazilian Catchments Gaining or Losing Water? The Effective Area of Tropical Catchments" which was recently accepted from the Hydrological Processes journal.
+This repository consists of the exploratory data analysis and the statistical analysis for the article "[Are Brazilian Catchments Gaining or Losing Water? The Effective Area of Tropical Catchments](https://doi.org/10.1002/hyp.14535)" which was recently accepted from the Hydrological Processes journal.
 
 
 There are 4 Jupyter Notebooks in this repository, which are focus on applying the data:
